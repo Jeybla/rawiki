@@ -29,4 +29,4 @@ Useful command connected to this
 
 If you want to use this system in his best you also need this command: [roclass()](Roclass)
 
-[Category:Script_Command](Category:Script_Command)
+[Category:Script_Command](Script_Command)

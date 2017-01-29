@@ -95,4 +95,4 @@ You may insert comments inside the file by putting **//** at the beginning of a 
 | SkillDescTable             | 16384     |
 | SkillDescTable2            | 16384     |
 
-[Category:File Formats](Category:File_Formats)
+[Category:File Formats](File_Formats)

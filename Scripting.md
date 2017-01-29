@@ -115,4 +115,4 @@ Tag your articles with this
 
 `[[/Category:Scripting|Category:Scripting]]`
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

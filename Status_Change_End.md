@@ -15,4 +15,4 @@ End a status effect
     -   bl = target
 -   type = STATUS_NAME (SC_NAME found at status.c or .h)
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

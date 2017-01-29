@@ -58,4 +58,4 @@ Each entry under job_exp.txt is in the format
 
 Edit the Max Level values to your desired values. You can also set the maximum Job level under this file. Each entry is labeled accordingly.
 
-[Category:Configuration](Category:Configuration) [Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Configuration](Configuration) [Category:Source Snippets](/Category:Source_Snippets "wikilink")

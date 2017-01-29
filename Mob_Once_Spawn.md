@@ -20,4 +20,4 @@ Mob Spawn
 -   Count = Amount to be spawned
 -   Event = Event that will start On Mob Death
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

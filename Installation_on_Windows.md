@@ -93,4 +93,4 @@ See Also
 -   [Custom Mobs](Custom_Mobs)
 -   [GIT Troubleshooting](GIT_Troubleshooting)
 
-[Windows](Category:Installation_Guides)
+[Windows](Installation_Guides)

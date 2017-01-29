@@ -228,4 +228,4 @@ Note: Afterwards issue this command lines, please have your password prepared si
 
       mysql -u root -p ragnarok < mob_skill_db_re.sql
 
-[Category:Installation](Category:Installation)
+[Category:Installation](Installation)

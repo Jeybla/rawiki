@@ -27,4 +27,4 @@ If you wanted to remove the other skills from being needed to learn safety wall,
 
 There! No more requirements to learn Safety Wall! It can be learned as soon as you change into a Mage.
 
-[Category:Database](Category:Database)
+[Category:Database](Database)

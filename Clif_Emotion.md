@@ -26,4 +26,4 @@ Example
 
 This would show a (...) emotion above the head of given player. All players in his or her vicinity would be able to see this as well.
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

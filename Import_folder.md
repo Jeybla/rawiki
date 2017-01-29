@@ -18,4 +18,4 @@ Import for configuration files
 Import for database files
 =========================
 
-[Category:Configuration](Category:Configuration)
+[Category:Configuration](Configuration)

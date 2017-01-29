@@ -406,4 +406,4 @@ How To?
 
 In order to test to see if your NPC now loads, simply run your server and login. Move your character to the location where you wanted to place the npc and you should now see him in your server and he will speak to you if you click it!
 
-[Category:Scripting_Tutorials](Category:Scripting_Tutorials) [Category:FM_Tutorials](/Category:FM_Tutorials "wikilink")
+[Category:Scripting_Tutorials](Scripting_Tutorials) [Category:FM_Tutorials](/Category:FM_Tutorials "wikilink")

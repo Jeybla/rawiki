@@ -229,4 +229,4 @@ Our Ex-Developers and others who contributed a great amount to the development o
 | [Z3R0](http://rathena.org/board/user/263-z3r0/)                     | Script/DB Developer                     |
 | [Zephyr](http://rathena.org/board/user/8756-zephyr/)                | Core Developer                          |
 
-[Category:RAthena](Category:RAthena)
+[Category:RAthena](RAthena)

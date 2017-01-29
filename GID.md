@@ -10,4 +10,4 @@ You can view the id in-game by right-clicking on a object, when your account has
 
 -   [Getnpcid](Getnpcid)
 
-[Category:Basics](Category:Basics)
+[Category:Basics](Basics)

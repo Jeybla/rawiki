@@ -355,4 +355,4 @@ To:
 
 You can add the rest of the information in skillnametable.txt, skilldesctable2.txt and you'll need to add the appropriate Sprite and BMP file for the skill. Use the name MG_EARTHBOLT as the name of the file, and for the entries in the two text files.
 
-[Category:Source Snippets](Category:Source_Snippets) [Category:Customization](/Category:Customization "wikilink")
+[Category:Source Snippets](Source_Snippets) [Category:Customization](/Category:Customization "wikilink")

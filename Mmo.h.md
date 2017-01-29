@@ -157,4 +157,4 @@ Maximum character length of guild message title.
 
 Maximum character length of guild message body.
 
-[Category:Configuration](Category:Configuration)
+[Category:Configuration](Configuration)

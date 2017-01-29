@@ -36,4 +36,4 @@ Example
 
 This would disconnect the player session and notify the player, that he or she has been kicked by a GM.
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

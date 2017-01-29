@@ -133,4 +133,4 @@ And to start your servers, you can simply use the following command:
 
 And that should be it! You should now have a running rAthena on your FreeBSD machine!
 
-[Category:Installation Guides](Category:Installation_Guides)
+[Category:Installation Guides](Installation_Guides)

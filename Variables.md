@@ -840,4 +840,4 @@ Also a common error with new scripters. Take the following snippet:
 
 A new scripter often types this when he/she wants to put the String "Patrick" inside @name$. However, he/she forgot to put Patrick between a " and a ". So, instead of storing the string "Patrick" inside @name$, the server will look up the value of the variable named Patrick, and stores that value inside @name$. This can result in a 0 being stored or nothing at all in @name$.
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

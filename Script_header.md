@@ -114,4 +114,4 @@ Other Guidelines
 
 -   If the script header is getting too long (more than 30 lines, or more than half your screen height), consider moving part or all of the Changelog from the [Additional Comments](Script_header#Additional_Comments) section to the bottom of the file.
 
-[Category:RAthena](Category:RAthena)
+[Category:RAthena](RAthena)

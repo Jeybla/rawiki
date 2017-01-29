@@ -34,4 +34,4 @@ Returns 0 if something is wrong or item id if the item was added successfully.
 `map_addflooritem(&item_tmp,1,sd->bl.m,sd->bl.x,sd->bl.y,0,0,0,0);`
 
 A item would appear on the floor in the player's location.
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

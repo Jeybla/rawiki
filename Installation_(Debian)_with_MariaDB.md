@@ -3,7 +3,7 @@ title: Installation (Debian) with MariaDB
 permalink: /Installation_(Debian)_with_MariaDB/
 ---
 
-[Debian](Category:Installation_Guides)
+[Debian](Installation_Guides)
 
 Why replace MySQL with MariaDB
 ==============================

@@ -32,4 +32,4 @@ See Also
 
 -   [wikipedia:Comment_(computer_programming)](/wikipedia:Comment_(computer_programming) "wikilink")
 
-[Category:Basics](Category:Basics) [Category:Scripting](/Category:Scripting "wikilink")
+[Category:Basics](Basics) [Category:Scripting](/Category:Scripting "wikilink")

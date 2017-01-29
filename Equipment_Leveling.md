@@ -100,4 +100,4 @@ And you should be pretty much set. I do want feedback on this system if possible
 
 Thanks!
 
-[Category:Customization](Category:Customization) [Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Customization](Customization) [Category:Source Snippets](/Category:Source_Snippets "wikilink")

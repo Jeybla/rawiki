@@ -522,4 +522,4 @@ Disadvantages:
 -   Cannot be read out in any way.
 -   Cannot be used on start up or time triggered labels.
 
-[Category:Scripting](Category:Scripting) [Category:Script_Command](/Category:Script_Command "wikilink")
+[Category:Scripting](Scripting) [Category:Script_Command](/Category:Script_Command "wikilink")

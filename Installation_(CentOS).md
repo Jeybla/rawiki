@@ -201,4 +201,4 @@ Start your rAthena Server
 See Also
 --------
 
-[CentOS](Category:Installation_Guides)
+[CentOS](Installation_Guides)

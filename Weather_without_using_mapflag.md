@@ -3,7 +3,7 @@ title: Weather without using mapflag
 permalink: /Weather_without_using_mapflag/
 ---
 
-[Category:Data](Category:Data) [Category:Client Configuration](/Category:Client_Configuration "wikilink")
+[Category:Data](Data) [Category:Client Configuration](/Category:Client_Configuration "wikilink")
 
 Procedures
 ----------

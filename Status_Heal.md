@@ -19,4 +19,4 @@ This function heals the target by some amount defined by HP or SP.
     -   1 - Forced heal, there is no way to block (not even berserk)
     -   2 - Show the amount healed above your head
 
-Note: 3 will be forced and show amount healed. [Category:Source_Functions](Category:Source_Functions)
+Note: 3 will be forced and show amount healed. [Category:Source_Functions](Source_Functions)

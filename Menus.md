@@ -136,4 +136,4 @@ The prompt command works exactly like the select command however a value of 255 
 
 `if (@menu == 255) { mes "You should not have closed the menu... BAD BOY!"; close; }`
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

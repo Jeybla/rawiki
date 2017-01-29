@@ -68,4 +68,4 @@ This function is one of many useful functions in [Global_Functions.txt](https://
 -   **rand(<number>)** results a random number from *0* until *<number> -1*. See [Rand](Rand)
 -   **getitem(<item_id>,<amount>)** gives to player an item with id *<item_id>*. See [Getitem](Getitem) or maybe you can use [Getitem2](/Getitem2 "wikilink") too.
 
-[Category:Scripting Tips and Tricks](Category:Scripting_Tips_and_Tricks)
+[Category:Scripting Tips and Tricks](Scripting_Tips_and_Tricks)

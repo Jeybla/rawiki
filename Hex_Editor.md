@@ -39,4 +39,4 @@ External Links
 <http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm>
 <http://en.wikipedia.org/wiki/Comparison_of_hex_editors>
 
-[Category:Tools](Category:Tools)
+[Category:Tools](Tools)

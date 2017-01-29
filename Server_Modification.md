@@ -34,4 +34,4 @@ Also can take a look at modifications made by other users.
 -   [Source Snippets](:Category:Source_Snippets)
 -   [Customizing Sheet](Customizing_Sheet)
 
-[Category:Customization](Category:Customization)
+[Category:Customization](Customization)

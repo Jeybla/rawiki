@@ -17,4 +17,4 @@ All functions from pc.c and pc.h will go here. This part of the source handle se
 
 [PC Setpos](PC_Setpos)
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

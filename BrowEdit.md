@@ -81,4 +81,4 @@ BrowEdit Tutorials
 </tbody>
 </table>
 
-[Category:Mapping](Category:Mapping)
+[Category:Mapping](Mapping)

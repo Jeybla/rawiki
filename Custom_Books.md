@@ -97,4 +97,4 @@ After that patch up your client, reload your item_db and your book is ready to r
 
 [center](File:Custombook2.png)
 
-[Category:Database](Category:Database) [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")
+[Category:Database](Database) [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")

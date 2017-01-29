@@ -101,4 +101,4 @@ It is possible to compile rAthena in debug mode with `--enable-debug` switch.
 
 If you are using a 64-bit OS you have to use `--enable-64bit` switch.
 
-[Category:Installation](Category:Installation)
+[Category:Installation](Installation)

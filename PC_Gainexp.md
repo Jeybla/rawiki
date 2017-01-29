@@ -27,4 +27,4 @@ This would be a FULL Base Lvlup, leaving with 0% on next level
 
 This would be a FULL Job Lvlup, leaving with 0% on next level
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

@@ -666,4 +666,4 @@ Credits
 -   [Yommy](http://hercules.ws/board/user/409-yommy/)
 -   [Ziu](http://rathena.org/board/user/256-ziu/)
 
-[Category:rAthena](Category:rAthena)
+[Category:rAthena](rAthena)

@@ -37,4 +37,4 @@ Known Base Paths
 | gnd       | data\\          |
 | rsw       | data\\          |
 
-[Category:Client Configuration](Category:Client_Configuration)
+[Category:Client Configuration](Client_Configuration)

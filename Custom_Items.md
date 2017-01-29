@@ -810,4 +810,4 @@ Since mine is a 1-Handed Sword I specify it like below.
 
 With this your weapon sprite will become visible while attacking.
 
-[Category:Database](Category:Database) [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")
+[Category:Database](Database) [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")

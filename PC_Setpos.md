@@ -36,4 +36,4 @@ Example
 
 Warps the player *sd* to payon on random coordinates without a warp-out effect. Note, that MAP_PAYON is a source define, which resolves to "payon".
 
-[Category:Source Functions](Category:Source_Functions)
+[Category:Source Functions](Source_Functions)

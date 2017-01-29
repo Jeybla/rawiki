@@ -19,4 +19,4 @@ The configuration for displaying the tip of the day on every start up is stored 
 
 in value **SHOWTIPSATSTARTUP** (DWORD) where **0** means disabled and **1** means enabled.
 
-[Category:Client_Configuration](Category:Client_Configuration)
+[Category:Client_Configuration](Client_Configuration)

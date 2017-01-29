@@ -111,4 +111,4 @@ A: The ID for the weapon isn't in the allowed range. Make sure the value is corr
 
 A: Re-check file/folder names and placement.
 
-[Category:Customization](Category:Customization)
+[Category:Customization](Customization)

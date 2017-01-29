@@ -53,4 +53,4 @@ See Also
 -   [BuildBot home page](http://trac.buildbot.net/)
 -   [How to contribute a buildslave to the rAthena BuildBot](http://rathena.org/board/topic/56220-buildbot-info-and-how-to-help/)
 
-[Category:Debugging](Category:Debugging) [Category:rAthena](/Category:rAthena "wikilink")
+[Category:Debugging](Debugging) [Category:rAthena](/Category:rAthena "wikilink")

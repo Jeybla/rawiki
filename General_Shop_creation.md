@@ -78,4 +78,4 @@ External Links
 -   1.  scripting on irc.deltaanime.net : Dedicated channel for scripters. Come here to get or give semi-fast support or just for fun.
 -   1.  rathena on irc.rathena.net : Main rAthena channel.
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

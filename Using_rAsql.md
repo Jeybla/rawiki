@@ -65,4 +65,4 @@ To change the default password for the user `ragnarok` you will need to:
 
 `udrive\bin\mysqladmin.exe --port=3306 --user=ragnarok --password=`**`ragnarok`**` shutdown`
 
-[Category:Installation](Category:Installation)
+[Category:Installation](Installation)

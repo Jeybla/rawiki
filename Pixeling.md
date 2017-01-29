@@ -46,4 +46,4 @@ See Also
 -   [RO Pixeling Colors](RO_Pixeling_Colors)
 -   [Palettes](Palettes)
 
-[Category:Spriting](Category:Spriting)
+[Category:Spriting](Spriting)

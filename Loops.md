@@ -149,4 +149,4 @@ One note by me: when your loop has only one line (aside from the command word/s)
      else
           close;
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

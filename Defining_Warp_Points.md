@@ -22,4 +22,4 @@ So here is an example how our warp must look:
 
 When we have completed defining our warp, we can add it to a existing warp file (placed in folder) or create a new file. If you choose the last don't forget to [add the new file to script list](Adding_Script)!
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

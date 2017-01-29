@@ -31,4 +31,4 @@ See Also
 -   [Palettes](Palettes)
 -   [Pixeling](Pixeling)
 
-[Category:Spriting](Category:Spriting)
+[Category:Spriting](Spriting)

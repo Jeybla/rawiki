@@ -337,4 +337,4 @@ The format for this file is:
 
 The zone number is set in and
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

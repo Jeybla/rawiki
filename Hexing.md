@@ -177,4 +177,4 @@ External Links
 -   [Weetools Repository](http://subversion.assembla.com/svn/weetools/)
 -   [NEMO Patcher](http://rathena.org/board/files/file/3071-nemo/)
 
-[Category:Client Configuration](Category:Client_Configuration)
+[Category:Client Configuration](Client_Configuration)

@@ -3,7 +3,7 @@ title: Getstrlen
 permalink: /Getstrlen/
 ---
 
-[Category:Script_Command](Category:Script_Command)
+[Category:Script_Command](Script_Command)
 
 Syntax
 ------

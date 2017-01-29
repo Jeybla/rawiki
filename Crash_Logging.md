@@ -31,4 +31,4 @@ There's lots of software that will let you do automatic, semi-automatic or manua
 //TODO: automatic system response, rA plugins and scripts, gdb analysis, UserDump, DebugDiag, ProcDump
 Some info at [How to use Coredump/Stackdump](http://www.eathena.ws/board/index.php?showtopic=91817).
 
-[Category:Debugging](Category:Debugging)
+[Category:Debugging](Debugging)

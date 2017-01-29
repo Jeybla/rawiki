@@ -246,4 +246,4 @@ So if my client was 2011-10-25aRagexeRE it would look like:
 
     #define PACKETVER 20111025
 
-[Category:Configuration](Category:Configuration)
+[Category:Configuration](Configuration)

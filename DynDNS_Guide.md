@@ -174,4 +174,4 @@ Useful Links
 -   ["rAthena Server Support" section in forums](http://rathena.org/board/forum/23-rathena-server-support/) (general support questions related to rAthena configuration)
 -   ["Client & Patcher Support" section in forums](http://rathena.org/board/forum/19-client-patcher-support/) (for any issue with client, data folders and GRF packs)
 
-[Category:Client Configuration](Category:Client_Configuration) [Category:Configuration](/Category:Configuration "wikilink")
+[Category:Client Configuration](Client_Configuration) [Category:Configuration](/Category:Configuration "wikilink")

@@ -211,4 +211,4 @@ After:
 
 `mes "You are team "+( ( team == 1 )?"Red":"Blue" );`
 
-[Category:Scripting](Category:Scripting) [Category:Scripting Tips and Tricks](/Category:Scripting_Tips_and_Tricks "wikilink")
+[Category:Scripting](Scripting) [Category:Scripting Tips and Tricks](/Category:Scripting_Tips_and_Tricks "wikilink")

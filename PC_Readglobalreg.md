@@ -12,4 +12,4 @@ Check a variable in the source
 
 Note: This only works for numeric variables, strings check [pc_readglobalreg_str](pc_readglobalreg_str).
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

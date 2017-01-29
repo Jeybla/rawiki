@@ -63,4 +63,4 @@ Technical Support, or FAQs
 -   Q: My palette shows up as black with a bunch of neon lines and crap. Why?
 -   A: This could be a variety of things. The main reason is usually because they are not places in the right spot, and your client just doesn't error for palettes. This is due to the client not finding any pallet files because their either in the wrong place or incorrectly named. Job pallets and hair pallets have their own folders along with a folder for each sex and then the file name is made up of the job name (or hair) sex and then the number pallet. Another reason could be that you didn't convert it to RO format by removing the things pictured above. Make sure you do that.
 
-[Category:Spriting](Category:Spriting)
+[Category:Spriting](Spriting)

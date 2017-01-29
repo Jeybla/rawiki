@@ -54,4 +54,4 @@ See also
 -   [Sprite Recolors](Sprite_Recolors)
 -   [Pixeling](Pixeling)
 
-[Category:Spriting](Category:Spriting)
+[Category:Spriting](Spriting)

@@ -7,4 +7,4 @@ A **character ID** uniquely identifies a character, not only inside the database
 
 The Character ID typically increments starting from 150000 and going up.
 
-[Category:Basics](Category:Basics)
+[Category:Basics](Basics)

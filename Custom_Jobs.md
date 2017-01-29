@@ -351,4 +351,4 @@ Female:
 `Burglar_¿©.spr`
 `Burglar_¿©.act`
 
-[Category:Customization](Category:Customization) [Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Customization](Customization) [Category:Source Snippets](/Category:Source_Snippets "wikilink")

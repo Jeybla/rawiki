@@ -123,4 +123,4 @@ See Also
 
 -   [wikipedia:Diff\#Unified_format](https://en.wikipedia.org/wiki/Diff#Unified_format)
 
-[Category:File Formats](Category:File_Formats)
+[Category:File Formats](File_Formats)

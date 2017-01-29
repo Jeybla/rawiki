@@ -43,4 +43,4 @@ See Also
 -   [Patchers](:Category:Patchers)
 -   [RGZ](RGZ)
 
-[Category:Client Configuration](Category:Client_Configuration) [Category:File Formats](/Category:File_Formats "wikilink")
+[Category:Client Configuration](Client_Configuration) [Category:File Formats](/Category:File_Formats "wikilink")

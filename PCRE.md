@@ -61,4 +61,4 @@ For TxT servers:
 
 It's done, now you recompiled your server with PCRE support enabled!
 
-[Category:Installation](Category:Installation)
+[Category:Installation](Installation)

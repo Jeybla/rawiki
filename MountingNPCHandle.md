@@ -45,4 +45,4 @@ Changelog
 
 -   [r15009](http://sourceforge.net/apps/trac/rathena/changeset/15009) Added from RREMu.
 
-[Category:Script Command](Category:Script_Command)
+[Category:Script Command](Script_Command)

@@ -140,4 +140,4 @@ Q. How many pets can I add?
 A. Up to 300. I believe that if you change the MAX_PET_DB value in pet.h in the src/map folder, you can add more. Note that you will have to recompile.
 Q. Why does the egg name become red when I try to hatch it and the pet not show up?
 A. This is caused by the egg being spawned via an @item command (or equivalent). To create the egg you need to use the @makeegg command.
-[Category:Customization](Category:Customization) [Category:Data](/Category:Data "wikilink") [Category:Database](/Category:Database "wikilink")
+[Category:Customization](Customization) [Category:Data](/Category:Data "wikilink") [Category:Database](/Category:Database "wikilink")

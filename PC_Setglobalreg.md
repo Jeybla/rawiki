@@ -12,4 +12,4 @@ Set player integer variable from source
 
 This only works for numeric variables, strings check [pc_setglobalreg_str](pc_setglobalreg_str).
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

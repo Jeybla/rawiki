@@ -2692,4 +2692,4 @@ Correct code:
 
 ------------------------------------------------------------------------
 
-[Category:Debugging](Category:Debugging) [Category:Scripting](/Category:Scripting "wikilink")
+[Category:Debugging](Debugging) [Category:Scripting](/Category:Scripting "wikilink")

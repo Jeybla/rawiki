@@ -25,4 +25,4 @@ Example
 
 This would pass pointer to the message "Character not found." to the function clif_displaymessage.
 
-[Category:Source Functions](Category:Source_Functions)
+[Category:Source Functions](Source_Functions)

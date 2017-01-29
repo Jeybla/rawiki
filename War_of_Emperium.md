@@ -179,4 +179,4 @@ See Also
 
 -   [Toasty's WoE Controller](http://rathena.org/board/topic/57377-toastys-woe-controller/)
 
-[Category:Scripting](Category:Scripting)
+[Category:Scripting](Scripting)

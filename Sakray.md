@@ -19,4 +19,4 @@ Usage
 
 [Hexed](Hexing) kRO Sakray clients are the most used clients with [rAthena](/rAthena "wikilink"), although a few people prefer using kRO (live server) clients or clients from different service providers.
 
-[Category:Basics](Category:Basics)
+[Category:Basics](Basics)

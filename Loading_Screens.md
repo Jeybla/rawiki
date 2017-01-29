@@ -15,4 +15,4 @@ See Also
 -   [Loading Screen Creation Guide by naser080291](http://img292.imageshack.us/img292/8054/tutorialcz2.jpg)
 -   [Login Background](Login_Background)
 
-[Category:Client Configuration](Category:Client_Configuration)
+[Category:Client Configuration](Client_Configuration)

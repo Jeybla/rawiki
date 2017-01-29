@@ -34,4 +34,4 @@ External Links
 -   [Follow @rathenaorg on Twitter](https://twitter.com/rathenaorg)
 -   [Athena History Guide](http://www.eathena.ws/board/index.php?showtopic=91829)
 
-[Category:Basics](Category:Basics) [Category:rAthena](/Category:rAthena "wikilink")
+[Category:Basics](Basics) [Category:rAthena](/Category:rAthena "wikilink")

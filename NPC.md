@@ -21,4 +21,4 @@ External Links
 -   <http://kalen.s79.xrea.com/npc/npc.shtml>
 -   <http://nn.nachtwolke.com/dev/npclist/>
 
-[Category:Basics](Category:Basics)
+[Category:Basics](Basics)

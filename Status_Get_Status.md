@@ -13,4 +13,4 @@ Get a stats value.
     -   src = user stats
     -   bl = target stats
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

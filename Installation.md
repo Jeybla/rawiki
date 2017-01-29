@@ -71,4 +71,4 @@ See Also
 -   [SVN](SVN)
 -   [Installing SQL for RAthena use](Installing_SQL)
 
-[Category:Basics](Category:Basics)
+[Category:Basics](Basics)

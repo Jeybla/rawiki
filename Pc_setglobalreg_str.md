@@ -12,4 +12,4 @@ Define a string variable in the source
 
 This only works for string variables, for numbers check [PC_Setglobalreg](PC_Setglobalreg).
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

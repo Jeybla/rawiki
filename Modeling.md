@@ -40,4 +40,4 @@ Software Requirements:
 
 Please [follow this Video Tutorial](http://youtu.be/dN-5qDabkbo) to learn how to import these map files into 3ds Max.
 
-[Category:Mapping](Category:Mapping)
+[Category:Mapping](Mapping)

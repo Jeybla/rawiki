@@ -24,4 +24,4 @@ Examples
 [`for`](for)`(`[`set`](/set "wikilink")` .@i,1; .@i <= .@nb; set .@i,.@i+1)`
 [`mes`](mes)` .@i+". "+.@name$[0]+" ("+.@fame[0]+")"; // Will return a person with the biggest fame value.`
 
-[Category:Script_Command](Category:Script_Command)
+[Category:Script_Command](Script_Command)

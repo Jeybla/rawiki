@@ -30,4 +30,4 @@ See also
 -   [Spriting](Spriting)
 -   [Palettes](Palettes)
 
-[Category:Spriting](Category:Spriting)
+[Category:Spriting](Spriting)

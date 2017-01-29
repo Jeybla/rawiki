@@ -38,4 +38,4 @@ You should then come upon a page that you can set your MySQL root password. You 
 
 After you're done, your phpmyadmin is setup and will accept root and your established root password at <http://127.0.0.1/phpmyadmin>. You can now login and finish [Configuring](:Category:Configuration) and [Compiling](/Compiling "wikilink") your server.
 
-[Category:Installation](Category:Installation)
+[Category:Installation](Installation)

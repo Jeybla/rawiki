@@ -23,4 +23,4 @@ These members are extensively involved with this project and should be contacted
 
 -
 
-[Category:Wiki Projects](Category:Wiki_Projects)
+[Category:Wiki Projects](Wiki_Projects)

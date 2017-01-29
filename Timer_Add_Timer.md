@@ -18,4 +18,4 @@ This function adds a temporary timer .
 -   **GID:** - Game ID (ie. mob_data-&gt;block_list.id)
 -   **Args:** - Additional Arguments (ie. (int)script_state)
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

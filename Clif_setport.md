@@ -30,4 +30,4 @@ Example
 A new port would be set for the Map-Server using a parameter from 'map_port'.
 **Note that it's not secure to redefine the port on the fly.**
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

@@ -3,7 +3,7 @@ title: Installation (Debian)
 permalink: /Installation_(Debian)/
 ---
 
-[Debian](Category:Installation_Guides)
+[Debian](Installation_Guides)
 
 Basic DEB Installation guide
 ============================

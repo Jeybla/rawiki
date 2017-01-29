@@ -16,4 +16,4 @@ Heals the target in a percentage.
 -   X = Amount healed in HP (in % , 100 = 100%, full recovery)
 -   Y = Amount healed in SP (in % , 100 = 100%, full recovery)
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

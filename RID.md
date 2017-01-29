@@ -12,4 +12,4 @@ When writing simple [NPCs](NPC) only, this topic will not require much attention
 
 Whenever is stated *invoking character* or *currently attached character*, it actually means *the character whose RID is currently attached to the running script*. The script function [playerattached](playerattached) can be used to check which is the currently attached player to the script (it will return 0 if the there is no player attached or the attached player no longer is logged on to the map-server). The function [detachrid](/detachrid "wikilink") will explicitly set the RID to 0, so care must be taken, that follow-up commands do not depend on a character being attached, especially access to [temporary character variables](/Variables "wikilink").
 
-[Category:Basics](Category:Basics) [Category:Scripting](/Category:Scripting "wikilink")
+[Category:Basics](Basics) [Category:Scripting](/Category:Scripting "wikilink")

@@ -11,4 +11,4 @@ All functions inside map.c and map.h will go here. this deals with how the map c
 
 [Map Cell2gat](Map_Cell2gat)
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

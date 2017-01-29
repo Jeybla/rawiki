@@ -106,4 +106,4 @@ And there you go. The status effect *SC_CUSTOMSTATUS* is now ready for use.
 
 This will start SC_CUSTOMSTATUS, it will last for 60 seconds and it will remove SC_BLIND if it is active. The '2' is the *val1* entry, which means that *val2 = 2 \* 30;*, which will cause HIT to be decreased by 60 for 60 seconds.
 
-[Category:Source Snippets](Category:Source_Snippets) [Category:Customization](/Category:Customization "wikilink")
+[Category:Source Snippets](Source_Snippets) [Category:Customization](/Category:Customization "wikilink")

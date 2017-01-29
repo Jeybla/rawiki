@@ -71,4 +71,4 @@ Open /conf/battle/gm.conf
 
 *When set to 40, a GM must be **equal to or above** GM level 40 in order to receive drops.*
 
-[Category:Source Snippets](Category:Source_Snippets)
+[Category:Source Snippets](Source_Snippets)

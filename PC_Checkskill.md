@@ -19,4 +19,4 @@ Note: This can be used to check if the character has the skill or not (same as &
 
 `pc_checkskill(sd,SKILLID)`
 
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

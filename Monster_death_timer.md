@@ -125,4 +125,4 @@ The alternative (through basic scripts) is this:
         end;
     }
 
-[Category:Source Snippets](Category:Source_Snippets)
+[Category:Source Snippets](Source_Snippets)

@@ -19,4 +19,4 @@ Syntax
 `a_ip = clif_getip();`
 
 a_ip would have been defined with the server's IP Address.
-[Category:Source_Functions](Category:Source_Functions)
+[Category:Source_Functions](Source_Functions)

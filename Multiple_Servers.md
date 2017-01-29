@@ -39,4 +39,4 @@ Scheme
 
 [native|center|alt=Servers Scheme|Servers Scheme](File:Multiple_servers_scheme.png)
 
-[Category:Installation](Category:Installation)
+[Category:Installation](Installation)

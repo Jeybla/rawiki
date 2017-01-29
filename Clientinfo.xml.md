@@ -107,4 +107,4 @@ Explanation
 `| 5   | ?                      | pk                |`
 `+-----+------------------------+-------------------+`
 
-[Category:Client Configuration](Category:Client_Configuration)
+[Category:Client Configuration](Client_Configuration)

@@ -25,4 +25,4 @@ Both outputs "827ccb0eea8a706c4c34a16891f84e7b".
 
 Outputs "187a99080cdf39f6d1f2b3f5f2f2105f".
 
-[Category:Script Command](Category:Script_Command)
+[Category:Script Command](Script_Command)

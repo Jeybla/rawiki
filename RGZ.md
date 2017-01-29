@@ -91,4 +91,4 @@ See Also
 
 -   [GRF](GRF)
 
-[Category:File Formats](Category:File_Formats)
+[Category:File Formats](File_Formats)
