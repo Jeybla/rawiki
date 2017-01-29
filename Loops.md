@@ -8,7 +8,7 @@ What are loops?
 
 Loops are things made to make your life easier, at least, if you know how to use them. Loops can be powerfull when used right, but can also bring down any script. Loops come in handy when you need to go through a array, or when you need to do the same thing x times after eachother. The loops available in the Athena scripting language are For, While and Do ... While. All of those will be covered in this article, with their own examples. Also, the special loop commands break; and continue; will be covered. The intention of this page is that you will get to understand how loops work, and how to use them properly.
 
-### [For Loop](wikipedia:For_loop)
+### [For Loop](https://en.wikipedia.org/wiki/For_loop)
 
 The for loop is probably the most seen loop used in rAthena scripting, this is usually used to loop through arrays and execute a series of commands for each array entry. But you can use it every time you need to execute a series of commands x times. For loops are build up of 3 or 4 parts, depending on how they are used. The general buildup for a For loop is as following:
 
@@ -44,7 +44,7 @@ This is one of the most simple for loops you can think of, but it serves well as
 
 Note that the 10 is not there, since @i &lt; 10 is false when @i is 10. What the loops does is the same as explained above. Firstly, the initilization is done (set @i,0;) and the expression is evaluated. Then, the code is executed (mes @i;) and the end of the loop is reached, so it jumps back to the first part, and executes the action (set @i,@i+1) (See how this replaces the initialization part?). Then it starts evaluating the expression (@i &lt; 10), which is true since @i is 1. Because the expression is true, the code inside of the curlies is executed. This keeps on going until the expression is false, which will happen once @i is 10. As soon as that happens, it quits the loop and continues on the first line after the closing curly.
 
-### [While Loop](wikipedia:While_loop)
+### [While Loop](https://en.wikipedia.org/wiki/While_loop)
 
 This loop is almost the same as a for loop, but less automated. With this loop, you'll have to initialize the variable yourself, and increase it yourself. In some situations, this is better then the for loop. The general format for a while loop only contains out of two parts:
 
@@ -69,7 +69,7 @@ The result will be exactly the same. As long as @i is smaller then 10, the code 
 
 Note that the above is a script that will need you to relog!
 
-### [Do ... While Loop](wikipedia:Do_while_loop)
+### [Do ... While Loop](https://en.wikipedia.org/wiki/Do_while_loop)
 
 Ah... We've already reached the last loop type. Wow, I actually managed to write stuff about the for and while loop eh... Well then. This loop is basically the same as a while loop, only the way it is executed is slightly different (and the same goes for the coding). Since there isn't much I can explain on loops anymore, I'll just start with the general format:
 

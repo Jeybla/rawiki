@@ -10,7 +10,7 @@ Syntax
 
 ### Athena Scripting Language
 
-Single line comments begin with double slash `//` and continue to the [end of line](wikipedia:Newline).
+Single line comments begin with double slash `//` and continue to the [end of line](https://en.wikipedia.org/wiki/Newline).
 
 `// This is a comment that takes up the whole line.`
 

@@ -8,18 +8,18 @@ This guide covers how to install [rAthena](rAthena) on [CentOS](/wikipedia:CentO
 Requirements
 ------------
 
--   [CentOS](wikipedia:CentOS) or an [RPM-based Linux](/wikipedia:List_of_Linux_distributions#RPM-based "wikilink") that has the **[yum](/wikipedia:Yellowdog_Updater,_Modified "wikilink")** command
--   root access or access to an account that has [sudo privileges](wikipedia:Sudo)
+-   [CentOS](https://en.wikipedia.org/wiki/CentOS) or an [RPM-based Linux](/wikipedia:List_of_Linux_distributions#RPM-based "wikilink") that has the **[yum](/wikipedia:Yellowdog_Updater,_Modified "wikilink")** command
+-   root access or access to an account that has [sudo privileges](https://en.wikipedia.org/wiki/Sudo)
 -   an Internet connection to download install packages
 
 Prerequisites
 -------------
 
-All of these commands will be typed at the [command-line interface](wikipedia:Command-line_interface).
+All of these commands will be typed at the [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface).
 
 ### Install Prerequisites
 
-1.  Login to your server via [SSH](wikipedia:Secure_Shell), or if you are already logged into a [GUI](/wikipedia:Graphical_user_interface "wikilink") press Ctrl+Alt+T to open a terminal window.
+1.  Login to your server via [SSH](https://en.wikipedia.org/wiki/Secure_Shell), or if you are already logged into a [GUI](/wikipedia:Graphical_user_interface "wikilink") press Ctrl+Alt+T to open a terminal window.
 2.  Type the following command (this will install GCC, Make, MySQL, MySQL header files, MySQL Server, PCRE header files, and Zlib header files)
 
         yum install gcc make mysql mysql-devel mysql-server pcre-devel zlib-devel
@@ -40,7 +40,7 @@ To work around Missing Dependency: perl(Git) errors:
 
 ### Create a non-root Linux user
 
-By the [principle of least privilege](wikipedia:Principle_of_least_privilege), it is recommended you do **NOT** run rAthena as root.
+By the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege), it is recommended you do **NOT** run rAthena as root.
 
 1.  Type the following command to create a non-root Linux account:
 

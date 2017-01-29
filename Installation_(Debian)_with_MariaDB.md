@@ -62,7 +62,7 @@ Required packages
 Create a non-root Linux user
 ----------------------------
 
-By the [principle of least privilege](wikipedia:Principle_of_least_privilege), it is recommended you do **NOT** run rAthena as root.
+By the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege), it is recommended you do **NOT** run rAthena as root.
 
 1.  Type the following command to create a non-root Linux account:
 

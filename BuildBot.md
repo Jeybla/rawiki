@@ -8,7 +8,7 @@ permalink: /BuildBot/
 rAthena BuildBot
 ----------------
 
-Developers *should* test their changes before committing. To help double-check each commit and also test compatibility on other operating systems, we have setup a [BuildBot](wikipedia:BuildBot).
+Developers *should* test their changes before committing. To help double-check each commit and also test compatibility on other operating systems, we have setup a [BuildBot](https://en.wikipedia.org/wiki/BuildBot).
 
 <http://build.rathena.org/>
 
@@ -38,14 +38,14 @@ One or more buildslaves are connected to the buildmaster in a star topology. Bui
 
 ### Linux
 
--   [CentOS](wikipedia:CentOS) 6.3 (64-bit)
--   [Debian](wikipedia:Debian) Squeeze 6.0
+-   [CentOS](https://en.wikipedia.org/wiki/CentOS) 6.3 (64-bit)
+-   [Debian](https://en.wikipedia.org/wiki/Debian) Squeeze 6.0
 -   [Ubuntu](/wikipedia:Ubuntu_(operating_system) "wikilink") 10.04
 -   [Ubuntu](/wikipedia:Ubuntu_(operating_system) "wikilink") 12.04 (64-bit)
 
 ### Windows
 
--   [Windows 7](wikipedia:Windows_7)
+-   [Windows 7](https://en.wikipedia.org/wiki/Windows_7)
 
 See Also
 --------

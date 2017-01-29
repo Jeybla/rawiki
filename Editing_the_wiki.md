@@ -10,7 +10,7 @@ The rAthena wiki could always use some help. It is an ever changing repository o
 
 ### Where to Begin?
 
-All users must login to the wiki using their forum account. Any member with more than 1 post on the forums can edit the wiki, but please keep in mind that the rAthena wiki is released under the [GNU Free Documentation License](wikipedia:GNU_Free_Documentation_License) Version 1.2. This means that the wiki and any works put on it can be edited at will. They may also be distributed, provided all history and copylefts remain intact. Please see read this page for more information.
+All users must login to the wiki using their forum account. Any member with more than 1 post on the forums can edit the wiki, but please keep in mind that the rAthena wiki is released under the [GNU Free Documentation License](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) Version 1.2. This means that the wiki and any works put on it can be edited at will. They may also be distributed, provided all history and copylefts remain intact. Please see read this page for more information.
 
 Don't know where to start? Check the [Special:WantedPages](Special:WantedPages) page and create a page that is listed there!
 
@@ -20,7 +20,7 @@ Please see [Wiki Projects](:Category:Wiki_Projects) for any ongoing projects tha
 
 ### License Requirements
 
-The rAthena wiki is to be released under the [GNU Free Documentation License](wikipedia:GNU_Free_Documentation_License). For those that do not know, this license allows anyone to edit your work on the wiki at will, provided that all pertinent history is remained intact and all copylefts are abided by. This work can also be redistributed, again, provided that all copylefts remain intact.
+The rAthena wiki is to be released under the [GNU Free Documentation License](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License). For those that do not know, this license allows anyone to edit your work on the wiki at will, provided that all pertinent history is remained intact and all copylefts are abided by. This work can also be redistributed, again, provided that all copylefts remain intact.
 
 ### Editing Requirements
 
@@ -49,8 +49,8 @@ These tips should be referenced when you need to edit/write an article.
 -   There should be no reason to link to a page more than once if it appears in the article multiple times. The first mention of a topic that has a page should be linked to.
 -   Name your page appropriately and avoid special symbols. Don't make your page too long, but think of a name that will relate to the article (i.e: Don't name your article related to XRay 'client').
 -   Use images when Windows is involved. It is too hard and sometimes troublesome to read an article with the text: Go here, click OK, go here, hover your mouse here, click here, type this, click here, drag it to here, etc.
--   Any section or article that relates to changing code should be in DIFF or PATCH format. This includes all of the proper syntax. If you do not know what a diff or patch file is, please refer to it's Wikipedia article [here](wikipedia:Diff#Unified_format). 'find and replace' text is not acceptable.
--   Make use of Wikipedia's help articles, if you are unsure about [editing articles](wikipedia:Wikipedia:How_to_edit_a_page) or [the use of some wiki-code](/wikipedia:Help:Wiki_markup "wikilink"). Note, that most of the templates used on Wikipedia cannot be applied to the rAthena wiki, except [few ones](/:Category:Templates "wikilink").
+-   Any section or article that relates to changing code should be in DIFF or PATCH format. This includes all of the proper syntax. If you do not know what a diff or patch file is, please refer to it's Wikipedia article [here](https://en.wikipedia.org/wiki/Diff#Unified_format). 'find and replace' text is not acceptable.
+-   Make use of Wikipedia's help articles, if you are unsure about [editing articles](https://en.wikipedia.org/wiki/Wikipedia:How_to_edit_a_page) or [the use of some wiki-code](/wikipedia:Help:Wiki_markup "wikilink"). Note, that most of the templates used on Wikipedia cannot be applied to the rAthena wiki, except [few ones](/:Category:Templates "wikilink").
 -   Use the *Show preview* button before saving the page, especially when you are unsure, how your edit turns out. This helps avoiding follow-up "ooops"-edits.
 -   Before you save an article, add reason for your edit or summary of your edit in the *Summary* line. You help others to recognize, what was changed and why in the [list of recent changes](Special:RecentChanges) and it distinguishes you from spam-bots, which do not add a reason. You do not need to add a summary for your user-page or on article's talk pages. If you cannot remember what you changed, use the *Show changes* button to review all changes done to the page as a diff.
 -   Avoid excessive amount of formatting. Use either **bold** or *italics* but not ***both***. Refrain from using <u>underlining</u> as this usually gives the impression of a link. <s>Strike-through</s> should be used on talk pages only, if there is something in an article to invalidate, simply delete it.

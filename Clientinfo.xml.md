@@ -72,7 +72,7 @@ Explanation
 | <aid>                | Use instead of <yellow> to also allow the right-click menu for your GMs.                                                                                                                                                               |
 | <loading>            | Define each loading screen in the path .../data/texture/À¯ÀúÀÎÅÍÆäÀÌ½º/ (to use more than 10, client also needs Unlimited Loading Screens hex).                                                                                        |
 
-**Note:** All [XML](wikipedia:XML) rules apply, so <tag /> options can also be written as <tag></tag>.
+**Note:** All [XML](https://en.wikipedia.org/wiki/XML) rules apply, so <tag /> options can also be written as <tag></tag>.
 
 `+-----+------------------------+-------------------+`
 `| int | enum SERVICETYPE       | "servicetype" tag |`

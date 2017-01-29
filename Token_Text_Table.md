@@ -8,7 +8,7 @@ A text table format used for the [Ragnarok Online](Ragnarok_Online) client. It i
 File Format
 -----------
 
-The files are plain text files, where rows and columns are separated by the token character [\#](wikipedia:Hash_symbol). It can be edited with every text editor like Notepad. Make sure, that the file is not stored in [Unicode](/wikipedia:Unicode "wikilink") or [UTF-8](/wikipedia:UTF-8 "wikilink").
+The files are plain text files, where rows and columns are separated by the token character [\#](https://en.wikipedia.org/wiki/Hash_symbol). It can be edited with every text editor like Notepad. Make sure, that the file is not stored in [Unicode](/wikipedia:Unicode "wikilink") or [UTF-8](/wikipedia:UTF-8 "wikilink").
 
 The amount of columns is fixed for each file, that uses this file format. Rows are either limited by available memory or by hard-coded limits, as seen below. Note that all of these limits can be lifted by hexing the client. Whether line breaks are allowed within a cell or not depends on each file as well. Multi-line cells support using \# character inside the text, as long it is followed by a **space character**. Contrary to that, all other \# characters must be followed by either a new line or a non-spacing character.
 

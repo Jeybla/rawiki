@@ -39,7 +39,7 @@ Format
 `//===== By: ==================================================`
 `//= Darkchild`
 
-### Current [Version](wikipedia:Software_versioning)
+### Current [Version](https://en.wikipedia.org/wiki/Software_versioning)
 
 -   line 6: the current version of the script
 -   new scripts start at 1.0
@@ -76,7 +76,7 @@ Format
 `//= `
 `//============================================================`
 
--   this section can also be used to list [Changelog](wikipedia:Changelog) messages
+-   this section can also be used to list [Changelog](https://en.wikipedia.org/wiki/Changelog) messages
 -   list them in numerical order, first at the top and last change at the bottom
 
 `//===== Additional Comments: =================================`
@@ -101,7 +101,7 @@ Format
 Other Guidelines
 ----------------
 
--   Avoid using TABs in the script header because people use different text editors and their [tab size](wikipedia:Tab_key) might be different than yours.
+-   Avoid using TABs in the script header because people use different text editors and their [tab size](https://en.wikipedia.org/wiki/Tab_key) might be different than yours.
 -   If you want text to line up vertically, uses spaces.
 
 `//= 1.3 fixed Louyang label typo, added warp and WARPRA into `

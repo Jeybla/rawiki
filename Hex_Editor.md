@@ -8,7 +8,7 @@ permalink: /Hex_Editor/
 A what?
 =======
 
-A **hex editor** (or *binary file editor* or *byte editor*) is a type of computer program that allows a user to manipulate the fundamental binary (0 / 1, zero / one) data that makes up computer files. Note that computer files can be very small (just a name, with no content) to very large (content spanning multiple hard disks). A typical computer file occupies multiple areas on the platter(s) of a disk drive, whose contents are put together to form the file. For more details see the [related Wikipedia article](wikipedia:Hex_editor).
+A **hex editor** (or *binary file editor* or *byte editor*) is a type of computer program that allows a user to manipulate the fundamental binary (0 / 1, zero / one) data that makes up computer files. Note that computer files can be very small (just a name, with no content) to very large (content spanning multiple hard disks). A typical computer file occupies multiple areas on the platter(s) of a disk drive, whose contents are put together to form the file. For more details see the [related Wikipedia article](https://en.wikipedia.org/wiki/Hex_editor).
 
 Applications
 ============
@@ -21,7 +21,7 @@ One of the best Hex Editors, and probably the most user friendly is [<http://www
 Other Editors
 -------------
 
-A fairly comprehensive comparison chart can be found on [wikipedia:Comparison_of_hex_editors wikipedia](wikipedia:Comparison_of_hex_editors_wikipedia)
+A fairly comprehensive comparison chart can be found on [wikipedia:Comparison_of_hex_editors wikipedia](https://en.wikipedia.org/wiki/Comparison_of_hex_editors_wikipedia)
 
 Common RO Related Uses
 ======================

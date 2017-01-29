@@ -8,7 +8,7 @@ Creating Your Own Frames
 
 You will need
 
--   Image Editing Software (e.g. [Photoshop](wikipedia:Adobe_Photoshop))
+-   Image Editing Software (e.g. [Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop))
 -   Concept
 -   Skill
 

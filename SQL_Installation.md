@@ -6,7 +6,7 @@ permalink: /SQL_Installation/
 Introduction
 ============
 
-This article will guide you through the installation and configuration stages of MySQL for your particular Operating System. What is a MySQL database? [MySQL](wikipedia:MySQL) is a multi-user access database that stores a number of different kinds of information in scaleable tables. In layman's terms, it puts a bunch of stuff in charts for your server to read. rAthena no longer supports text based save files (for Accounts, Characters, etc.) and requires a MySQL database to create these save files.
+This article will guide you through the installation and configuration stages of MySQL for your particular Operating System. What is a MySQL database? [MySQL](https://en.wikipedia.org/wiki/MySQL) is a multi-user access database that stores a number of different kinds of information in scaleable tables. In layman's terms, it puts a bunch of stuff in charts for your server to read. rAthena no longer supports text based save files (for Accounts, Characters, etc.) and requires a MySQL database to create these save files.
 
 Windows
 -------

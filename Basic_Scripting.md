@@ -240,7 +240,7 @@ External Links
 
 -   <http://www.immigration-usa.com/html_colors.html>
 -   <http://www.december.com/html/spec/colorcodes.html>
--   [Hex triplet](wikipedia:Hex_triplet)
+-   [Hex triplet](https://en.wikipedia.org/wiki/Hex_triplet)
 -   <http://www.colorschemer.com/online.html>
 
 **Support, Request and Release**

@@ -334,6 +334,6 @@ External links
 GNU
 ---
 
-> `This` `article` `is` `licensed` `under` `the` [`Free` `Documentation` `License`](http://www.gnu.org/copyleft/fdl.htmlGNU)`.` `It` `uses` `material` `from` `the` [`Wikipedia` `article` `"Ragnarok` `Online"`](wikipedia:Ragnarok_Online)`.`
+> `This` `article` `is` `licensed` `under` `the` [`Free` `Documentation` `License`](http://www.gnu.org/copyleft/fdl.htmlGNU)`.` `It` `uses` `material` `from` `the` [`Wikipedia` `article` `"Ragnarok` `Online"`](https://en.wikipedia.org/wiki/Ragnarok_Online)`.`
 
 [Category:Basics](Category:Basics)

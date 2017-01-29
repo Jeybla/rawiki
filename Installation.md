@@ -17,7 +17,7 @@ To run RAthena, the following programs must be installed on the machine that wil
 
 ### \*nix based
 
-For \*nix, most of these programs will come as [Packages](wikipedia:Software_package_%28installation%29) with your OS, for example, the FreeBSD Ports collection, or Debians apt-get or aptitude. Please see your OS's help/support pages to find out how to utilize package installations. As a general rule, the following packages will be required to compile RAthena:
+For \*nix, most of these programs will come as [Packages](https://en.wikipedia.org/wiki/Software_package_%28installation%29) with your OS, for example, the FreeBSD Ports collection, or Debians apt-get or aptitude. Please see your OS's help/support pages to find out how to utilize package installations. As a general rule, the following packages will be required to compile RAthena:
 [wget](http://www.gnu.org/software/wget/), [subversion](http://subversion.tigris.org/), [GCC](http://gcc.gnu.org/), [make](http://www.gnu.org/software/make/) (if running \*BSD, gmake is needed instead of make.)
 
 #### libmysqlclient15-dev

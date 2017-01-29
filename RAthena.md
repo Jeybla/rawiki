@@ -3,7 +3,7 @@ title: RAthena
 permalink: /RAthena/
 ---
 
-**rAthena** is a free and open source implementation of [Aegis](/wikipedia:AEGIS_(Ragnarok_Online) "wikilink"), a [Ragnarok Online](wikipedia:Ragnarok_Online) game server, and is written in [C](/wikipedia:C_(programming_language) "wikilink").
+**rAthena** is a free and open source implementation of [Aegis](/wikipedia:AEGIS_(Ragnarok_Online) "wikilink"), a [Ragnarok Online](https://en.wikipedia.org/wiki/Ragnarok_Online) game server, and is written in [C](/wikipedia:C_(programming_language) "wikilink").
 
 Repository
 ----------

@@ -150,7 +150,7 @@ Below is a list of all the flags and their descriptions.
     -   Bloody Branch (ID 12103)
     -   Poring Box (ID 12109)
 
-*Note: list of these items is [hardcoded](wikipedia:Hard_coding).*
+*Note: list of these items is [hardcoded](https://en.wikipedia.org/wiki/Hard_coding).*
 *See also: [mob_warp](mob_warp).*
 
 ### nochat
@@ -229,7 +229,7 @@ Below is a list of all the flags and their descriptions.
     -   Yellow, Green, Red and Blue Butterfly Wings (ID 14582–14585)
     -   Siege Teleport Scroll (ID 14591)
 
-*Note: list of these items is [hardcoded](wikipedia:Hard_coding).*
+*Note: list of these items is [hardcoded](https://en.wikipedia.org/wiki/Hard_coding).*
 
 ### nosave
 
@@ -252,7 +252,7 @@ Below is a list of all the flags and their descriptions.
     -   Fly Wing (ID 601)
     -   Giant Fly Wing (ID 12212)
 
-*Note: list of these items is [hardcoded](wikipedia:Hard_coding).*
+*Note: list of these items is [hardcoded](https://en.wikipedia.org/wiki/Hard_coding).*
 
 ### notrade
 

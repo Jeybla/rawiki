@@ -11,7 +11,7 @@ Syntax
 Description
 -----------
 
-Returns the [md5 hash](wikipedia:MD5) of given value.
+Returns the [md5 hash](https://en.wikipedia.org/wiki/MD5) of given value.
 
 Examples
 --------
