@@ -217,7 +217,7 @@ We changed the first number to get the id of our job if you design your own set 
 `35,410,1,0,0,0,0,0,0,0,0,0,0 //WE_CALLBABY#Call Baby#`
 `35,681,1,0,0,0,0,0,0,0,0,0,0 //ALL_INCCARRY#Enlarge Weight Limit R#`
 
-Please refer to [adding new skills](/adding_new_skills "wikilink") to add new custom skills.
+Please refer to [adding new skills](adding_new_skills) to add new custom skills.
 
 If you do not put them there will be errors
 
@@ -351,4 +351,4 @@ Female:
 `Burglar_¿©.spr`
 `Burglar_¿©.act`
 
-[Category:Customization](/Category:Customization "wikilink") [Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Customization](Category:Customization) [Category:Source Snippets](/Category:Source_Snippets "wikilink")

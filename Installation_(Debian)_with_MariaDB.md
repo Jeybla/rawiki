@@ -3,7 +3,7 @@ title: Installation (Debian) with MariaDB
 permalink: /Installation_(Debian)_with_MariaDB/
 ---
 
-[Debian](/Category:Installation_Guides "wikilink")
+[Debian](Category:Installation_Guides)
 
 Why replace MySQL with MariaDB
 ==============================
@@ -54,7 +54,7 @@ Required packages
 -   [gcc](http://packages.debian.org/stable/gcc)
 -   [libmariadbclient-dev](http://packages.ubuntu.com/trusty-updates/libmariadbclient-dev)
 -   [zlib1g-dev](http://packages.debian.org/stable/zlib1g-dev)
--   [libpcre3-dev](http://packages.debian.org/stable/libpcre3-dev) (optional, for [PCRE](/PCRE "wikilink") support)
+-   [libpcre3-dev](http://packages.debian.org/stable/libpcre3-dev) (optional, for [PCRE](PCRE) support)
 -   [libssl-dev](http://packages.debian.org/stable/libssl-dev) (required, for compiling with MariaDB 5.5)
 
 `[root]# apt-get install git make gcc libmariadbclient-dev zlib1g-dev libpcre3-dev build-essential mariadb-client`
@@ -62,7 +62,7 @@ Required packages
 Create a non-root Linux user
 ----------------------------
 
-By the [principle of least privilege](/wikipedia:Principle_of_least_privilege "wikilink"), it is recommended you do **NOT** run rAthena as root.
+By the [principle of least privilege](wikipedia:Principle_of_least_privilege), it is recommended you do **NOT** run rAthena as root.
 
 1.  Type the following command to create a non-root Linux account:
 
@@ -93,7 +93,7 @@ To pull the latest updates for rAthena you can do the following:
 
 `git pull`
 
-Please [this section](/Transition_from_SVN_to_GIT#Notes_about_GIT "wikilink") if you're having issues with updating.
+Please [this section](Transition_from_SVN_to_GIT#Notes_about_GIT) if you're having issues with updating.
 
 Run configure script
 --------------------

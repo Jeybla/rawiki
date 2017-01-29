@@ -3,7 +3,7 @@ title: Installation (Debian)
 permalink: /Installation_(Debian)/
 ---
 
-[Debian](/Category:Installation_Guides "wikilink")
+[Debian](Category:Installation_Guides)
 
 Basic DEB Installation guide
 ============================
@@ -40,7 +40,7 @@ Required packages
 -   [gcc](http://packages.debian.org/stable/gcc)
 -   [libmysqlclient-dev](http://packages.debian.org/stable/libmysqlclient-dev)
 -   [zlib1g-dev](http://packages.debian.org/stable/zlib1g-dev)
--   [libpcre3-dev](http://packages.debian.org/stable/libpcre3-dev) (optional, for [PCRE](/PCRE "wikilink") support)
+-   [libpcre3-dev](http://packages.debian.org/stable/libpcre3-dev) (optional, for [PCRE](PCRE) support)
 -   [libssl-dev](http://packages.debian.org/stable/libssl-dev) (required, for compiling with MySQL 5.5)
 
 `[root]# apt-get install git make gcc libmysqlclient-dev zlib1g-dev libpcre3-dev build-essential mysql-client`
@@ -48,7 +48,7 @@ Required packages
 Create a non-root Linux user
 ----------------------------
 
-By the [principle of least privilege](/wikipedia:Principle_of_least_privilege "wikilink"), it is recommended you do **NOT** run rAthena as root.
+By the [principle of least privilege](wikipedia:Principle_of_least_privilege), it is recommended you do **NOT** run rAthena as root.
 
 1.  Type the following command to create a non-root Linux account:
 
@@ -79,7 +79,7 @@ To pull the latest updates for rAthena you can do the following:
 
 `git pull`
 
-Please [this section](/Transition_from_SVN_to_GIT#Notes_about_GIT "wikilink") if you're having issues with updating.
+Please [this section](Transition_from_SVN_to_GIT#Notes_about_GIT) if you're having issues with updating.
 
 Run configure script
 --------------------

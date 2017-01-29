@@ -14,7 +14,7 @@ This way, there's no dependencies on script timers, and the death will be person
 
 ### Pre-requisites
 
-In order for this command to work, you'll need to install the [retrieve monster GID edit](/Get_monster_gid "wikilink") first.
+In order for this command to work, you'll need to install the [retrieve monster GID edit](Get_monster_gid) first.
 
 Open /src/map/script.c
 ----------------------
@@ -125,4 +125,4 @@ The alternative (through basic scripts) is this:
         end;
     }
 
-[Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Source Snippets](Category:Source_Snippets)

@@ -27,4 +27,4 @@ Example
 (From map.c in **int map_config_read(char \*cfgName)**)
 A new IP would be set for the Map-Server using a parameter from 'map_ip'.
 **Note that it's not secure to redefine any type of ip on the fly.**
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

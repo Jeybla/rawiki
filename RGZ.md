@@ -3,7 +3,7 @@ title: RGZ
 permalink: /RGZ/
 ---
 
-An RGZ file is a proprietary compressed archive format used for [Ragnarok Online](/Ragnarok_Online "wikilink"), developed by [Gravity](http://en.wikipedia.org/wiki/Gravity_(company)). It is used for patching the local file system directory, the game client resides in. The archive mostly contains updated game executable or new background music files. The extension is always **.rgz** and might be an abbreviation for **ragnarok+gzip**.
+An RGZ file is a proprietary compressed archive format used for [Ragnarok Online](Ragnarok_Online), developed by [Gravity](http://en.wikipedia.org/wiki/Gravity_(company)). It is used for patching the local file system directory, the game client resides in. The archive mostly contains updated game executable or new background music files. The extension is always **.rgz** and might be an abbreviation for **ragnarok+gzip**.
 
 File Format
 -----------
@@ -89,6 +89,6 @@ Tools
 See Also
 --------
 
--   [GRF](/GRF "wikilink")
+-   [GRF](GRF)
 
-[Category:File Formats](/Category:File_Formats "wikilink")
+[Category:File Formats](Category:File_Formats)

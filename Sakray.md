@@ -3,7 +3,7 @@ title: Sakray
 permalink: /Sakray/
 ---
 
-**Sakray** is what official [Ragnarok Online](/Ragnarok_Online "wikilink") test servers are usually referred to. They are used to test new content and features, before they get installed on the normal servers. When the name "Sakray" is used alone, it typically refers to the kRO Sakray server. Sakray servers are always accessible via a separate client, which is available through a separate download.
+**Sakray** is what official [Ragnarok Online](Ragnarok_Online) test servers are usually referred to. They are used to test new content and features, before they get installed on the normal servers. When the name "Sakray" is used alone, it typically refers to the kRO Sakray server. Sakray servers are always accessible via a separate client, which is available through a separate download.
 
 History
 -------
@@ -17,6 +17,6 @@ The intention for renewing Ragnarok Online, was partially the decreasing interes
 Usage
 -----
 
-[Hexed](/Hexing "wikilink") kRO Sakray clients are the most used clients with [rAthena](/rAthena "wikilink"), although a few people prefer using kRO (live server) clients or clients from different service providers.
+[Hexed](Hexing) kRO Sakray clients are the most used clients with [rAthena](/rAthena "wikilink"), although a few people prefer using kRO (live server) clients or clients from different service providers.
 
-[Category:Basics](/Category:Basics "wikilink")
+[Category:Basics](Category:Basics)

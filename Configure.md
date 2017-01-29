@@ -5,16 +5,16 @@ permalink: /Configure/
 
 Using **configure** script is a method to generate makefiles before compilation in Unix systems.
 
-When installing rAthena, configure script should be run after [SVN Checkout](/SVN_Checkout "wikilink"), and before compiling.
+When installing rAthena, configure script should be run after [SVN Checkout](SVN_Checkout), and before compiling.
 
 Basic usage
 -----------
 
 <onlyinclude><includeonly>
 
-> *Main article: [Configure](/Configure "wikilink").*
+> *Main article: [Configure](Configure).*
 
-</includeonly> To avoid errors in server-client communication, [`PACKETVER`](/PACKETVER "wikilink") must be set to date the client you're going to use has been released at (in YYYYMMDD format), eg `20100730` for 2010-07-30aRagexeRE. Instead of editing [mmo.h](/mmo.h "wikilink") directly, `PACKETVER` can be set to desired date with configure switch `--enable-packetver=YYYYMMDD`.
+</includeonly> To avoid errors in server-client communication, [`PACKETVER`](PACKETVER) must be set to date the client you're going to use has been released at (in YYYYMMDD format), eg `20100730` for 2010-07-30aRagexeRE. Instead of editing [mmo.h](/mmo.h "wikilink") directly, `PACKETVER` can be set to desired date with configure switch `--enable-packetver=YYYYMMDD`.
 
 Run following command, replacing *YYYYMMDD* with your client release date, eg *20100730*.
 
@@ -101,4 +101,4 @@ It is possible to compile rAthena in debug mode with `--enable-debug` switch.
 
 If you are using a 64-bit OS you have to use `--enable-64bit` switch.
 
-[Category:Installation](/Category:Installation "wikilink")
+[Category:Installation](Category:Installation)

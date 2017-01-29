@@ -1,4 +1,4 @@
-This article covers taking the configuration steps to ensure a successful connection to your servers. You are required to know the in and outs of your OS, as well as what a [LAN IP](/wikipedia:Local_area_network "wikilink") and a [WAN IP](/wikipedia:Wide_area_network "wikilink") are.
+This article covers taking the configuration steps to ensure a successful connection to your servers. You are required to know the in and outs of your OS, as well as what a [LAN IP](wikipedia:Local_area_network) and a [WAN IP](/wikipedia:Wide_area_network "wikilink") are.
 
 Basics of the three servers
 ---------------------------
@@ -20,7 +20,7 @@ If the character server becomes disconnected from your map server, it's likely t
 Configuring rAthena for use
 ---------------------------
 
-After you have finished [compiling](/compiling "wikilink") rAthena, you can set it up for use. There will be four files that we will concentrate on. Any settings we change in these files should **always** be moved to the relevant import folder files. If your compiler hasn't already made a copy of the folder and named it /trunk/conf/import do that now.
+After you have finished [compiling](compiling) rAthena, you can set it up for use. There will be four files that we will concentrate on. Any settings we change in these files should **always** be moved to the relevant import folder files. If your compiler hasn't already made a copy of the folder and named it /trunk/conf/import do that now.
 
 ##### Using the /conf/import/ folder ()
 
@@ -108,7 +108,7 @@ When setting server_name, be sure to not use spaces as it says. <code>
 
 </code>
 
-Usually, rAthena will auto-detect your external and internal IP if the IP fields are [commented out](/comments "wikilink"), but let's go ahead and remove the two slashes (//) from login_ip and char_ip.
+Usually, rAthena will auto-detect your external and internal IP if the IP fields are [commented out](comments), but let's go ahead and remove the two slashes (//) from login_ip and char_ip.
 
 The login_ip will point to the IP address where the login server will be running. Usually this is the localhost, or 127.0.0.1. If the login-server is to be located on the same network as the char-server (but on a different PC), use the LAN IP of the login server's machine. If you are running a dedicated machine in a datacenter, or you know your IP is not going to change, you can set this to your WAN IP.
 
@@ -184,7 +184,7 @@ About midway down this file, you will find your SQL settings. These will be set 
 If you make any changes in here, copy paste the lines you change into /conf/import/inter_athena.txt and modify them there.
 
 <div>
-**NOTES:** (must [recompile your server](/Installation_on_Windows#Compiling "wikilink") after changing)
+**NOTES:** (must [recompile your server](Installation_on_Windows#Compiling) after changing)
 
 -   \[Hostname\] If you prefer to use name of hostname than the IP and the hostname length is more than 31 characters, you must change the max lenght on <em>trunk/src/login/account_sql.c</em>
         char db_hostname[32];
@@ -215,12 +215,12 @@ Client Side
 
 ### Diff your client
 
-See [Hexing](/Hexing#Creating_custom_RagRE_client_using_a_DIFF_patcher "wikilink").
+See [Hexing](Hexing#Creating_custom_RagRE_client_using_a_DIFF_patcher).
 
 ### Data Folder
 
 1.  Download the most recent data folder [here](http://svn6.assembla.com/svn/ClientSide/).
-2.  Edit your [clientinfo.xml](/Clientinfo "wikilink") as needed.
+2.  Edit your [clientinfo.xml](Clientinfo) as needed.
 
 ### Connect
 
@@ -246,4 +246,4 @@ So if my client was 2011-10-25aRagexeRE it would look like:
 
     #define PACKETVER 20111025
 
-[Category:Configuration](/Category:Configuration "wikilink")
+[Category:Configuration](Category:Configuration)

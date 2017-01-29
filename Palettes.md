@@ -14,15 +14,15 @@ Editing Pallets With Photoshop
 
 Editing pallets with Photoshop is a simple task. Simply load a sprite with a sprite viewer such as SPR Conview or SprTool+4-6 and export a single frame of the sprite as an image and load it with Photoshop. If your doing job sprites use a image from the job class you wish to make your pallet for and the same goes for hairs, head gear and monsters. As each sprite can have it's own pallet.
 
-[Image:SPR Conview.jpg](/Image:SPR_Conview.jpg "wikilink") [Image:sprite.jpg](/Image:sprite.jpg "wikilink")
+[Image:SPR Conview.jpg](Image:SPR_Conview.jpg) [Image:sprite.jpg](/Image:sprite.jpg "wikilink")
 
 Once loaded into Photoshop load the color table via the 'Image &gt; Mode &gt; Color Table' like so:
 
-[Image:load color table.jpg](/Image:load_color_table.jpg "wikilink")
+[Image:load color table.jpg](Image:load_color_table.jpg)
 
 If the color table is grayed out then the image isn't 256 colors and you won't be able to proceed. Once the color table window is up you'll see the range of colors available and used in the original sprite. Edit them is simple, either click a single color box or select a group (Selecting a group allows you to easily create a gradient range of colors by picking a light color and then picking a darker color, remember to click the 'ok' button.) then pick the new color or enter in the color values into any of the color boxes.
 
-[Image:edit color table.jpg](/Image:edit_color_table.jpg "wikilink")
+[Image:edit color table.jpg](Image:edit_color_table.jpg)
 
 Once your new pallet is created simple click the save button in the color table window and save your pallet to a .pal file.
 
@@ -31,7 +31,7 @@ Editing The .Pal File For Use in Ragnarok With Notepad
 
 Ragnarok Online Pallet files are simply normal pallet files (.pal) with the header removed. Simply open the file like so
 
-[Image:notepad1.jpg](/Image:notepad1.jpg "wikilink")
+[Image:notepad1.jpg](Image:notepad1.jpg)
 
 Then selecting whats highlighted in the image and delete it and save. It's that simple.
 
@@ -63,4 +63,4 @@ Technical Support, or FAQs
 -   Q: My palette shows up as black with a bunch of neon lines and crap. Why?
 -   A: This could be a variety of things. The main reason is usually because they are not places in the right spot, and your client just doesn't error for palettes. This is due to the client not finding any pallet files because their either in the wrong place or incorrectly named. Job pallets and hair pallets have their own folders along with a folder for each sex and then the file name is made up of the job name (or hair) sex and then the number pallet. Another reason could be that you didn't convert it to RO format by removing the things pictured above. Make sure you do that.
 
-[Category:Spriting](/Category:Spriting "wikilink")
+[Category:Spriting](Category:Spriting)

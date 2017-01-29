@@ -84,4 +84,4 @@ Conclusion
 
 Following this article, you should be able to customise what information gets passed into variables when a mob event label is called. This may be extremely useful for custom hunting quests and such, if you wish to store more information for rewards and such.
 
-[Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Source Snippets](Category:Source_Snippets)

@@ -8,10 +8,10 @@ What is PCRE
 
 PCRE (Perl Compatible Regular Expressions) is a library that can make you npc trigger with some expresions said by the players. If you say "Hello" you can make the npc say "Hi, how are you?" or something like that. You first need to define the patterns wich will trigger the labels of the npc. Read the documentation of:
 
--   [activatepset](/activatepset "wikilink")
--   [deactivatepset](/deactivatepset "wikilink")
--   [defpattern](/defpattern "wikilink")
--   [deletepset](/deletepset "wikilink")
+-   [activatepset](activatepset)
+-   [deactivatepset](deactivatepset)
+-   [defpattern](defpattern)
+-   [deletepset](deletepset)
 
 or look into npc/custom/eliza.txt to see how it works.
 
@@ -61,4 +61,4 @@ For TxT servers:
 
 It's done, now you recompiled your server with PCRE support enabled!
 
-[Category:Installation](/Category:Installation "wikilink")
+[Category:Installation](Category:Installation)

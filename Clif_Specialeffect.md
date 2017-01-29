@@ -27,4 +27,4 @@ Example
 
 This would show the Endure skill visual effect on given player for everyone in his or her range, except the player him- or herself.
 
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

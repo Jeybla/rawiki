@@ -262,4 +262,4 @@ Some of the info contained in this guide were obtained from the GNU website as t
 
 This guide also conforms with XHTML and WC3 standards.
 
-[Category:Technical Guides](/Category:Technical_Guides "wikilink")
+[Category:Technical Guides](Category:Technical_Guides)

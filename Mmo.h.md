@@ -31,15 +31,15 @@ Max number of characters per account. Note, that changing this setting alone is 
 
 ### GLOBAL_REG_NUM
 
-Max number of permanent [char variables](/Variables#Player_Variables "wikilink").
+Max number of permanent [char variables](Variables#Player_Variables).
 
 ### ACCOUNT_REG_NUM
 
-Max number of permanent [account variables](/Variables#Account_Variables "wikilink").
+Max number of permanent [account variables](Variables#Account_Variables).
 
 ### ACCOUNT_REG_NUM2
 
-Max number of permanent [global account variables](/Variables#Global_Account_Variables "wikilink").
+Max number of permanent [global account variables](Variables#Global_Account_Variables).
 
 ### MAX_REG_NUM
 
@@ -63,15 +63,15 @@ Max number of storage slots a player can have. (up to ~850 tested)
 
 ### MAX_GUILD_STORAGE
 
-Max number of [storage](/storage "wikilink") slots a guild.
+Max number of [storage](storage) slots a guild.
 
 ### MAX_PARTY
 
-Maximum members a [party](/party "wikilink") can hold.
+Maximum members a [party](party) can hold.
 
 ### MAX_GUILD
 
-Maximum members a [guild](/guild "wikilink") can hold. 6 additional members will be added per 1 level of Guild Extension skill.
+Maximum members a [guild](guild) can hold. 6 additional members will be added per 1 level of Guild Extension skill.
 
 ### MAX_GUILDPOSITION
 
@@ -157,4 +157,4 @@ Maximum character length of guild message title.
 
 Maximum character length of guild message body.
 
-[Category:Configuration](/Category:Configuration "wikilink")
+[Category:Configuration](Category:Configuration)

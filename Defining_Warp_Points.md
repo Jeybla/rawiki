@@ -3,7 +3,7 @@ title: Defining Warp Points
 permalink: /Defining_Warp_Points/
 ---
 
-These kind of [scripts](/Scripting "wikilink") are used to show a warp in-game and define where to warp a player.
+These kind of [scripts](Scripting) are used to show a warp in-game and define where to warp a player.
 
 Basic syntax
 ------------
@@ -20,6 +20,6 @@ So here is an example how our warp must look:
 
 `prontera,107,215,0 warp    prt01   2,2,prt_in,240,139`
 
-When we have completed defining our warp, we can add it to a existing warp file (placed in folder) or create a new file. If you choose the last don't forget to [add the new file to script list](/Adding_Script "wikilink")!
+When we have completed defining our warp, we can add it to a existing warp file (placed in folder) or create a new file. If you choose the last don't forget to [add the new file to script list](Adding_Script)!
 
-[Category:Scripting](/Category:Scripting "wikilink")
+[Category:Scripting](Category:Scripting)

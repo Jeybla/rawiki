@@ -47,4 +47,4 @@ Please note, that this only works when **one monster is summoned**. If you wish 
         // Do whatever with .@MobID here.
     }
 
-[Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Source Snippets](Category:Source_Snippets)

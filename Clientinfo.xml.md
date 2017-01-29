@@ -59,7 +59,7 @@ Explanation
 | <passwordencrypt />  | When present, passwords are encrypted (method 1) before being sent to the server. Incompatible with **use_MD5_passwords** defined in .../conf/login_athena.conf.                                                                    |
 | <passwordencrypt2 /> | When present, passwords are encrypted (method 2) before being sent to the server. When you use this with <passwordencrypt />, method 2 will be used. Incompatible with **use_MD5_passwords** defined in .../conf/login_athena.conf. |
 | <extendedslot />     | When present, all character slots (usually 9) are available. Otherwise only 2-4 are enabled for use, others are displayed as 'Not available'.                                                                                          |
-| <readfolder />       | When present, all files are first searched inside the /data/ folder, then inside the [GRF](/GRF "wikilink") archives. Otherwise files inside the /data/ folder are only accessed, when they were not found inside the GRF archives.    |
+| <readfolder />       | When present, all files are first searched inside the /data/ folder, then inside the [GRF](GRF) archives. Otherwise files inside the /data/ folder are only accessed, when they were not found inside the GRF archives.    |
 | <display>            | Displays the name of the server at the Service Select screen.                                                                                                                                                                          |
 | <desc>               | Server description.                                                                                                                                                                                                                    |
 | <balloon>            | This tag tells the game to display a tooltip when the cursor is over the server name on the server select screen.                                                                                                                      |
@@ -72,7 +72,7 @@ Explanation
 | <aid>                | Use instead of <yellow> to also allow the right-click menu for your GMs.                                                                                                                                                               |
 | <loading>            | Define each loading screen in the path .../data/texture/À¯ÀúÀÎÅÍÆäÀÌ½º/ (to use more than 10, client also needs Unlimited Loading Screens hex).                                                                                        |
 
-**Note:** All [XML](/wikipedia:XML "wikilink") rules apply, so <tag /> options can also be written as <tag></tag>.
+**Note:** All [XML](wikipedia:XML) rules apply, so <tag /> options can also be written as <tag></tag>.
 
 `+-----+------------------------+-------------------+`
 `| int | enum SERVICETYPE       | "servicetype" tag |`
@@ -107,4 +107,4 @@ Explanation
 `| 5   | ?                      | pk                |`
 `+-----+------------------------+-------------------+`
 
-[Category:Client Configuration](/Category:Client_Configuration "wikilink")
+[Category:Client Configuration](Category:Client_Configuration)

@@ -6,12 +6,12 @@ permalink: /SQL_Installation/
 Introduction
 ============
 
-This article will guide you through the installation and configuration stages of MySQL for your particular Operating System. What is a MySQL database? [MySQL](/wikipedia:MySQL "wikilink") is a multi-user access database that stores a number of different kinds of information in scaleable tables. In layman's terms, it puts a bunch of stuff in charts for your server to read. rAthena no longer supports text based save files (for Accounts, Characters, etc.) and requires a MySQL database to create these save files.
+This article will guide you through the installation and configuration stages of MySQL for your particular Operating System. What is a MySQL database? [MySQL](wikipedia:MySQL) is a multi-user access database that stores a number of different kinds of information in scaleable tables. In layman's terms, it puts a bunch of stuff in charts for your server to read. rAthena no longer supports text based save files (for Accounts, Characters, etc.) and requires a MySQL database to create these save files.
 
 Windows
 -------
 
-This guide will instruct you on installing MySQL on Windows Vista/7, although it should work relatively the same with Windows XP. This guide also assumes you have already [installed your rAthena server](/Installation_on_Windows "wikilink").
+This guide will instruct you on installing MySQL on Windows Vista/7, although it should work relatively the same with Windows XP. This guide also assumes you have already [installed your rAthena server](Installation_on_Windows).
 **<big>Uninstallation Note</big>**
 Before continuing, it is important to note that if you make an error and decide to start again by uninstalling the MySQL database and software, that you make sure you do a *thorough* uninstallation, and then reboot Windows before trying again. A couple tips to make sure your uninstallation is thorough:
 
@@ -228,4 +228,4 @@ Note: Afterwards issue this command lines, please have your password prepared si
 
       mysql -u root -p ragnarok < mob_skill_db_re.sql
 
-[Category:Installation](/Category:Installation "wikilink")
+[Category:Installation](Category:Installation)

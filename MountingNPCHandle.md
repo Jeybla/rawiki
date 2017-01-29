@@ -12,9 +12,9 @@ This page is a short explanation of the available functions to handle **New Moun
 
 This allows you to check if the player is riding a new mount. Here's an example on how to use **ismounting**:
 
-[`if`](/if "wikilink")`( `**`ismounting`**`() )`
-`   `[`dispbottom`](/dispbottom "wikilink")` "You are riding a new mount!";`
-[`else`](/else "wikilink")
+[`if`](if)`( `**`ismounting`**`() )`
+`   `[`dispbottom`](dispbottom)` "You are riding a new mount!";`
+[`else`](else)
 `   dispbottom "You are not riding a new mount";`
 
 ### setmounting()
@@ -38,11 +38,11 @@ Below is an example with conjunction of **ismounting()**:
 `       mes "You are already mounted a ride.";`
 `   }`
 `}`
-[`close`](/close "wikilink")`;`
+[`close`](close)`;`
 
 Changelog
 ---------
 
 -   [r15009](http://sourceforge.net/apps/trac/rathena/changeset/15009) Added from RREMu.
 
-[Category:Script Command](/Category:Script_Command "wikilink")
+[Category:Script Command](Category:Script_Command)

@@ -11,7 +11,7 @@ When you are writing a new script, or altering a current script, it is very like
 Overview of Variables
 ---------------------
 
-[rAthena](/rAthena "wikilink") uses different kind of variables for different kinds of situations. Variables come in different forms and sizes. Each variable type has a different scope, from temporal player and NPC variables all up to global system variables. Integer values (Integer values are whole numbers, like 0, 1, 2, 1487, -73452) are stored in a different way than String values (String means text or a single letter, like "I love you!" or "x"). Some types of script variables even support a single dimension array. But if this all is too much for you, it will all become clear in time. First, the overview of which variables are allowed and which aren't.
+[rAthena](rAthena) uses different kind of variables for different kinds of situations. Variables come in different forms and sizes. Each variable type has a different scope, from temporal player and NPC variables all up to global system variables. Integer values (Integer values are whole numbers, like 0, 1, 2, 1487, -73452) are stored in a different way than String values (String means text or a single letter, like "I love you!" or "x"). Some types of script variables even support a single dimension array. But if this all is too much for you, it will all become clear in time. First, the overview of which variables are allowed and which aren't.
 
 ### Allowed Variables
 
@@ -71,11 +71,11 @@ Now that we know which variables exist, it is time to elaborate on how you exact
 
 #### Normal Variables
 
-As of the usage of [set](/set "wikilink") has become obsolete and is no longer a requirement.
+As of the usage of [set](set) has become obsolete and is no longer a requirement.
 
 You set a variable by using the command set. The format is:
 
--   [set](/set "wikilink") <variable>,<value>;
+-   [set](set) <variable>,<value>;
 
 or
 
@@ -125,12 +125,12 @@ In Athena, it has a limitation of 128 possible values held by a single array, an
 
 Arrays can be set and unset using the default set. They also come with a special set of commands, to quickly set multiple values, or cleaning them. These are the Array related commands.
 
--   [cleararray](/cleararray "wikilink")
--   [copyarray](/copyarray "wikilink")
--   [deletearray](/deletearray "wikilink")
--   [getarraysize](/getarraysize "wikilink")
--   [getelementofarray](/getelementofarray "wikilink")
--   [setarray](/setarray "wikilink")
+-   [cleararray](cleararray)
+-   [copyarray](copyarray)
+-   [deletearray](deletearray)
+-   [getarraysize](getarraysize)
+-   [getelementofarray](getelementofarray)
+-   [setarray](setarray)
 
 To quickly set multiple values in an array, you need to use setarray. It will look like this:
 
@@ -276,17 +276,17 @@ The prefix of a global variable is $
 Global variables are perfect to enable/disable NPCs on command. For example, if you want to host an event and you made a warper for it, then you want the warper to do nothing, until a GM starts hosting the event. You will also want the NPC to automatically be closed when the server crashes or reboots. This will prevent any players to go to the event before the GM is online. Here is how you could code such a simple warper:
 
 `prontera,147,177,7 script  Event Warper    116,{`
-`   `[`if`](/if "wikilink")` (`[`getgmlevel`](/getgmlevel "wikilink")`() >= 60) `[`goto`](/goto "wikilink")` L_GMMenu; // If the player is a GM, go to the GM Menu.`
+`   `[`if`](if)` (`[`getgmlevel`](/getgmlevel "wikilink")`() >= 60) `[`goto`](/goto "wikilink")` L_GMMenu; // If the player is a GM, go to the GM Menu.`
 `   if (!$@EW_Enable) { // If the event is disabled, tell the player.`
-`       `[`mes`](/mes "wikilink")` "[Event Warper]";`
+`       `[`mes`](mes)` "[Event Warper]";`
 `       mes "Sorry, but the event arena is closed for the moment.";`
-`       `[`close`](/close "wikilink")`;`
+`       `[`close`](close)`;`
 `   }`
-`   `[`mes`](/mes "wikilink")` "[Event Warper]";`
+`   `[`mes`](mes)` "[Event Warper]";`
 `   mes "Do you want to go to the event?";`
-`   `[`next`](/next "wikilink")`;`
-`   `[`if`](/if "wikilink")` (`[`select`](/select "wikilink")`("Yes","No") == 1) {`
-`       `[`warp`](/warp "wikilink")` $@event_map$,$@event_x,$@event_y; // Warp to the map stored in $@event_map$, at the coords $@event_x and $@event_y`
+`   `[`next`](next)`;`
+`   `[`if`](if)` (`[`select`](/select "wikilink")`("Yes","No") == 1) {`
+`       `[`warp`](warp)` $@event_map$,$@event_x,$@event_y; // Warp to the map stored in $@event_map$, at the coords $@event_x and $@event_y`
 `   }`
 `   close;`
 `   `
@@ -294,52 +294,52 @@ Global variables are perfect to enable/disable NPCs on command. For example, if 
 `   mes "[Event Warper]";`
 `   mes "Please choose an option.";`
 `   next;`
-`   `[`switch`](/switch "wikilink")`(`[`select`](/select "wikilink")`("View Settings","Set Destination","Enable Warper","Disable Warper","Leave")) {`
-`   `[`case`](/case "wikilink")` 1: // View Settings`
+`   `[`switch`](switch)`(`[`select`](/select "wikilink")`("View Settings","Set Destination","Enable Warper","Disable Warper","Leave")) {`
+`   `[`case`](case)` 1: // View Settings`
 `       mes "[Event Warper]";`
-`       `[`if`](/if "wikilink")` ($@EW_Enable) mes "I am currently enabled.";`
-`       `[`else`](/else "wikilink")` mes "I am currently disabled.";`
+`       `[`if`](if)` ($@EW_Enable) mes "I am currently enabled.";`
+`       `[`else`](else)` mes "I am currently disabled.";`
 `       mes "The current destination is: "+$@event_map$+" at "+$@event_x+", "+$@event_y+".";`
-`       `[`break`](/break "wikilink")`;`
-`   `[`case`](/case "wikilink")` 2: // Set Destination`
+`       `[`break`](break)`;`
+`   `[`case`](case)` 2: // Set Destination`
 `       mes "[Event Warper]";`
 `       mes "Please enter the destination map.";`
 `       next;`
-`       `[`input`](/input "wikilink")` $@event_map$; // Setting the event map in $@event_map$`
+`       `[`input`](input)` $@event_map$; // Setting the event map in $@event_map$`
 `       mes "[Event Warper]";`
 `       mes "Please enter the x coordinate.";`
 `       next;`
-`       `[`input`](/input "wikilink")` $@event_x; // Setting the x coordinate in $@event_x`
+`       `[`input`](input)` $@event_x; // Setting the x coordinate in $@event_x`
 `       mes "[Event Warper]";`
 `       mes "Please enter the y coordinate.";`
 `       next;`
-`       `[`input`](/input "wikilink")` $@event_y; // Setting the y coordinate in $@event_y`
+`       `[`input`](input)` $@event_y; // Setting the y coordinate in $@event_y`
 `       mes "[Event Warper]";`
 `       mes "Destination set.";`
-`       `[`break`](/break "wikilink")`;`
-`   `[`case`](/case "wikilink")` 3: // Enable Warper`
+`       `[`break`](break)`;`
+`   `[`case`](case)` 3: // Enable Warper`
 `       mes "[Event Warper]";`
 `       if ($@EW_Enable) {`
 `           mes "I am already enabled.";`
 `       } else {`
-`           `[`set`](/set "wikilink")` $@EW_Enable, 1; // Setting $@EW_Enable to 1, to enable the NPC.`
+`           `[`set`](set)` $@EW_Enable, 1; // Setting $@EW_Enable to 1, to enable the NPC.`
 `           mes "It has been done.";`
 `       }`
-`       `[`break`](/break "wikilink")`;`
-`   `[`case`](/case "wikilink")` 4: // Disable Warper`
+`       `[`break`](break)`;`
+`   `[`case`](case)` 4: // Disable Warper`
 `       mes "[Event Warper]";`
-`       `[`if`](/if "wikilink")` (!$@EW_Enable) {`
+`       `[`if`](if)` (!$@EW_Enable) {`
 `           mes "I am already disabled.";`
-`       } `[`else`](/else "wikilink")` {`
-`           `[`set`](/set "wikilink")` $@EW_Enable, 0; // Setting $@EW_Enable to 0, to disable the NPC.`
+`       } `[`else`](else)` {`
+`           `[`set`](set)` $@EW_Enable, 0; // Setting $@EW_Enable to 0, to disable the NPC.`
 `           mes "It has been done.";`
 `       }`
-`       `[`break`](/break "wikilink")`;`
-`   `[`case`](/case "wikilink")` 5: // Leave`
-`       `[`close`](/close "wikilink")`;`
+`       `[`break`](break)`;`
+`   `[`case`](case)` 5: // Leave`
+`       `[`close`](close)`;`
 `   }`
-`   `[`next`](/next "wikilink")`;`
-`   `[`goto`](/goto "wikilink")` L_GMMenu;`
+`   `[`next`](next)`;`
+`   `[`goto`](goto)` L_GMMenu;`
 `}`
 
 If you want a warper that is enabled for several days, like a special event that is always open in this period, then you should use permanent global variables. This will allow the NPC to be active even after a server crash, so that the people can access the special map right away, without having to wait for a GM to come online. So, instead of $@EW_Enable, you should use $EW_Enable. And the map, x and y variables should become $event_map$, $event_x and $event_y.
@@ -361,29 +361,29 @@ The prefix of a global account variable is \#\#
 Global account variables are useful when you use a voting NPC. If you want it so that each account can only vote once, and you have multiple mapservers, then you want all the other mapservers to know if an account has already voted or not. This will prevent a certain account to vote more than once. The script below is an example of such a voting NPC.
 
 `prontera,147,177,7 script  Poll    116,{`
-`   `[`if`](/if "wikilink")` (##AlreadyVoted) { // Account has already voted on a mapserver.`
-`       `[`mes`](/mes "wikilink")` "These are the current results:";`
+`   `[`if`](if)` (##AlreadyVoted) { // Account has already voted on a mapserver.`
+`       `[`mes`](mes)` "These are the current results:";`
 `       mes "Yes : "+$Poll_Yes+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_Yes * 100)/($Poll_Yes + $Poll_No)) +"%).";`
 `       mes "Yes : "+$Poll_No+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_No * 100)/($Poll_Yes + $Poll_No)) +"%).";`
-`       `[`close`](/close "wikilink")`;`
+`       `[`close`](close)`;`
 `   }`
 `   mes "Poll of today:";`
 `   mes "Do you like this server?";`
-`   `[`next`](/next "wikilink")`;`
-`   `[`switch`](/switch "wikilink")`(`[`select`](/select "wikilink")`("Yes","No")) {`
-`   `[`case`](/case "wikilink")` 1: // Voted Yes.`
-`       `[`set`](/set "wikilink")` $Poll_Yes, $Poll_Yes + 1;`
-`       `[`break`](/break "wikilink")`;`
-`   `[`case`](/case "wikilink")` 2: // Voted No.`
-`       `[`set`](/set "wikilink")` $Poll_No, $Poll_No + 1;`
-`       `[`break`](/break "wikilink")`;`
+`   `[`next`](next)`;`
+`   `[`switch`](switch)`(`[`select`](/select "wikilink")`("Yes","No")) {`
+`   `[`case`](case)` 1: // Voted Yes.`
+`       `[`set`](set)` $Poll_Yes, $Poll_Yes + 1;`
+`       `[`break`](break)`;`
+`   `[`case`](case)` 2: // Voted No.`
+`       `[`set`](set)` $Poll_No, $Poll_No + 1;`
+`       `[`break`](break)`;`
 `   }`
-`   `[`set`](/set "wikilink")` ##AlreadyVoted, 1; // Player has already voted. Setting global account variable ##AlreadyVoted to 1.`
+`   `[`set`](set)` ##AlreadyVoted, 1; // Player has already voted. Setting global account variable ##AlreadyVoted to 1.`
 `   mes "Thank you for your vote.";`
 `   mes "These are the current results:";`
 `   mes "Yes : "+$Poll_Yes+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_Yes * 100)/($Poll_Yes + $Poll_No)) +"%).";`
 `   mes "Yes : "+$Poll_No+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_No * 100)/($Poll_Yes + $Poll_No)) +"%).";`
-`   `[`close`](/close "wikilink")`;`
+`   `[`close`](close)`;`
 `}`
 
 ### Account Variables
@@ -403,29 +403,29 @@ The prefix of an account variable is \#
 The account variable is, just like the global account variable, very suited for a voting NPC. Especially when you only have one mapserver tied to your login server. Because this setup is very common, the normal account variable is often used. Also, even if you have multiple mapservers, then you might want to allow players to do the same quest on each mapserver, so that they can have the reward(s) on all the mapservers. To keep it easy, here is the voting NPC again, only with normal account variables.
 
 `prontera,147,177,7 script  Poll    116,{`
-`   `[`if`](/if "wikilink")` (#AlreadyVoted) { // Account has already voted on a mapserver.`
-`       `[`mes`](/mes "wikilink")` "These are the current results:";`
+`   `[`if`](if)` (#AlreadyVoted) { // Account has already voted on a mapserver.`
+`       `[`mes`](mes)` "These are the current results:";`
 `       mes "Yes : "+$Poll_Yes+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_Yes * 100)/($Poll_Yes + $Poll_No)) +"%).";`
 `       mes "Yes : "+$Poll_No+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_No * 100)/($Poll_Yes + $Poll_No)) +"%).";`
-`       `[`close`](/close "wikilink")`;`
+`       `[`close`](close)`;`
 `   }`
 `   mes "Poll of today:";`
 `   mes "Do you like this server?";`
-`   `[`next`](/next "wikilink")`;`
-`   `[`switch`](/switch "wikilink")`(`[`select`](/select "wikilink")`("Yes","No")) {`
-`   `[`case`](/case "wikilink")` 1: // Voted Yes.`
-`       `[`set`](/set "wikilink")` $Poll_Yes, $Poll_Yes + 1;`
-`       `[`break`](/break "wikilink")`;`
-`   `[`case`](/case "wikilink")` 2: // Voted No.`
-`       `[`set`](/set "wikilink")` $Poll_No, $Poll_No + 1;`
-`       `[`break`](/break "wikilink")`;`
+`   `[`next`](next)`;`
+`   `[`switch`](switch)`(`[`select`](/select "wikilink")`("Yes","No")) {`
+`   `[`case`](case)` 1: // Voted Yes.`
+`       `[`set`](set)` $Poll_Yes, $Poll_Yes + 1;`
+`       `[`break`](break)`;`
+`   `[`case`](case)` 2: // Voted No.`
+`       `[`set`](set)` $Poll_No, $Poll_No + 1;`
+`       `[`break`](break)`;`
 `   }`
 `   set #AlreadyVoted, 1; // Player has already voted. Setting account variable #AlreadyVoted to 1.`
 `   mes "Thank you for your vote.";`
 `   mes "These are the current results:";`
 `   mes "Yes : "+$Poll_Yes+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_Yes * 100)/($Poll_Yes + $Poll_No)) +"%).";`
 `   mes "Yes : "+$Poll_No+"/"+ ($Poll_Yes + $Poll_No) +" votes ("+ (($Poll_No * 100)/($Poll_Yes + $Poll_No)) +"%).";`
-`   `[`close`](/close "wikilink")`;`
+`   `[`close`](close)`;`
 `}`
 
 ### Player Variables
@@ -445,62 +445,62 @@ Player variables have no prefix
 A simple example of the usage of a permanent player variable, is a one time freebee giver. After the freebee has been given, the variable is set and when the player talks to the NPC again, it will check for this and denies access.
 
 `prontera,147,177,7 script  Freebee Giver   116,{`
-`   `[`if`](/if "wikilink")` (GotFreebee) { // If the permanent player variable GotFreebee is not 0, then do what is inside the { }.`
-`       `[`mes`](/mes "wikilink")` "You have already gotten the freebee.";`
-`   } `[`else`](/else "wikilink")` {`
-`       `[`mes`](/mes "wikilink")` "Welcome to hour server.";`
-`       `[`mes`](/mes "wikilink")` "To show our gratitude, here is a one time free item.";`
-`       `[`next`](/next "wikilink")`;`
-`       `[`getitem`](/getitem "wikilink")` 999,1;`
-`       `[`set`](/set "wikilink")` GotFreebee, 1; // Item given, sets permanent player variable GotFreebee to 1.`
-`       `[`mes`](/mes "wikilink")` "Have fun.";`
+`   `[`if`](if)` (GotFreebee) { // If the permanent player variable GotFreebee is not 0, then do what is inside the { }.`
+`       `[`mes`](mes)` "You have already gotten the freebee.";`
+`   } `[`else`](else)` {`
+`       `[`mes`](mes)` "Welcome to hour server.";`
+`       `[`mes`](mes)` "To show our gratitude, here is a one time free item.";`
+`       `[`next`](next)`;`
+`       `[`getitem`](getitem)` 999,1;`
+`       `[`set`](set)` GotFreebee, 1; // Item given, sets permanent player variable GotFreebee to 1.`
+`       `[`mes`](mes)` "Have fun.";`
 `   }`
-`   `[`close`](/close "wikilink")`;`
+`   `[`close`](close)`;`
 `}`
 
 An example of using a temporal variable, is an interactive NPC system, responding to a random mood of a player. It can look like this:
 
 `-  script  mood    -1,{`
 `OnPCLoginEvent:`
-`   `[`set`](/set "wikilink")` @mood, `[`rand`](/rand "wikilink")`(3); // 0 == happy, 1 == sad, 2 == grumpy, 3 == in love.`
-`   `[`setarray`](/setarray "wikilink")` @moodtxt$[0], "happy", "sad", "grumpy", "in love";`
-`   `[`dispbottom`](/dispbottom "wikilink")` "You feel "+@moodtxt$[@mood]+" today.";`
-`   `[`end`](/end "wikilink")`;`
+`   `[`set`](set)` @mood, `[`rand`](/rand "wikilink")`(3); // 0 == happy, 1 == sad, 2 == grumpy, 3 == in love.`
+`   `[`setarray`](setarray)` @moodtxt$[0], "happy", "sad", "grumpy", "in love";`
+`   `[`dispbottom`](dispbottom)` "You feel "+@moodtxt$[@mood]+" today.";`
+`   `[`end`](end)`;`
 `}`
 `prontera,147,177,7 script  Random Person   116,{`
-`   `[`switch`](/switch "wikilink")`(@mood) { // Determine the setting of @mood.`
-`   `[`case`](/case "wikilink")` 0: // happy`
-`       `[`mes`](/mes "wikilink")` "Oh my, we are cheerful today, aren't we!";`
+`   `[`switch`](switch)`(@mood) { // Determine the setting of @mood.`
+`   `[`case`](case)` 0: // happy`
+`       `[`mes`](mes)` "Oh my, we are cheerful today, aren't we!";`
 `       break;`
 `   case 1: // sad`
 `       mes "Why are you so sad?";`
 `       mes "Here, this might cheer you up.";`
-`       `[`close2`](/close2 "wikilink")`;`
-`       `[`percentheal`](/percentheal "wikilink")` 100,100;`
-`       `[`break`](/break "wikilink")`;`
+`       `[`close2`](close2)`;`
+`       `[`percentheal`](percentheal)` 100,100;`
+`       `[`break`](break)`;`
 `   case 2: // grumpy`
 `       mes "Come on, cheer up. It's a nice day today.";`
-`       `[`break`](/break "wikilink")`;`
+`       `[`break`](break)`;`
 `   case 3: // in love`
 `       mes "Wow, did you find that one person? Cool!";`
-`       `[`break`](/break "wikilink")`;`
+`       `[`break`](break)`;`
 `   }`
-`   `[`close`](/close "wikilink")`;`
+`   `[`close`](close)`;`
 `}`
 `prontera,147,175,7 script  Grumpy Person   116,{`
-`   `[`if`](/if "wikilink")` (@mood != 2) { // Only wants to talk to another grumpy person.`
-`       `[`mes`](/mes "wikilink")` "Go away!";`
-`       `[`close`](/close "wikilink")`;`
+`   `[`if`](if)` (@mood != 2) { // Only wants to talk to another grumpy person.`
+`       `[`mes`](mes)` "Go away!";`
+`       `[`close`](close)`;`
 `   }`
-`   `[`mes`](/mes "wikilink")` "What are you doing here?";`
-`   `[`next`](/next "wikilink")`;`
-`   `[`mes`](/mes "wikilink")` `[`strcharinfo`](/strcharinfo "wikilink")`(0);`
+`   `[`mes`](mes)` "What are you doing here?";`
+`   `[`next`](next)`;`
+`   `[`mes`](mes)` `[`strcharinfo`](/strcharinfo "wikilink")`(0);`
 `   mes "Go away!";`
 `   next;`
 `   mes "No, you go away!";`
 `   next;`
 `   // ... (rest of NPC)`
-`   `[`close`](/close "wikilink")
+`   `[`close`](close)
 `}`
 
 ### NPC Variables
@@ -518,13 +518,13 @@ The prefix for a NPC variable is .
 Temporal NPC variables are widely used to temporary save a value. This can make customizing your script easier. For example, you can store the NPC name in a temporal NPC variable, like shown in the script beneath:
 
 `prontera,147,177,7 script  Random Person   116,{`
-`   `[`set`](/set "wikilink")` .@name$, "^FF0000"; // Setting the color, red in this case.`
+`   `[`set`](set)` .@name$, "^FF0000"; // Setting the color, red in this case.`
 `   set .@name$, .@name$ + "Sir Eduard"; // Setting the name of the NPC`
 `   set .@name$, "["+.@name$+"^000000]"; // Finalizing the name. It will now show: "[Sir Eduard]", where Sir Eduard is written in red.`
-`   `[`mes`](/mes "wikilink")` .@name$; // Display Name`
+`   `[`mes`](mes)` .@name$; // Display Name`
 `   mes "Hello there.";`
 `   mes "Welcome to our server.";`
-`   `[`next`](/next "wikilink")`;`
+`   `[`next`](next)`;`
 `   mes .@name$; // Display Name`
 `   mes "I hope you will enjoy your stay here.";`
 `   mes "We have a lovely fountain at the center, as well as some beautiful kafra spread out through the town.";`
@@ -532,7 +532,7 @@ Temporal NPC variables are widely used to temporary save a value. This can make 
 `   mes .@name$; // Display Name`
 `   mes "So, feel free to look around.";`
 `   mes "And have a nice day.";`
-`   `[`close`](/close "wikilink")`;`
+`   `[`close`](close)`;`
 `}`
 
 All you have to do now to change the name being displayed is changing "Sir Eduard" into something else. In larger scripts, this means that you do not have to edit the name at 100+ places. The same applies for the color, which can be changed in the first line.
@@ -540,19 +540,19 @@ All you have to do now to change the name being displayed is changing "Sir Eduar
 A short example of a permanent variable might be this 'logging' NPC:
 
 `prontera,147,177,7 script  Random Person   116,{`
-`   `[`mes`](/mes "wikilink")` "Hello!";`
+`   `[`mes`](mes)` "Hello!";`
 `   mes "Do you have any gossip?";`
-`   `[`next`](/next "wikilink")`;`
-`   `[`if`](/if "wikilink")` (.LastPerson$ != "") { // If there is a name stored, do what is inside the { }`
-`       `[`mes`](/mes "wikilink")` .LastPerson$ + " had some really nice gossip.";`
-`       `[`next`](/next "wikilink")`;`
+`   `[`next`](next)`;`
+`   `[`if`](if)` (.LastPerson$ != "") { // If there is a name stored, do what is inside the { }`
+`       `[`mes`](mes)` .LastPerson$ + " had some really nice gossip.";`
+`       `[`next`](next)`;`
 `   }`
-`   `[`set`](/set "wikilink")` .LastPerson$, `[`strcharinfo`](/strcharinfo "wikilink")`(0); // Set the current player's name as the last player's name.`
-`   `[`mes`](/mes "wikilink")` "Aha, I see.";`
+`   `[`set`](set)` .LastPerson$, `[`strcharinfo`](/strcharinfo "wikilink")`(0); // Set the current player's name as the last player's name.`
+`   `[`mes`](mes)` "Aha, I see.";`
 `   mes "Thank you for this new info.";`
 `   mes "I should tell it to my friends right away.";`
 `   mes "Good bye.";`
-`   `[`close`](/close "wikilink")`;`
+`   `[`close`](close)`;`
 `}`
 
 Special Commands
@@ -562,7 +562,7 @@ Special Commands
 
 Input is the most basic command to get a player to input a value and store it in a variable. Input itself has some safeguards placed inside that prevent entering faulty data. The format for input is:
 
--   [input](/input "wikilink") <variable>;
+-   [input](input) <variable>;
 
 Despite it seems that you can enter anything in the input box as a player, this is not the case. Let's review the following two cases:
 
@@ -575,8 +575,8 @@ The first one allows you to enter a string. A person can still input a number, b
 
 Getd and Setd are a couple of special commands. They allow the use of dynamically named variables, as well as a way to cheat and make multi-dimensional variables. Their format is like this:
 
--   [getd](/getd "wikilink") "Variable Name";
--   [setd](/setd "wikilink") "variable name",<value>;
+-   [getd](getd) "Variable Name";
+-   [setd](setd) "variable name",<value>;
 
 The most common use of getd and setd is in combination with global variables. This is because you have an infinite amount of global variables, whereas account and player variables are limited in their number. Also, global variables can survive a restart of the server of course. Let's just use some examples to make it clear what their power is.
 
@@ -584,12 +584,12 @@ The most common use of getd and setd is in combination with global variables. Th
 
 Guild Variables do not exist, and since an array is limited upto 128 elements, it is not adviced to use that for storage. Yet it can be needed to store guild variables, when you want to do a ranking of some sort. The following example is a snippet from gldfunc_ev_agit.txt, and stores the amount of times a guild has captured a castle.
 
-[`set`](/set "wikilink")` .@NameOfGuildVar$, "$CastCapt"+`[`getcharid`](/getcharid "wikilink")`(2); `
+[`set`](set)` .@NameOfGuildVar$, "$CastCapt"+`[`getcharid`](/getcharid "wikilink")`(2); `
 `// If your guild ID would be 204, the contents of `
 `// .@NameOfGuildVar$ would be: "$CastCapt204"`
-[`set`](/set "wikilink")` .@Score, `[`getd`](/getd "wikilink")`(.@NameOfGuildVar$); // Retreive the current score.`
-[`set`](/set "wikilink")` .@Score, .@Score + 1; // Add one to it.`
-[`setd`](/setd "wikilink")` .@NameOfGuildVar$, .@Score; // Put in the new score.`
+[`set`](set)` .@Score, `[`getd`](/getd "wikilink")`(.@NameOfGuildVar$); // Retreive the current score.`
+[`set`](set)` .@Score, .@Score + 1; // Add one to it.`
+[`setd`](setd)` .@NameOfGuildVar$, .@Score; // Put in the new score.`
 
 Of course, the same can be done to simulate Party Variables, which also officially do not exist.
 
@@ -598,17 +598,17 @@ Of course, the same can be done to simulate Party Variables, which also official
 Now, let's say you know your stuff, and really are used to using arrays. Then you might want to consider simulating multi-dimensional arrays. This snippet will use the for command. If you do not know how to use it, it is best to skip this example.
 
 `// Example of iterating the 3-dimensional array $@array[100,100,100].`
-[`for`](/for "wikilink")`(`[`set`](/set "wikilink")` .@i, 0; .@i < 100; `[`set`](/set "wikilink")` .@i, .@i + 1) {`
-`   `[`for`](/for "wikilink")`(set .@j, 0; .@j < 100; set .@j, .@j + 1) {`
-`       `[`for`](/for "wikilink")`(set .@k, 0; .@k < 100; set .@k, .@k + 1) {`
-`           `[`set`](/set "wikilink")` .@varname$, "$@array"+.@i+"_"+.@j+"["+.@k+"]"; `
+[`for`](for)`(`[`set`](/set "wikilink")` .@i, 0; .@i < 100; `[`set`](/set "wikilink")` .@i, .@i + 1) {`
+`   `[`for`](for)`(set .@j, 0; .@j < 100; set .@j, .@j + 1) {`
+`       `[`for`](for)`(set .@k, 0; .@k < 100; set .@k, .@k + 1) {`
+`           `[`set`](set)` .@varname$, "$@array"+.@i+"_"+.@j+"["+.@k+"]"; `
 `           // Let's say .@i is 50, .@j is 22 and .@k is 95. Then this will be in .@varname$:`
 `           // $@array50_22[95]`
-`           `[`if`](/if "wikilink")`(`[`getd`](/getd "wikilink")`(.@varname$) == 5) `[`set`](/set "wikilink")` .@FivesFound, .@FivesFound + 1;`
+`           `[`if`](if)`(`[`getd`](/getd "wikilink")`(.@varname$) == 5) `[`set`](/set "wikilink")` .@FivesFound, .@FivesFound + 1;`
 `       }`
 `   }`
 `}`
-[`announce`](/announce "wikilink")` "I have found "+.@FivesFound+" occurances of 5 in your multidimensional array.",bc_all;`
+[`announce`](announce)` "I have found "+.@FivesFound+" occurances of 5 in your multidimensional array.",bc_all;`
 
 Of course, getd and setd can also be used to overcome the 128 element limit of an array, like the guild variable example already demonstrated.
 
@@ -616,7 +616,7 @@ Of course, getd and setd can also be used to overcome the 128 element limit of a
 
 Getvariableofnpc is a method to get the value of a permanent NPC variable of another NPC. The official format is like this:
 
--   [getvariableofnpc](/getvariableofnpc "wikilink") <Variable Name>,"NPC Name";
+-   [getvariableofnpc](getvariableofnpc) <Variable Name>,"NPC Name";
 
 It's uses can vary, but from what I've seen until now is that it is mainly used to sync several NPCs or to make checks in a global temporal unlocking quest. To sync a variable NPC with the value of a variable of another NPC, you could use this line:
 
@@ -627,37 +627,37 @@ It's uses can vary, but from what I've seen until now is that it is mainly used 
 A global temporal unlocking quest can be like this:
 
 `prontera,147,177,7 script  PvP Warper  116,{`
-`   `[`if`](/if "wikilink")`(`[`getvariableofnpc`](/getvariableofnpc "wikilink")`(.unlocked,"PvP Unlocker")) {`
-`       `[`mes`](/mes "wikilink")` "Want to go to the PvP room?";`
-`       `[`next`](/next "wikilink")`;`
-`       `[`if`](/if "wikilink")`(`[`select`](/select "wikilink")`("Yes","No") == 2) {`
+`   `[`if`](if)`(`[`getvariableofnpc`](/getvariableofnpc "wikilink")`(.unlocked,"PvP Unlocker")) {`
+`       `[`mes`](mes)` "Want to go to the PvP room?";`
+`       `[`next`](next)`;`
+`       `[`if`](if)`(`[`select`](/select "wikilink")`("Yes","No") == 2) {`
 `           mes "Ok, guess not.";`
 `           mes "Good bye.";`
-`           `[`close`](/close "wikilink")`;`
+`           `[`close`](close)`;`
 `       }`
-`       `[`close2`](/close2 "wikilink")`;`
-`       `[`warp`](/warp "wikilink")` "pvp_n_1-1",0,0;`
-`       `[`end`](/end "wikilink")`;`
+`       `[`close2`](close2)`;`
+`       `[`warp`](warp)` "pvp_n_1-1",0,0;`
+`       `[`end`](end)`;`
 `   }`
-`   `[`mes`](/mes "wikilink")` "No one has opened the PvP room yet.";`
+`   `[`mes`](mes)` "No one has opened the PvP room yet.";`
 `   mes "At least one person needs to visit the ^FF0000PvP Unlocker^000000, and help him to open up PvP.";`
-`   `[`close`](/close "wikilink")`;`
+`   `[`close`](close)`;`
 `}`
 `prontera,147,175,7 script  PvP Unlocker    116,{`
-`   `[`if`](/if "wikilink")`(.unlocked) {`
-`       `[`mes`](/mes "wikilink")` "To enter the PvP room, talk to the ^FF0000PvP Warper^000000.";`
-`       `[`close`](/close "wikilink")`;`
+`   `[`if`](if)`(.unlocked) {`
+`       `[`mes`](mes)` "To enter the PvP room, talk to the ^FF0000PvP Warper^000000.";`
+`       `[`close`](close)`;`
 `   }`
-`   `[`if`](/if "wikilink")`(`[`countitem`](/countitem "wikilink")`(512) < 1) {`
-`       `[`mes`](/mes "wikilink")` "I will not open the PvP room until I get an apple!";`
-`       `[`close`](/close "wikilink")`;`
+`   `[`if`](if)`(`[`countitem`](/countitem "wikilink")`(512) < 1) {`
+`       `[`mes`](mes)` "I will not open the PvP room until I get an apple!";`
+`       `[`close`](close)`;`
 `   }`
-`   `[`delitem`](/delitem "wikilink")` 512, 1;`
-`   `[`mes`](/mes "wikilink")` "Thank you for that juicy apple.";`
+`   `[`delitem`](delitem)` 512, 1;`
+`   `[`mes`](mes)` "Thank you for that juicy apple.";`
 `   mes "I will open the PvP room now.";`
 `   mes "Enjoy.";`
-`   `[`set`](/set "wikilink")` .unlocked, 1;`
-`   `[`close`](/close "wikilink")`;`
+`   `[`set`](set)` .unlocked, 1;`
+`   `[`close`](close)`;`
 `}`
 
 Other Important Info
@@ -708,7 +708,7 @@ Examples include:
 
 These behave almost like variables with side-effect. They are called constants, because they correspond to an constant internal value, which describes their effect. Like-wise the constants, these values are loaded upon start-up of the map-server from . They are defined by lines with the constant name being followed by two numbers, the latter of them being always non-zero.
 
-When used inside scripts, their value is not always constant, but can change depending in context and time. Some of them can be written as well, such as [Zeny](/Zeny#Scripting "wikilink").
+When used inside scripts, their value is not always constant, but can change depending in context and time. Some of them can be written as well, such as [Zeny](Zeny#Scripting).
 
 Examples include:
 
@@ -747,7 +747,7 @@ Variables are restricted in the amounts that they can store, as well as how many
 **Maximum Values**
 \*Integer: Can contain a value from -2147483648 to 2147483647 (Signed integer)
 
--   String: Unlimited, some script commands, such as [npctalk](/npctalk "wikilink"), are not able to deal with very long strings though.
+-   String: Unlimited, some script commands, such as [npctalk](npctalk), are not able to deal with very long strings though.
 -   Array: Can have a maximum of 128 elements (0~127)
 
 **Maximum Different Variables**
@@ -840,4 +840,4 @@ Also a common error with new scripters. Take the following snippet:
 
 A new scripter often types this when he/she wants to put the String "Patrick" inside @name$. However, he/she forgot to put Patrick between a " and a ". So, instead of storing the string "Patrick" inside @name$, the server will look up the value of the variable named Patrick, and stores that value inside @name$. This can result in a 0 being stored or nothing at all in @name$.
 
-[Category:Scripting](/Category:Scripting "wikilink")
+[Category:Scripting](Category:Scripting)

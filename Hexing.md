@@ -3,7 +3,7 @@ title: Hexing
 permalink: /Hexing/
 ---
 
-As **hexing** is considered the process of modifying raw contents of a file on byte-level with a [hex editor](/Hex_Editor "wikilink"), regardless of the actual purpose of the file (text, image or another application). Such modifications may require exact knowledge of the files' format for the modification to succeed, as opposed to a high-level editing application such as an image editor.
+As **hexing** is considered the process of modifying raw contents of a file on byte-level with a [hex editor](Hex_Editor), regardless of the actual purpose of the file (text, image or another application). Such modifications may require exact knowledge of the files' format for the modification to succeed, as opposed to a high-level editing application such as an image editor.
 
 Creating custom RagRE client using a DIFF patcher
 -------------------------------------------------
@@ -37,13 +37,13 @@ Steps:
 3.  After closing the client, load it inside the hex editor.
 4.  When the file loads, it should look something like this:
     <center>
-    [Editing a ragexeRE with HxD](/Image:Hxd-main.png "wikilink")
+    [Editing a ragexeRE with HxD](Image:Hxd-main.png)
 
     </center>
 5.  Press **Ctrl+F** to open the Find window and input the window title. As the window title is usually stored at the beginning of the hexed client, a partial title will do.
 6.  When you find the section, it will look something like this:
     <center>
-    [Current Window Title](/Image:Hxd-custtitle.png "wikilink")
+    [Current Window Title](Image:Hxd-custtitle.png)
 
     </center>
 7.  Now, on the **right** side (ASCII text), start where the current Window Title starts and begin overwriting it with your NEW window title.
@@ -52,7 +52,7 @@ Steps:
 
 #### Custom data.ini
 
-You can rename the [DATA.INI](/DATA.INI "wikilink") file to any name that is 8 characters long (including the extension). Then, just edit your client with a Hex Editor. Find DATA.INI and replace with your new filename.
+You can rename the [DATA.INI](DATA.INI) file to any name that is 8 characters long (including the extension). Then, just edit your client with a Hex Editor. Find DATA.INI and replace with your new filename.
 
 #### Custom Font
 
@@ -60,7 +60,7 @@ You can rename the font to any Windows Font. Just edit your client with a Hex Ed
 
 #### Custom clientinfo.xml
 
-You can rename the [clientinfo.xml](/clientinfo.xml "wikilink") file to any name that is 15 characters long (including the extension). Then, just edit your client with a Hex Editor. Find clientinfo.xml and replace with your new filename. Note, that for newer and non-[sakray](/sakray "wikilink") clients, this file is called clientinfo.xml.
+You can rename the [clientinfo.xml](clientinfo.xml) file to any name that is 15 characters long (including the extension). Then, just edit your client with a Hex Editor. Find clientinfo.xml and replace with your new filename. Note, that for newer and non-[sakray](/sakray "wikilink") clients, this file is called clientinfo.xml.
 
 Find-Replace Hexing
 -------------------
@@ -74,7 +74,7 @@ The character sequences are applied using a hex editor and represented by hexade
 
 ### Application
 
-[thumb|359px|Find and replace dialog in HxD, with a hex code ready.The](/Image:Hxd-findreplace.png "wikilink") first one is copied and pasted into hex editor find/replace window's *find* field, the latter is pasted into the *replace with* field. The search is set to be case-sensitive and then all occurrences are replaced.
+[thumb|359px|Find and replace dialog in HxD, with a hex code ready.The](Image:Hxd-findreplace.png) first one is copied and pasted into hex editor find/replace window's *find* field, the latter is pasted into the *replace with* field. The search is set to be case-sensitive and then all occurrences are replaced.
 
 The author of such **hex** may want to specify the correct amount of hits for verification. If the search does not yield any result, the hex is incompatible. The hex must **never be applied partially**, such as omitting first two bytes, as that can lead to undefined behavior.
 
@@ -164,9 +164,9 @@ All changes in OllyDbg is not affected on our Sakexe until we save these changes
 See Also
 --------
 
--   [Loading Screens](/Loading_Screens "wikilink")
--   [DATA.INI](/DATA.INI "wikilink")
--   [clientinfo.xml](/clientinfo.xml "wikilink")
+-   [Loading Screens](Loading_Screens)
+-   [DATA.INI](DATA.INI)
+-   [clientinfo.xml](clientinfo.xml)
 
 External Links
 --------------
@@ -177,4 +177,4 @@ External Links
 -   [Weetools Repository](http://subversion.assembla.com/svn/weetools/)
 -   [NEMO Patcher](http://rathena.org/board/files/file/3071-nemo/)
 
-[Category:Client Configuration](/Category:Client_Configuration "wikilink")
+[Category:Client Configuration](Category:Client_Configuration)

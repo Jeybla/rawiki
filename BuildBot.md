@@ -3,12 +3,12 @@ title: BuildBot
 permalink: /BuildBot/
 ---
 
-[BuildBot](/BuildBot "wikilink") is a software development [continuous integration](/wikipedia:Continuous_integration "wikilink") tool which automates the [compile](/wikipedia:compiler "wikilink")/test cycle required to validate changes to the project code base. BuildBot is written in [Python](/wikipedia:Python_(programming_language) "wikilink") on top of the [Twisted](/wikipedia:Twisted_(software) "wikilink") libraries.
+[BuildBot](BuildBot) is a software development [continuous integration](/wikipedia:Continuous_integration "wikilink") tool which automates the [compile](/wikipedia:compiler "wikilink")/test cycle required to validate changes to the project code base. BuildBot is written in [Python](/wikipedia:Python_(programming_language) "wikilink") on top of the [Twisted](/wikipedia:Twisted_(software) "wikilink") libraries.
 
 rAthena BuildBot
 ----------------
 
-Developers *should* test their changes before committing. To help double-check each commit and also test compatibility on other operating systems, we have setup a [BuildBot](/wikipedia:BuildBot "wikilink").
+Developers *should* test their changes before committing. To help double-check each commit and also test compatibility on other operating systems, we have setup a [BuildBot](wikipedia:BuildBot).
 
 <http://build.rathena.org/>
 
@@ -38,14 +38,14 @@ One or more buildslaves are connected to the buildmaster in a star topology. Bui
 
 ### Linux
 
--   [CentOS](/wikipedia:CentOS "wikilink") 6.3 (64-bit)
--   [Debian](/wikipedia:Debian "wikilink") Squeeze 6.0
+-   [CentOS](wikipedia:CentOS) 6.3 (64-bit)
+-   [Debian](wikipedia:Debian) Squeeze 6.0
 -   [Ubuntu](/wikipedia:Ubuntu_(operating_system) "wikilink") 10.04
 -   [Ubuntu](/wikipedia:Ubuntu_(operating_system) "wikilink") 12.04 (64-bit)
 
 ### Windows
 
--   [Windows 7](/wikipedia:Windows_7 "wikilink")
+-   [Windows 7](wikipedia:Windows_7)
 
 See Also
 --------
@@ -53,4 +53,4 @@ See Also
 -   [BuildBot home page](http://trac.buildbot.net/)
 -   [How to contribute a buildslave to the rAthena BuildBot](http://rathena.org/board/topic/56220-buildbot-info-and-how-to-help/)
 
-[Category:Debugging](/Category:Debugging "wikilink") [Category:rAthena](/Category:rAthena "wikilink")
+[Category:Debugging](Category:Debugging) [Category:rAthena](/Category:rAthena "wikilink")

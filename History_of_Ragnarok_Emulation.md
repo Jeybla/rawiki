@@ -3,7 +3,7 @@ title: History of Ragnarok Emulation
 permalink: /History_of_Ragnarok_Emulation/
 ---
 
-[<File:1550.gif>](/File:1550.gif "wikilink") A book documenting the history of rAthena. There's a whole chapter dedicated to rAthena Users.
+[<File:1550.gif>](File:1550.gif) A book documenting the history of rAthena. There's a whole chapter dedicated to rAthena Users.
 
 About
 =====
@@ -666,4 +666,4 @@ Credits
 -   [Yommy](http://hercules.ws/board/user/409-yommy/)
 -   [Ziu](http://rathena.org/board/user/256-ziu/)
 
-[Category:rAthena](/Category:rAthena "wikilink")
+[Category:rAthena](Category:rAthena)

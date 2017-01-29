@@ -80,4 +80,4 @@ See Also
 -   [Original guide to Core/Stack dumps](http://www.eathena.ws/board/index.php?showtopic=91817) by ViciousPucca
 -   [Download page for GDB](http://www.gnu.org/software/gdb/download/)
 
-[Category:Debugging](/Category:Debugging "wikilink")
+[Category:Debugging](Category:Debugging)

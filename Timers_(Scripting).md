@@ -3,7 +3,7 @@ title: Timers (Scripting)
 permalink: /Timers_(Scripting)/
 ---
 
-Here I will try to better explain timers. To understand half of what's going on here, I suggest you already know how the basics of [scripting](/scripting "wikilink").
+Here I will try to better explain timers. To understand half of what's going on here, I suggest you already know how the basics of [scripting](scripting).
 
 Many people are confused as to the use of timers, and this guide aims to lend a helping hand. So you might be wondering "What do we use timers for?" Well, my friend, this guide shall explain some of the many uses of timers. "<a>" would mean an actual tab. I am not keeping to my usual neatness or else there would be too many "<TAB>"s. Also, I will explain the usage and format of different kinds of timers in detail.
 
@@ -15,18 +15,18 @@ Here's an example of it in proccess.
 We'll take this apart after we look at it.
 
 `prontera,23,20,2   script  Non-spamming-NPC-Talker 54,{`
-[`OnInit`](/OnInit "wikilink")`:`
-[`startnpctimer`](/startnpctimer "wikilink")`;`
+[`OnInit`](OnInit)`:`
+[`startnpctimer`](startnpctimer)`;`
 `end; `
 ` `
-[`OnTimer`](/OnTimer "wikilink")`1000:`
-[`npctalk`](/npctalk "wikilink")` "Y hallo dar lol.";`
-[`end`](/end "wikilink")`;`
+[`OnTimer`](OnTimer)`1000:`
+[`npctalk`](npctalk)` "Y hallo dar lol.";`
+[`end`](end)`;`
 `OnTimer3000:`
 `npctalk "Lawl I'm not spamming.";`
 `end;`
 `OnTimer4000:`
-[`setnpctimer`](/setnpctimer "wikilink")` 0;`
+[`setnpctimer`](setnpctimer)` 0;`
 `end;`
 `}`
 
@@ -35,15 +35,15 @@ Now, let's take a look at this script.
 Q: What is "OnInit:"?
 A: "OnInit:" is the commands you wish the NPC to execute right after the NPC is loaded.
 
-[`OnInit`](/OnInit "wikilink")`:`
-[`set`](/set "wikilink")` $GlobalVariable,10;`
-[`end`](/end "wikilink")`;`
+[`OnInit`](OnInit)`:`
+[`set`](set)` $GlobalVariable,10;`
+[`end`](end)`;`
 
 Would set the variable (integer) "$GlobalVariable" to 10 when the server starts.
-*also see: [More About Variables](/Variables "wikilink")*
+*also see: [More About Variables](Variables)*
 Let's move on to the next item, shall we?
 
-[`end`](/end "wikilink")`;`
+[`end`](end)`;`
 
 "end;" is always needed to show that a label starting with "On",
 *(and is a valid label that the server sees other functions for than just a custom label)*
@@ -63,7 +63,7 @@ Note: Sometimes this is usefull too...
 Example:
 
 `<...>`
-[`OnClock`](/OnClock "wikilink")`2100:  `
+[`OnClock`](OnClock)`2100:  `
 `OnClock2300:`
 <urscripthere>
 `end;`
@@ -77,14 +77,14 @@ Use Number 2: Delayed Warp
 Delayed warping is a feature you can put in your script to add more drama, or to automatically warp someone from a room when the player has exceeded the allotted time for being there. Here is an example of a delayed warp:
 
 `prontera,23,20,2   script  Bomb Squad  54,{`
-` `[`mes`](/mes "wikilink")` "[Dismantler]";`
+` `[`mes`](mes)` "[Dismantler]";`
 ` mes "Where is the bomb? WHERE IS IT??";`
 ` mes "Please help me find it before it explodes.";`
-` `[`close2`](/close2 "wikilink")`;`
-` `[`addtimer`](/addtimer "wikilink")` 15000, "Bomb Squad::OnWarn";`
+` `[`close2`](close2)`;`
+` `[`addtimer`](addtimer)` 15000, "Bomb Squad::OnWarn";`
 ` addtimer 30000, "Bomb Squad::OnBoom";`
-` `[`dispbottom`](/dispbottom "wikilink")` "Dismantler : The bomb will detonate in 30 seconds!";`
-` `[`end`](/end "wikilink")`;`
+` `[`dispbottom`](dispbottom)` "Dismantler : The bomb will detonate in 30 seconds!";`
+` `[`end`](end)`;`
 `OnWarn:`
 ` dispbottom "Dismantler : OH MY GOD! ONLY 15 SECONDS LEFT - HURRY!!!!";`
 ` end;`
@@ -93,7 +93,7 @@ Delayed warping is a feature you can put in your script to add more drama, or to
 ` dispbottom "....";`
 ` dispbottom "BOOOOOOOM";`
 ` dispbottom "The blast flings you away.";`
-` `[`warp`](/warp "wikilink")` "prontera",0,0;`
+` `[`warp`](warp)` "prontera",0,0;`
 ` end;`
 `}`
 
@@ -101,7 +101,7 @@ First thing that probably comes to your mind is: How can I find the bomb? The an
 
 Now, let's walk over this script in more detail. The start is nothing new, just a simple NPC header with a text box. Then there appears to be a close2;. This is not a typo. Close2; behaves a bit like close;, it displays a close button. However, the script will keep on running in the background, after the close button has been pushed. So, after the player presses the close button, it continues with the next line. For you lazy bums, here is an outtake of the script to prevent your scrolling finger from getting tired.
 
-[`addtimer`](/addtimer "wikilink")` 15000, "Bomb Squad::OnWarn";`
+[`addtimer`](addtimer)` 15000, "Bomb Squad::OnWarn";`
 `addtimer 30000, "Bomb Squad::OnBoom";`
 `dispbottom "Dismantler : The bomb will detonate in 30 seconds!";`
 `end;`
@@ -152,8 +152,8 @@ Let's start with another example:
 `    next;`
 `    mes "[Healer]";`
 `    mes "Do you want me to heal you?";`
-`    `[`next`](/next "wikilink")`;`
-`    `[`if`](/if "wikilink")`(`[`select`](/select "wikilink")`("Yes","No") == 2) {`
+`    `[`next`](next)`;`
+`    `[`if`](if)`(`[`select`](/select "wikilink")`("Yes","No") == 2) {`
 `         mes "[Healer]";`
 `         mes "Ok, good bye then.";`
 `         close;`
@@ -167,7 +167,7 @@ Let's start with another example:
 `    mes "[Healer]";`
 `    mes "Ok, here goes!";`
 `    close2;`
-`    `[`percentheal`](/percentheal "wikilink")` 100,100;`
+`    `[`percentheal`](percentheal)` 100,100;`
 `    set TimeHealed, gettimetick(2) + 86400; // 86400 is one day in seconds.`
 `    dispbottom "Healer : Please give me at least a day to recover.";`
 `    end;`
@@ -179,7 +179,7 @@ Ok, at a first glance, this is a normal healer NPC that fully heals your HP and 
 
 `    close2;`
 `    precentheal 100,100;`
-`    set TimeHealed, `[`gettimetick`](/gettimetick "wikilink")`(2) + 86400; // 86400 is one day in seconds.`
+`    set TimeHealed, `[`gettimetick`](gettimetick)`(2) + 86400; // 86400 is one day in seconds.`
 `    dispbottom "Healer : Please give me at least a day to recover.";`
 `    end;`
 
@@ -212,10 +212,10 @@ Difference between Timers
 
 First, let's give an overview of the different kinds of timers or time triggered labels.
 
--   [NPC Timers](/#NPC_Timers "wikilink")
--   [Player Timers](/#Player_Timers "wikilink")
--   [Label Timers](/#Label_Timers "wikilink")
--   [Other Timers](/#Other_Timers "wikilink")
+-   [NPC Timers](#NPC_Timers)
+-   [Player Timers](#Player_Timers)
+-   [Label Timers](#Label_Timers)
+-   [Other Timers](#Other_Timers)
 
 NPC Timers
 ----------
@@ -312,14 +312,14 @@ Other Timers
 
 These timers are actually nowhere related to timers. To be exact, they are event triggered labels, but let's go over them anyway, because they are useful. The timers I'm referring to are the following:
 
--   [OnInit](/OnInit "wikilink"): - Is triggered on server start up.
--   [OnCharIfInit](/OnCharIfInit "wikilink"): - Is triggered when the mapserver connects to the charserver.
--   [OnInterIfInit](/OnInterIfInit "wikilink"): - Roughly same as previous.
--   [OnInterIfInitOnce](/OnInterIfInitOnce "wikilink"): - Is only triggered on the first time the map server connects to the char server. If it loses connection after that, and gets a connection again, these labels are no longer triggered (unless the map server is really restarted).
--   [OnAgitInit](/OnAgitInit "wikilink"): - Is triggered when WoE is initiated.
--   [OnAgitStart](/OnAgitStart "wikilink"): - Is triggered when WoE is started.
--   [OnAgitEnd](/OnAgitEnd "wikilink"): - Is triggered when WoE ends.
--   [OnTimerX](/OnTimer "wikilink"): - Is triggered when a player or NPC timer reaches the value X in milliseconds.
+-   [OnInit](OnInit): - Is triggered on server start up.
+-   [OnCharIfInit](OnCharIfInit): - Is triggered when the mapserver connects to the charserver.
+-   [OnInterIfInit](OnInterIfInit): - Roughly same as previous.
+-   [OnInterIfInitOnce](OnInterIfInitOnce): - Is only triggered on the first time the map server connects to the char server. If it loses connection after that, and gets a connection again, these labels are no longer triggered (unless the map server is really restarted).
+-   [OnAgitInit](OnAgitInit): - Is triggered when WoE is initiated.
+-   [OnAgitStart](OnAgitStart): - Is triggered when WoE is started.
+-   [OnAgitEnd](OnAgitEnd): - Is triggered when WoE ends.
+-   [OnTimerX](OnTimer): - Is triggered when a player or NPC timer reaches the value X in milliseconds.
 
 There are many more of these kinds of special event triggered labels, like the login event, but these, with the exception of OnTimerX, are all triggered without the need of a player. With OnTimerX, the X should be replaced by a time in milliseconds, for example:
 
@@ -336,13 +336,13 @@ NPC Timers in detail
 
 In this section, we will explain how each NPC Timer command works in detail. First another quick list of the available NPC Timers:
 
--   [initnpctimer](/initnpctimer "wikilink") {"NPC Name"},{<Player RID>};
--   [startnpctimer](/startnpctimer "wikilink") {"NPC Name"},{<Player RID>};
--   [stopnpctimer](/stopnpctimer "wikilink") {"NPC Name"},{<flag>};
--   [getnpctimer](/getnpctimer "wikilink") <type>{,"NPC Name"};
--   [setnpctimer](/setnpctimer "wikilink") <amount>{,"NPC Name"};
--   [attachnpctimer](/attachnpctimer "wikilink") {<Player RID>};
--   [detachnpctimer](/detachnpctimer "wikilink") {"NPC Name"};
+-   [initnpctimer](initnpctimer) {"NPC Name"},{<Player RID>};
+-   [startnpctimer](startnpctimer) {"NPC Name"},{<Player RID>};
+-   [stopnpctimer](stopnpctimer) {"NPC Name"},{<flag>};
+-   [getnpctimer](getnpctimer) <type>{,"NPC Name"};
+-   [setnpctimer](setnpctimer) <amount>{,"NPC Name"};
+-   [attachnpctimer](attachnpctimer) {<Player RID>};
+-   [detachnpctimer](detachnpctimer) {"NPC Name"};
 
 Now that you know the commands, you will have to know how NPC Timers actually work. It is quite easy to be honest. A NPC can have one timer attached to it, which basically is a stopwatch. When you start a timer, a kind of NPC like variable will start running, often from 0. Every millisecond (1 second is 1000 milliseconds or 1000 ms), 1 is added to this variable. So, after 1 second, the variable will be 1000. After 12.5 seconds, the variable will be 12500.
 Now, on each tick (tick means every increment of this variable), the timer will check if inside the NPC it is running from or attached to, if there is a label that matches his current value. The labels have a special format, and look like this:
@@ -350,7 +350,7 @@ Now, on each tick (tick means every increment of this variable), the timer will 
 `OnTimerXXXXX:`
 
 Where XXXXX is a number that can be as small as 0, or as big as 7200000 (2 hours). If the value of the timer matches one of those labels, then the NPC will start running at that specific label. So, let's say you have a label OnTimer1000: (1 second), and you have started a NPC timer, then one second later, the script will jump to that label, and start executing the code underneath it.
-Often, when using NPC Timers, you want to stop them at some point, or reset them, to make the NPC start over again. For this purpose, the [developers](/Developers "wikilink") have written several commands that are now at our disposal, which allow us to manipulate this NPC based timer.
+Often, when using NPC Timers, you want to stop them at some point, or reset them, to make the NPC start over again. For this purpose, the [developers](Developers) have written several commands that are now at our disposal, which allow us to manipulate this NPC based timer.
 A last thing you need to know, before we go into detail on the specific commands, is that by default a NPC Timer will run in the same NPC as where the command is found, and that there is no player attached. The last part means, that you will be unable by default to manipulate the player, variable wise or command wise.
 
 InitNPCTimer
@@ -370,8 +370,8 @@ Some examples:
 StartNPCTimer
 -------------
 
-This command almost works the same as [InitNPCTimer](/Initnpctimer "wikilink"). The only major difference is that it doesn't set the counter, or if you like, the timer variable, to 0. It simply continues where it was. So, if you started the NPC Timer with **initnpctimer**, and stopped it later on, but want it to start again where it left off, then you use this command. If you like you can read '''continuenpctimer instead of **startnpctimer**.
-Again, for the various options, you might want to look at [InitNPCTimer](/Initnpctimer "wikilink"). We will just show some examples here:
+This command almost works the same as [InitNPCTimer](Initnpctimer). The only major difference is that it doesn't set the counter, or if you like, the timer variable, to 0. It simply continues where it was. So, if you started the NPC Timer with **initnpctimer**, and stopped it later on, but want it to start again where it left off, then you use this command. If you like you can read '''continuenpctimer instead of **startnpctimer**.
+Again, for the various options, you might want to look at [InitNPCTimer](Initnpctimer). We will just show some examples here:
 startnpctimer; // Continues the NPC timer where it left off, or start a new one if there isn't a timer already.
 
 `startnpctimer "My Other NPC"; // Same as above, but starts it in the NPC named "My Other NPC".`
@@ -381,7 +381,7 @@ startnpctimer; // Continues the NPC timer where it left off, or start a new one 
 StopNPCTimer
 ------------
 
-This command is the counterpart of [StartNPCTimer](/Startnpctimer "wikilink"). What it does, you've guessed it, it stops (or pauses) the timer. As for the parameters, the NPC Name part is exactly the same as with [InitNPCTimer](/Initnpctimer "wikilink"). If you specify a flag value (can be any non-zero value, zero will simply be ignored), then **stopnpctimer** will also detach the player, if any was attached to it.
+This command is the counterpart of [StartNPCTimer](Startnpctimer). What it does, you've guessed it, it stops (or pauses) the timer. As for the parameters, the NPC Name part is exactly the same as with [InitNPCTimer](/Initnpctimer "wikilink"). If you specify a flag value (can be any non-zero value, zero will simply be ignored), then **stopnpctimer** will also detach the player, if any was attached to it.
 Some examples again:
 
 `stopnpctimer; // Pauses the NPC timer in the current NPC.`
@@ -392,7 +392,7 @@ Some examples again:
 GetNPCTimer
 -----------
 
-[GetNPCtimer](/Getnpctimer "wikilink") is a bit of a tricky command. Basically it can be used to read out the statistics on a certain NPC Timer. (Either the one in the current NPC, or the one defined by the parameter "NPC Name".) There are three different statistics for a NPC Timer, which are:
+[GetNPCtimer](Getnpctimer) is a bit of a tricky command. Basically it can be used to read out the statistics on a certain NPC Timer. (Either the one in the current NPC, or the one defined by the parameter "NPC Name".) There are three different statistics for a NPC Timer, which are:
 \* 0 - Current Tick Count
 
 -   1 - Remaining OnTimer labels
@@ -401,7 +401,7 @@ GetNPCTimer
 The first one (0), basically is a variable which holds the amount of milliseconds that the timer is on.
 The second one (1), holds the amount of labels that the timer will still have to do in the NPC, if it is not reset or stopped prematurely.
 The third one (2), holds the amount of OnTimer labels which the timer already has executed. Most likely, **initnpctimer** resets this counter. What **startnpctimer** does to this statistic, is unknown at the moment.
-[GetNPCimer](/Getnpctimer "wikilink") always needs to have a type (one of the three above) specified when being used. For the second stat of the three, when there was originally a player attached, then it will still need this player to be attached, or it will give you back an error and return 0.
+[GetNPCimer](Getnpctimer) always needs to have a type (one of the three above) specified when being used. For the second stat of the three, when there was originally a player attached, then it will still need this player to be attached, or it will give you back an error and return 0.
 Some examples:
 
 `getnpctimer 0; // Returns the current amount of ticks.`
@@ -414,7 +414,7 @@ Some examples:
 SetNPCTimer
 -----------
 
-[SetNPCTimer](/Setnpctimer "wikilink") is the counterpart of [GetNPCTimer](/Getnpctimer "wikilink"). However, it only allows you to change the current amount of ticks (elapsed milliseconds) of a specific timer. If you define a NPC Name with it, it will use the timer in that NPC, otherwise, it will try to alter the timer in the NPC where the command is in. The amount you set the NPC Timer to, should be given in ticks, or milliseconds. The command theoritically works even when a NPC timer is stopped, but probably does not work when no NPC Timer has ever started in the NPC. This is about all there is to this command. It works, no matter if there is a player attached to it or not.
+[SetNPCTimer](Setnpctimer) is the counterpart of [GetNPCTimer](/Getnpctimer "wikilink"). However, it only allows you to change the current amount of ticks (elapsed milliseconds) of a specific timer. If you define a NPC Name with it, it will use the timer in that NPC, otherwise, it will try to alter the timer in the NPC where the command is in. The amount you set the NPC Timer to, should be given in ticks, or milliseconds. The command theoritically works even when a NPC timer is stopped, but probably does not work when no NPC Timer has ever started in the NPC. This is about all there is to this command. It works, no matter if there is a player attached to it or not.
 Some examples again:
 
 `setnpctimer 10000; // Sets the NPC Timer of the current NPC to 10 seconds.`
@@ -427,7 +427,7 @@ In the current revisions, **setnpctimer** also pauses the timer when changing th
 AttachNPCTimer
 --------------
 
-[AttachNPCTimer](/Attachnpctimer "wikilink") allows you to attach a player to a NPC later on. This can only be done to the NPC Timer that is in the same NPC as where this command is used. To attach a player, you will simply have to give his account id or RID (or UID/GID in some devs words) as a parameter.
+[AttachNPCTimer](Attachnpctimer) allows you to attach a player to a NPC later on. This can only be done to the NPC Timer that is in the same NPC as where this command is used. To attach a player, you will simply have to give his account id or RID (or UID/GID in some devs words) as a parameter.
 Examples:
 
 `attachnpctimer getcharid(3); // Attaches current player to the NPC Timer.`
@@ -436,7 +436,7 @@ Examples:
 DetachNPCTimer
 --------------
 
-[DetachNPCimer](/Detachnpctimer "wikilink") is the opposite of [AttachNPCTimer](/Attachnpctimer "wikilink"). Unlike its counterpart however, you can use it outside its current NPC. To do this, simply specify the name of the other NPC as parameter. This is optional of course.
+[DetachNPCimer](Detachnpctimer) is the opposite of [AttachNPCTimer](/Attachnpctimer "wikilink"). Unlike its counterpart however, you can use it outside its current NPC. To do this, simply specify the name of the other NPC as parameter. This is optional of course.
 Examples:
 
 `detachnpctimer; // Detaches the attached player from the NPC Timer, if anyone was attached.`
@@ -464,9 +464,9 @@ Player Timers in detail
 
 In this section, we will explain how each Player Timer command works in detail. First another quick list of the available Player Timers:
 
--   [addtimer](/addtimer "wikilink") <ticks>,"NPC::OnEvent";
--   [addtimercount](/addtimercount "wikilink") <ticks>,"NPC::OnEvent";
--   [deltimer](/deltimer "wikilink") "NPC::OnEvent";
+-   [addtimer](addtimer) <ticks>,"NPC::OnEvent";
+-   [addtimercount](addtimercount) <ticks>,"NPC::OnEvent";
+-   [deltimer](deltimer) "NPC::OnEvent";
 
 The list of player timer commands is significally shorter than the list of NPC Timers. This is right away one of the well.., downsides of the player timer. It has less flexibility. However, player timers are easier to work with for the same reason.
 Player timers work in a reverse way from NPC Timers. Basically you enter a number in milliseconds (1 second is 1000 milliseconds), and a timer attached to the player who triggered it, will run down from that number to 0. When it reaches 0, it will jump to the eventlabel specified in the second parameter of addtimer.
@@ -522,4 +522,4 @@ Disadvantages:
 -   Cannot be read out in any way.
 -   Cannot be used on start up or time triggered labels.
 
-[Category:Scripting](/Category:Scripting "wikilink") [Category:Script_Command](/Category:Script_Command "wikilink")
+[Category:Scripting](Category:Scripting) [Category:Script_Command](/Category:Script_Command "wikilink")

@@ -3,7 +3,7 @@ title: GRF
 permalink: /GRF/
 ---
 
-A [GRF](/GRF "wikilink") is a compressed file archive used by [Ragnarok Online](/Ragnarok_Online "wikilink"). It contains all the compressed graphics, sprites, sound effects, map files, etc. used by the Ragnarok client. The main GRF is usually named "data.grf" or "sdata.grf".
+A [GRF](GRF) is a compressed file archive used by [Ragnarok Online](/Ragnarok_Online "wikilink"). It contains all the compressed graphics, sprites, sound effects, map files, etc. used by the Ragnarok client. The main GRF is usually named "data.grf" or "sdata.grf".
 
 Tools
 -----
@@ -39,8 +39,8 @@ GPF is the same file format as GRF. The different file extension it is only used
 See Also
 --------
 
--   [DATA.INI](/DATA.INI "wikilink")
--   [Patchers](/:Category:Patchers "wikilink")
--   [RGZ](/RGZ "wikilink")
+-   [DATA.INI](DATA.INI)
+-   [Patchers](:Category:Patchers)
+-   [RGZ](RGZ)
 
-[Category:Client Configuration](/Category:Client_Configuration "wikilink") [Category:File Formats](/Category:File_Formats "wikilink")
+[Category:Client Configuration](Category:Client_Configuration) [Category:File Formats](/Category:File_Formats "wikilink")

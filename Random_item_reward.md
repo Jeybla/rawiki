@@ -24,11 +24,11 @@ Maximum Item Group ID is 399 as defined in [\#define MAX_ITEMGROUP 400](https://
 `IG_TestRandomItem,608,5`
 `IG_TestRandomItem,678,7`
 
-Then use script command [getrandgroupitem](/getrandgroupitem "wikilink")
+Then use script command [getrandgroupitem](getrandgroupitem)
 
 `getrandgroupitem IG_TestRandomItem,1;`
 
-If the item list is added when server is running, just use [@reloaditemdb](/@reloaditemdb "wikilink"). More info can be found on [Item Group Documentation](https://github.com/rathena/rathena/blob/master/doc/item_group.txt)
+If the item list is added when server is running, just use [@reloaditemdb](@reloaditemdb). More info can be found on [Item Group Documentation](https://github.com/rathena/rathena/blob/master/doc/item_group.txt)
 
 ### Method 2: F_Rand Function
 
@@ -65,7 +65,7 @@ This function is one of many useful functions in [Global_Functions.txt](https://
     -   .@RandItem\[3\] =&gt; *504*
     -   .@RandItem\[4\] =&gt; *505*
 -   **.@RandItemCount** stores length of *.@RandItem\[\]* array
--   **rand(<number>)** results a random number from *0* until *<number> -1*. See [Rand](/Rand "wikilink")
--   **getitem(<item_id>,<amount>)** gives to player an item with id *<item_id>*. See [Getitem](/Getitem "wikilink") or maybe you can use [Getitem2](/Getitem2 "wikilink") too.
+-   **rand(<number>)** results a random number from *0* until *<number> -1*. See [Rand](Rand)
+-   **getitem(<item_id>,<amount>)** gives to player an item with id *<item_id>*. See [Getitem](Getitem) or maybe you can use [Getitem2](/Getitem2 "wikilink") too.
 
-[Category:Scripting Tips and Tricks](/Category:Scripting_Tips_and_Tricks "wikilink")
+[Category:Scripting Tips and Tricks](Category:Scripting_Tips_and_Tricks)

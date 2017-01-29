@@ -32,4 +32,4 @@ With Browedit replacing a model's texture is as easy as pie. Load browedit and u
 
 -   Note. If you do not want to replace a model's texture but instead make a copy and replace it then just remember to click 'save as' (as save will replace the opened model) and rename the model file and then just like the map textures add it to the model list file in Browedit's data folder
 
-[Category:Mapping](/Category:Mapping "wikilink")
+[Category:Mapping](Category:Mapping)

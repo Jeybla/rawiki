@@ -5,16 +5,16 @@ permalink: /PC/
 
 All functions from pc.c and pc.h will go here. This part of the source handle several functions related to how characters work, like exp, heal, base and job lvs, falcon/cart/peco checks, etc.
 
-[PC Checkskill](/PC_Checkskill "wikilink")
+[PC Checkskill](PC_Checkskill)
 
-[PC Gainexp](/PC_Gainexp "wikilink")
+[PC Gainexp](PC_Gainexp)
 
-[PC Readglobalreg](/PC_Readglobalreg "wikilink")
+[PC Readglobalreg](PC_Readglobalreg)
 
-[PC Setglobalreg](/PC_Setglobalreg "wikilink")
+[PC Setglobalreg](PC_Setglobalreg)
 
-[PC Search Inventory](/PC_Search_Inventory "wikilink")
+[PC Search Inventory](PC_Search_Inventory)
 
-[PC Setpos](/PC_Setpos "wikilink")
+[PC Setpos](PC_Setpos)
 
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

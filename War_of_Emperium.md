@@ -13,46 +13,46 @@ The body of the script should look similar to the following:
 
 `-  script  Agit_Event  -1,{`
 `   end;`
-[`OnClock`](/OnClock "wikilink")`2100:  //start time for Tues(2), Thurs(4)`
-[`OnClock`](/OnClock "wikilink")`2300:  //end time for Tues(2), Thurs(4)`
-[`OnClock`](/OnClock "wikilink")`1600:  //start time for Sat(6)`
-[`OnClock`](/OnClock "wikilink")`1800:  //end time for Sat(6)`
+[`OnClock`](OnClock)`2100:  //start time for Tues(2), Thurs(4)`
+[`OnClock`](OnClock)`2300:  //end time for Tues(2), Thurs(4)`
+[`OnClock`](OnClock)`1600:  //start time for Sat(6)`
+[`OnClock`](OnClock)`1800:  //end time for Sat(6)`
 `OnAgitInit:`
 `   // starting time checks`
-`   `[`if`](/if "wikilink")`((`[`gettime`](/gettime "wikilink")`(4)==2) && (`[`gettime`](/gettime "wikilink")`(3)>=21 && `[`gettime`](/gettime "wikilink")`(3)<23) ||`
-`      (`[`gettime`](/gettime "wikilink")`(4)==4) && (`[`gettime`](/gettime "wikilink")`(3)>=21 && `[`gettime`](/gettime "wikilink")`(3)<23) ||`
-`      (`[`gettime`](/gettime "wikilink")`(4)==6) && (`[`gettime`](/gettime "wikilink")`(3)>=16 && `[`gettime`](/gettime "wikilink")`(3)<18)) {`
-`       `[`if`](/if "wikilink")` (!`[`agitcheck`](/agitcheck "wikilink")`()) {`
-`           `[`AgitStart`](/AgitStart "wikilink")`;`
-`           `[`callsub`](/callsub "wikilink")` S_DisplayOwners;`
+`   `[`if`](if)`((`[`gettime`](/gettime "wikilink")`(4)==2) && (`[`gettime`](/gettime "wikilink")`(3)>=21 && `[`gettime`](/gettime "wikilink")`(3)<23) ||`
+`      (`[`gettime`](gettime)`(4)==4) && (`[`gettime`](/gettime "wikilink")`(3)>=21 && `[`gettime`](/gettime "wikilink")`(3)<23) ||`
+`      (`[`gettime`](gettime)`(4)==6) && (`[`gettime`](/gettime "wikilink")`(3)>=16 && `[`gettime`](/gettime "wikilink")`(3)<18)) {`
+`       `[`if`](if)` (!`[`agitcheck`](/agitcheck "wikilink")`()) {`
+`           `[`AgitStart`](AgitStart)`;`
+`           `[`callsub`](callsub)` S_DisplayOwners;`
 `       }`
-`       `[`end`](/end "wikilink")`;`
+`       `[`end`](end)`;`
 `   }`
 `   // end time checks`
-`   `[`if`](/if "wikilink")` ((`[`gettime`](/gettime "wikilink")`(4)==2) && (`[`gettime`](/gettime "wikilink")`(3)==23) ||`
-`       (`[`gettime`](/gettime "wikilink")`(4)==4) && (`[`gettime`](/gettime "wikilink")`(3)==23) ||`
-`       (`[`gettime`](/gettime "wikilink")`(4)==6) && (`[`gettime`](/gettime "wikilink")`(3)==18)) { `
-`       `[`if`](/if "wikilink")` (`[`agitcheck`](/agitcheck "wikilink")`()) {`
-`           `[`AgitEnd`](/AgitEnd "wikilink")`;`
-`           `[`callsub`](/callsub "wikilink")` S_DisplayOwners;`
+`   `[`if`](if)` ((`[`gettime`](/gettime "wikilink")`(4)==2) && (`[`gettime`](/gettime "wikilink")`(3)==23) ||`
+`       (`[`gettime`](gettime)`(4)==4) && (`[`gettime`](/gettime "wikilink")`(3)==23) ||`
+`       (`[`gettime`](gettime)`(4)==6) && (`[`gettime`](/gettime "wikilink")`(3)==18)) { `
+`       `[`if`](if)` (`[`agitcheck`](/agitcheck "wikilink")`()) {`
+`           `[`AgitEnd`](AgitEnd)`;`
+`           `[`callsub`](callsub)` S_DisplayOwners;`
 `       }`
-`       `[`end`](/end "wikilink")`;`
+`       `[`end`](end)`;`
 `   }`
-`   `[`end`](/end "wikilink")`;`
+`   `[`end`](end)`;`
 `S_DisplayOwners:`
-`   `[`setarray`](/setarray "wikilink")` .@maps$[0],"aldeg_cas01","aldeg_cas02","aldeg_cas03","aldeg_cas04","aldeg_cas05";`
-`   `[`setarray`](/setarray "wikilink")` .@maps$[5],"gefg_cas01","gefg_cas02","gefg_cas03","gefg_cas04","gefg_cas05";`
-`   `[`setarray`](/setarray "wikilink")` .@maps$[10],"payg_cas01","payg_cas02","payg_cas03","payg_cas04","payg_cas05";`
-`   `[`setarray`](/setarray "wikilink")` .@maps$[15],"prtg_cas01","prtg_cas02","prtg_cas03","prtg_cas04","prtg_cas05";`
-`   `[`for`](/for "wikilink")`( `[`set`](/set "wikilink")` .@i, 0; .@i <= 19; `[`set`](/set "wikilink")` .@i, .@i+1 ) {`
-`       `[`if`](/if "wikilink")` (`[`GetCastleData`](/GetCastleData "wikilink")`(.@maps$[.@i],1)) {`
-`           `[`Announce`](/Announce "wikilink")` "The [" + `[`GetCastleName`](/GetCastleName "wikilink")`(.@maps$[.@i]) + "] castle has been conquered by the [" + `[`GetGuildName`](/GetGuildName "wikilink")`(`[`GetCastleData`](/GetCastleData "wikilink")`(.@maps$[.@i],1)) + "] guild.",bc_all|bc_woe;`
+`   `[`setarray`](setarray)` .@maps$[0],"aldeg_cas01","aldeg_cas02","aldeg_cas03","aldeg_cas04","aldeg_cas05";`
+`   `[`setarray`](setarray)` .@maps$[5],"gefg_cas01","gefg_cas02","gefg_cas03","gefg_cas04","gefg_cas05";`
+`   `[`setarray`](setarray)` .@maps$[10],"payg_cas01","payg_cas02","payg_cas03","payg_cas04","payg_cas05";`
+`   `[`setarray`](setarray)` .@maps$[15],"prtg_cas01","prtg_cas02","prtg_cas03","prtg_cas04","prtg_cas05";`
+`   `[`for`](for)`( `[`set`](/set "wikilink")` .@i, 0; .@i <= 19; `[`set`](/set "wikilink")` .@i, .@i+1 ) {`
+`       `[`if`](if)` (`[`GetCastleData`](/GetCastleData "wikilink")`(.@maps$[.@i],1)) {`
+`           `[`Announce`](Announce)` "The [" + `[`GetCastleName`](/GetCastleName "wikilink")`(.@maps$[.@i]) + "] castle has been conquered by the [" + `[`GetGuildName`](/GetGuildName "wikilink")`(`[`GetCastleData`](/GetCastleData "wikilink")`(.@maps$[.@i],1)) + "] guild.",bc_all|bc_woe;`
 `       }`
-`       `[`else`](/else "wikilink")` {`
-`           `[`Announce`](/Announce "wikilink")` "The [" + `[`GetCastleName`](/GetCastleName "wikilink")`(.@maps$[.@i]) + "] castle is currently unoccupied.",bc_all|bc_woe;`
+`       `[`else`](else)` {`
+`           `[`Announce`](Announce)` "The [" + `[`GetCastleName`](/GetCastleName "wikilink")`(.@maps$[.@i]) + "] castle is currently unoccupied.",bc_all|bc_woe;`
 `       }`
 `   }`
-`   `[`end`](/end "wikilink")`;`
+`   `[`end`](end)`;`
 `}`
 
 ### OnClock\#\#\#\#
@@ -179,4 +179,4 @@ See Also
 
 -   [Toasty's WoE Controller](http://rathena.org/board/topic/57377-toastys-woe-controller/)
 
-[Category:Scripting](/Category:Scripting "wikilink")
+[Category:Scripting](Category:Scripting)

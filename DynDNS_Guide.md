@@ -6,7 +6,7 @@ permalink: /DynDNS_Guide/
 Disclaimer
 ----------
 
-This guide isn't meant to be a complete rAthena configuration guide, and it assumes you completed already the main configuration steps. If your server isn't working, please refer to the [Installation](/Installation "wikilink") and [:Category:Configuration](/:Category:Configuration "wikilink") guides before following this one.
+This guide isn't meant to be a complete rAthena configuration guide, and it assumes you completed already the main configuration steps. If your server isn't working, please refer to the [Installation](Installation) and [:Category:Configuration](/:Category:Configuration "wikilink") guides before following this one.
 
 In this guide will be shown how to configure your server to run with the DynDNS® service from [Dynamic Network Services, Inc.](http://dynamicnetworkservices.com/), but you can follow similar steps to setup it with any other Dynamic DNS service.
 DynDNS® is registered trademarks of Dynamic Network Services Inc.
@@ -16,9 +16,9 @@ Requirements
 
 To follow this guide successfully, you will need:
 
--   A properly [installed](/Installation "wikilink") and [configured](/:Category:Configuration "wikilink") (including any port forwarding) rAthena. Either Linux or Windows version.
--   A [hexed Sakexe](/Hexing "wikilink") with the DNS Support option enabled.
--   Knowledge on how to create a [clientinfo.xml](/clientinfo.xml "wikilink") file.
+-   A properly [installed](Installation) and [configured](/:Category:Configuration "wikilink") (including any port forwarding) rAthena. Either Linux or Windows version.
+-   A [hexed Sakexe](Hexing) with the DNS Support option enabled.
+-   Knowledge on how to create a [clientinfo.xml](clientinfo.xml) file.
 -   Knowledge on how to obtain your LAN IP and Subnet mask.
 -   Knowledge on how to install missing system packages (only in Linux)
 
@@ -28,11 +28,11 @@ Register an account
 Before setting up your server to use DunDNS, you need to register an account on [<http://www.dyndns.org>](http://www.dyndns.org). You'll find a "Create account" link near the top-right of their home page.
 
 Fill the registration form as described in the following image, then follow the instructions you will get by email on how to activate your account:
-[DynDNS account registration form](/Image:dysdns1.jpg "wikilink")
+[DynDNS account registration form](Image:dysdns1.jpg)
 
 Go back to the DynDNS website and login with the new account you created.
 It will show a list of actions you can perform. Choose "My Hosts", then "Add New Hostname". Fill the page as follows.
-[DynDNS host creation form](/Image:dysdns2.jpg "wikilink")
+[DynDNS host creation form](Image:dysdns2.jpg)
 
 Updater client
 --------------
@@ -151,7 +151,7 @@ bind_ip: LAN_IP map_ip: DYNDNS_HOST</code>
 Client settings
 ---------------
 
-The client needs to be configured as well in order to let it connect through the DynDNS hostname. Edit the [clientinfo.xml](/clientinfo.xml "wikilink") file as follows:
+The client needs to be configured as well in order to let it connect through the DynDNS hostname. Edit the [clientinfo.xml](clientinfo.xml) file as follows:
 
 -   Your client (the one you will use to connect from the same computer as the server or from the LAN)\[code\]
     <address>
@@ -174,4 +174,4 @@ Useful Links
 -   ["rAthena Server Support" section in forums](http://rathena.org/board/forum/23-rathena-server-support/) (general support questions related to rAthena configuration)
 -   ["Client & Patcher Support" section in forums](http://rathena.org/board/forum/19-client-patcher-support/) (for any issue with client, data folders and GRF packs)
 
-[Category:Client Configuration](/Category:Client_Configuration "wikilink") [Category:Configuration](/Category:Configuration "wikilink")
+[Category:Client Configuration](Category:Client_Configuration) [Category:Configuration](/Category:Configuration "wikilink")

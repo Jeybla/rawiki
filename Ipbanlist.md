@@ -69,4 +69,4 @@ To unban the IP just execute this
 
 `` DELETE from `ipbanlist` WHERE `list`='58.69.*.*' ``
 
-[Category:Configuration](/Category:Configuration "wikilink")
+[Category:Configuration](Category:Configuration)

@@ -29,4 +29,4 @@ Example
 
 Will make player *sd* scream 'Heal !!' and show a heal effect of 12,000 HP on player *tsd*.
 
-[Category:Source Functions](/Category:Source_Functions "wikilink")
+[Category:Source Functions](Category:Source_Functions)

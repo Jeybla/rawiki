@@ -8,7 +8,7 @@ The Basics
 
 Scripts control all NPCs, warps, mob spawns, shops, and quests you will find in the game--and nearly everything else! Clearly they play a large part in customizing a server, but learning isn't very hard.
 
-Scripts are built up of predefined script commands, all of which can be found in (for explanations, see [Script Commands](/:Category:Script_Command "wikilink")). Every line should begin with a command and the argument it takes, and must end in a semicolon (or you'll get mapserver errors!). Arguments are usually separated by commas, and are sometimes contained in parentheses () or curly brackets {}. Tabs and proper indentation are standard scripting measures.
+Scripts are built up of predefined script commands, all of which can be found in (for explanations, see [Script Commands](:Category:Script_Command)). Every line should begin with a command and the argument it takes, and must end in a semicolon (or you'll get mapserver errors!). Arguments are usually separated by commas, and are sometimes contained in parentheses () or curly brackets {}. Tabs and proper indentation are standard scripting measures.
 
 Scripts are saved as text (\*.txt) files, so all code can be written in Notepad. There are also a lot of scripting programs to use: the most recent and comprehensive one is [Vince's eNPC](http://rathena.org/board/topic/56484-enpc-script-editor/). All defined functions are highlighted, with an autocomplete feature included, and pressing "F1" will display the corresponding explanation for any command.
 
@@ -240,7 +240,7 @@ External Links
 
 -   <http://www.immigration-usa.com/html_colors.html>
 -   <http://www.december.com/html/spec/colorcodes.html>
--   [Hex triplet](/wikipedia:Hex_triplet "wikilink")
+-   [Hex triplet](wikipedia:Hex_triplet)
 -   <http://www.colorschemer.com/online.html>
 
 **Support, Request and Release**
@@ -249,4 +249,4 @@ External Links
 -   1.  scripting on irc.deltaanime.net : Dedicated channel for scripters. Come here to get or give semi-fast support or just for fun.
 -   1.  rathena on irc.rizon.net : Main rAthena channel.
 
-[Category:Scripting](/Category:Scripting "wikilink")
+[Category:Scripting](Category:Scripting)

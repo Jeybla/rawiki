@@ -3,7 +3,7 @@ title: Weather without using mapflag
 permalink: /Weather_without_using_mapflag/
 ---
 
-[Category:Data](/Category:Data "wikilink") [Category:Client Configuration](/Category:Client_Configuration "wikilink")
+[Category:Data](Category:Data) [Category:Client Configuration](/Category:Client_Configuration "wikilink")
 
 Procedures
 ----------
@@ -36,7 +36,7 @@ That's it. This is another way of adding weather to a particular map.
 Other way of adding weather
 ---------------------------
 
-You can as well add a script with [OnInit](/OnInit "wikilink") label to call it off. Here's a sample script:
+You can as well add a script with [OnInit](OnInit) label to call it off. Here's a sample script:
 
 `prontera,143,185,1    script    Sakura    -1,{ `
 `// We will do a script instead of function for it to call on the exact map and the exact coordinates. But you can use as well `**`function`**` then instead of `**`script`**`.`

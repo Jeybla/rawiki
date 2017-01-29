@@ -8,9 +8,9 @@ Introduction
 
 Books are Miscellaneous type items in which you can store various kind of information, such as descriptions, stories and guides. You can read them by right-clicking on the item and left-clicking on the small book icon on the top-left corner of the item description.
 
-**Please keep in mind** that in this tutorial I use 2013-08-04 client, which means I work with LUA files. If you use an older client that doesn't support LUA, please read this page for creating items: [Custom Items](/Custom_Items "wikilink").
+**Please keep in mind** that in this tutorial I use 2013-08-04 client, which means I work with LUA files. If you use an older client that doesn't support LUA, please read this page for creating items: [Custom Items](Custom_Items).
 
-[center](/File:Custombook1.png "wikilink")
+[center](File:Custombook1.png)
 
 Server-Side Modifications
 =========================
@@ -55,7 +55,7 @@ In your iteminfo.lua, find \[11058\]. This is the last book-type item after we i
 
 For the item's picture I recommend searching for an already existing item, find it in iteminfo.lua and copy-paste it's ResourceName. It doesn't matter if you have Korean letters in it or some gibberish text, your client can read both of them.
 
-In the description, you can use colors such as in NPC scripts (see at [Basic_Scripting\#Message](/Basic_Scripting#Message "wikilink")). Each ("Sentence",) creates a new row.
+In the description, you can use colors such as in NPC scripts (see at [Basic_Scripting\#Message](Basic_Scripting#Message)). Each ("Sentence",) creates a new row.
 
 `[11061] = {    // ID of the book: the first parameter in item_db.txt`
 `       unidentifiedDisplayName = "",`
@@ -95,6 +95,6 @@ We are at the last step - we have to add the "Read / Auto-Read" buttons to the i
 
 After that patch up your client, reload your item_db and your book is ready to read!
 
-[center](/File:Custombook2.png "wikilink")
+[center](File:Custombook2.png)
 
-[Category:Database](/Category:Database "wikilink") [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")
+[Category:Database](Category:Database) [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")

@@ -26,4 +26,4 @@ It is important that you understand that \*0\* is a valid return value. Therefor
 
 `if ( (j = pc_search_inventory(sd, nameid)) >= 0 ) { etc; }`
 
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

@@ -121,6 +121,6 @@ Example of a .diff file
 See Also
 --------
 
--   [wikipedia:Diff\#Unified_format](/wikipedia:Diff#Unified_format "wikilink")
+-   [wikipedia:Diff\#Unified_format](wikipedia:Diff#Unified_format)
 
-[Category:File Formats](/Category:File_Formats "wikilink")
+[Category:File Formats](Category:File_Formats)

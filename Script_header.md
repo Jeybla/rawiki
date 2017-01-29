@@ -3,7 +3,7 @@ title: Script header
 permalink: /Script_header/
 ---
 
-The [script header](/script_header "wikilink") is the first 15 or so lines of a script file that contain information identifying the script.
+The [script header](script_header) is the first 15 or so lines of a script file that contain information identifying the script.
 
 Example
 -------
@@ -39,7 +39,7 @@ Format
 `//===== By: ==================================================`
 `//= Darkchild`
 
-### Current [Version](/wikipedia:Software_versioning "wikilink")
+### Current [Version](wikipedia:Software_versioning)
 
 -   line 6: the current version of the script
 -   new scripts start at 1.0
@@ -76,7 +76,7 @@ Format
 `//= `
 `//============================================================`
 
--   this section can also be used to list [Changelog](/wikipedia:Changelog "wikilink") messages
+-   this section can also be used to list [Changelog](wikipedia:Changelog) messages
 -   list them in numerical order, first at the top and last change at the bottom
 
 `//===== Additional Comments: =================================`
@@ -101,7 +101,7 @@ Format
 Other Guidelines
 ----------------
 
--   Avoid using TABs in the script header because people use different text editors and their [tab size](/wikipedia:Tab_key "wikilink") might be different than yours.
+-   Avoid using TABs in the script header because people use different text editors and their [tab size](wikipedia:Tab_key) might be different than yours.
 -   If you want text to line up vertically, uses spaces.
 
 `//= 1.3 fixed Louyang label typo, added warp and WARPRA into `
@@ -112,6 +112,6 @@ Other Guidelines
 `//= 1.3 fixed Louyang label typo, added warp and WARPRA into `
 `//=     Nifleheim. Also sorted all names in alphabet order. [Lupus]`
 
--   If the script header is getting too long (more than 30 lines, or more than half your screen height), consider moving part or all of the Changelog from the [Additional Comments](/Script_header#Additional_Comments "wikilink") section to the bottom of the file.
+-   If the script header is getting too long (more than 30 lines, or more than half your screen height), consider moving part or all of the Changelog from the [Additional Comments](Script_header#Additional_Comments) section to the bottom of the file.
 
-[Category:RAthena](/Category:RAthena "wikilink")
+[Category:RAthena](Category:RAthena)

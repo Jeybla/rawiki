@@ -37,6 +37,6 @@ Potential issues
 Scheme
 ======
 
-[native|center|alt=Servers Scheme|Servers Scheme](/File:Multiple_servers_scheme.png "wikilink")
+[native|center|alt=Servers Scheme|Servers Scheme](File:Multiple_servers_scheme.png)
 
-[Category:Installation](/Category:Installation "wikilink")
+[Category:Installation](Category:Installation)

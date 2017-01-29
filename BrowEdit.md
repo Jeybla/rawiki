@@ -81,4 +81,4 @@ BrowEdit Tutorials
 </tbody>
 </table>
 
-[Category:Mapping](/Category:Mapping "wikilink")
+[Category:Mapping](Category:Mapping)

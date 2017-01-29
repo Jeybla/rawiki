@@ -36,7 +36,7 @@ then try using this to search for:
 
 `Out of range spawn coordinates: ... (...,...), map size is (...,...) `
 
-If this still doesn't give any results, you can always try the main index list. However, older error lines do not show up in this one. So, if you are also unsuccessful there, then please try the [Outdated Errors](/#Outdated_Errors "wikilink") section as a last resort. It lists all old error message. If you still cannot find it, then you can always try the Scripting Support forum.
+If this still doesn't give any results, you can always try the main index list. However, older error lines do not show up in this one. So, if you are also unsuccessful there, then please try the [Outdated Errors](#Outdated_Errors) section as a last resort. It lists all old error message. If you still cannot find it, then you can always try the Scripting Support forum.
 
 ### Using Older SVN Revisions
 
@@ -57,24 +57,24 @@ This list contains all currently known old errors messages that have been change
 
 ------------------------------------------------------------------------
 
--   [buildin_guardian: invalid data type for argument \#8 (...).](/Overview_of_Errors#script:guardian:_invalid_data_type_for_argument_.236_.28from_1.29 "wikilink")
--   [buildin_input: given argument is not a variable!](/Overview_of_Errors#script:input:_not_a_variable_script: "wikilink")
--   [script: buildin_set: not name](/Overview_of_Errors#script:set:_not_a_variable "wikilink")
--   [script: callsub: not label !](/Overview_of_Errors#script:callsub:_argument_is_not_a_label "wikilink")
--   [getvariableofnpc: can't find npc ...](/Overview_of_Errors#script:getvariableofnpc:_can.27t_find_npc_..._script: "wikilink")
--   [script: getvariableofnpc: first argument is not a variable name](/Overview_of_Errors#script:getvariableofnpc:_not_a_variable "wikilink")
--   [script: getvariableofnpc: invalid scope ... (not npc variable)](/Overview_of_Errors#script:getvariableofnpc:_invalid_scope_.28not_npc_variable.29 "wikilink")
--   [script:goto: not label!](/Overview_of_Errors#script:goto:_not_a_label "wikilink")
--   [script:menu: argument \#... (from 1) is not a label or label not found (op=...).](/Overview_of_Errors#script:menu:_argument_.23..._.28from_1.29_is_not_a_label_or_label_not_found. "wikilink")
--   [script:menu: argument \#... (from 1) is not a string or compatible (op=...).](/Overview_of_Errors#script:menu:_argument_.23..._.28from_1.29_is_not_a_string_or_compatible. "wikilink")
--   [script:op_1: invalid type of data op:... data:...](/Overview_of_Errors#script:op_1:_argument_is_not_a_number_.28op.3D....29 "wikilink")
--   [script:op_1: unexpected operator op:...](/Overview_of_Errors#script:op_1:_unexpected_operator_..._i1.3D... "wikilink")
--   [script:op_2: invalid type of data op:... left:... right:...](/Overview_of_Errors#script:op_2:_invalid_data_for_operator_... "wikilink")
--   [script:op_2num: division by zero detected op:...](/Overview_of_Errors#script:op_2num:_division_by_zero_detected_op.3D..._i1.3D..._i2.3D... "wikilink")
--   [script:op_2num: unexpected number operator op:...](/Overview_of_Errors#script:op_2num:_unexpected_number_operator_..._i1.3D..._i2.3D... "wikilink")
--   [script:op2_str: unexpected string operator op:...](/Overview_of_Errors#script:op2_str:_unexpected_string_operator_... "wikilink")
--   [script:op_3: invalid type of data op:... data:...](/Overview_of_Errors#script:op_3:_invalid_data_for_the_ternary_operator_test "wikilink")
--   [script:warpportal: npc is needed](/Overview_of_Errors#script:warpportal:_npc_is_needed "wikilink")
+-   [buildin_guardian: invalid data type for argument \#8 (...).](Overview_of_Errors#script:guardian:_invalid_data_type_for_argument_.236_.28from_1.29)
+-   [buildin_input: given argument is not a variable!](Overview_of_Errors#script:input:_not_a_variable_script:)
+-   [script: buildin_set: not name](Overview_of_Errors#script:set:_not_a_variable)
+-   [script: callsub: not label !](Overview_of_Errors#script:callsub:_argument_is_not_a_label)
+-   [getvariableofnpc: can't find npc ...](Overview_of_Errors#script:getvariableofnpc:_can.27t_find_npc_..._script:)
+-   [script: getvariableofnpc: first argument is not a variable name](Overview_of_Errors#script:getvariableofnpc:_not_a_variable)
+-   [script: getvariableofnpc: invalid scope ... (not npc variable)](Overview_of_Errors#script:getvariableofnpc:_invalid_scope_.28not_npc_variable.29)
+-   [script:goto: not label!](Overview_of_Errors#script:goto:_not_a_label)
+-   [script:menu: argument \#... (from 1) is not a label or label not found (op=...).](Overview_of_Errors#script:menu:_argument_.23..._.28from_1.29_is_not_a_label_or_label_not_found.)
+-   [script:menu: argument \#... (from 1) is not a string or compatible (op=...).](Overview_of_Errors#script:menu:_argument_.23..._.28from_1.29_is_not_a_string_or_compatible.)
+-   [script:op_1: invalid type of data op:... data:...](Overview_of_Errors#script:op_1:_argument_is_not_a_number_.28op.3D....29)
+-   [script:op_1: unexpected operator op:...](Overview_of_Errors#script:op_1:_unexpected_operator_..._i1.3D...)
+-   [script:op_2: invalid type of data op:... left:... right:...](Overview_of_Errors#script:op_2:_invalid_data_for_operator_...)
+-   [script:op_2num: division by zero detected op:...](Overview_of_Errors#script:op_2num:_division_by_zero_detected_op.3D..._i1.3D..._i2.3D...)
+-   [script:op_2num: unexpected number operator op:...](Overview_of_Errors#script:op_2num:_unexpected_number_operator_..._i1.3D..._i2.3D...)
+-   [script:op2_str: unexpected string operator op:...](Overview_of_Errors#script:op2_str:_unexpected_string_operator_...)
+-   [script:op_3: invalid type of data op:... data:...](Overview_of_Errors#script:op_3:_invalid_data_for_the_ternary_operator_test)
+-   [script:warpportal: npc is needed](Overview_of_Errors#script:warpportal:_npc_is_needed)
 
 In-depth Info on Errors
 -----------------------
@@ -92,7 +92,7 @@ The data type of the value passed into a build-in function's argument differs fr
 Verify all values passed to the function and make sure, that all of them have the expected type.
 
 <u>**Example**</u>
-[itemheal](/itemheal "wikilink") "200",0; The first parameter is supposed to be a number (amount of HP to heal). So the correct script would be:
+[itemheal](itemheal) "200",0; The first parameter is supposed to be a number (amount of HP to heal). So the correct script would be:
 
 `itemheal 200,0;`
 
@@ -540,7 +540,7 @@ This bug should be impossible to produce. If you want to know the details, dive 
 
 Of course, this is impossible to happen, unless there are no NPCs on the map, but then the OnTouch shouldn't be triggered.
 <b><u>Solution</u></b>
-Report this bug to the [developers](/developers "wikilink"), because it does not have a solution script-wise. Provide them with as much data as possible/
+Report this bug to the [developers](developers), because it does not have a solution script-wise. Provide them with as much data as possible/
 
 ------------------------------------------------------------------------
 
@@ -1013,7 +1013,7 @@ Source Syntax: ShowError("script:cleararray: not a variable\\n");
 <b><u>Cause</u></b>
 The variable you tried to clear with cleararray, isn't a variable, or it isn't a legal variable name.
 <b><u>Solution</u></b>
-Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](/Variables#Other_Important_Info_Naming_Variables "wikilink")
+Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](Variables#Other_Important_Info_Naming_Variables)
 <b><u>Example</u></b>
 Wrong code:
 
@@ -1127,7 +1127,7 @@ Source Syntax: ShowError("script:copyarray: not a variable\\n");
 <b><u>Cause</u></b>
 The variable you tried to copy with copyarray, isn't a variable, or it isn't a legal variable name.
 <b><u>Solution</u></b>
-Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](/Variables#Other_Important_Info_Naming_Variables "wikilink")
+Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](Variables#Other_Important_Info_Naming_Variables)
 <b><u>Example</u></b>
 Wrong code:
 
@@ -1172,7 +1172,7 @@ Recheck if the array you want to delete actually is an array, and that you typed
 <b><u>Cause</u></b>
 The variable you tried to delete with deletearray, isn't a variable, or it isn't a legal variable name.
 <b><u>Solution</u></b>
-Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](/Variables#Other_Important_Info_Naming_Variables "wikilink")
+Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](Variables#Other_Important_Info_Naming_Variables)
 <b><u>Example</u></b>
 Wrong code:
 
@@ -1240,7 +1240,7 @@ Source Syntax: ShowError("script:getarraysize: not a variable\\n");
 <b><u>Cause</u></b>
 The variable you tried to obtain the size of with getarraysize, isn't a variable, or it isn't a legal variable name.
 <b><u>Solution</u></b>
-Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](/Variables#Other_Important_Info_Naming_Variables "wikilink")
+Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](Variables#Other_Important_Info_Naming_Variables)
 <b><u>Example</u></b>
 Wrong code:
 
@@ -1268,7 +1268,7 @@ Source Syntax: ShowError("script:getelementofarray: not a variable\\n");
 <b><u>Cause</u></b>
 The variable you tried to get an element of with getelementofarray, isn't a variable, or it isn't a legal variable name.
 <b><u>Solution</u></b>
-Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](/Variables#Other_Important_Info_Naming_Variables "wikilink")
+Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](Variables#Other_Important_Info_Naming_Variables)
 <b><u>Example</u></b>
 Wrong code:
 
@@ -1312,7 +1312,7 @@ Until Rev. 10812: ShowError("script: getvariableofnpc: first argument is not a v
 <b><u>Cause</u></b>
 The variable you requested does not obey the rules of variable naming. That, or the slight possibility that it doesn't exist.
 <b><u>Solution</u></b>
-Check if you wrote the name correctly and if it obeys the rules of variable naming. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](/Variables#Other_Important_Info_Naming_Variables "wikilink")
+Check if you wrote the name correctly and if it obeys the rules of variable naming. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](Variables#Other_Important_Info_Naming_Variables)
 Also check if you did not make the same mistake in the NPC where you want to get the variable of.
 <b><u>Example</u></b>
 Wrong code:
@@ -1579,7 +1579,7 @@ Correct code:
 <b><u>Cause</u></b>
 This error means that your stack got corrupted. This is not something you can do anything about.
 <b><u>Solution</u></b>
-First, restart your server, and see if the error happens again. If it does occur again, then you should contact a [developer](/Staff "wikilink"), because it is likely that someone made an error in the script engine then.
+First, restart your server, and see if the error happens again. If it does occur again, then you should contact a [developer](Staff), because it is likely that someone made an error in the script engine then.
 
 ------------------------------------------------------------------------
 
@@ -1629,7 +1629,7 @@ Source Syntax: ShowError("script:setarray: not a variable\\n");
 <b><u>Cause</u></b>
 The variable you tried to set with setarray, isn't a variable, or it isn't a legal variable name.
 <b><u>Solution</u></b>
-Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](/Variables#Other_Important_Info_Naming_Variables "wikilink")
+Confirm that the variable does exist, and that it obeys the official rules for names of a variable. For reference, check this link: [Variables\#Other_Important_Info Naming Variables](Variables#Other_Important_Info_Naming_Variables)
 <b><u>Example</u></b>
 Wrong code:
 
@@ -1749,7 +1749,7 @@ Source Syntax: ShowError("unget_com can back only 1 data\\n");
 <b><u>Cause</u></b>
 As most code that is inside the scripting engine's main part, this error seems unlikely to be caused by your scripts. What exactly causes it to trigger is unknown to me.
 <b><u>Solution</u></b>
-Your best chance is to get support in the Scripting Support Forum, or to contact one of the [developers](/developers "wikilink").
+Your best chance is to get support in the Scripting Support Forum, or to contact one of the [developers](developers).
 
 ------------------------------------------------------------------------
 
@@ -2680,7 +2680,7 @@ Source Syntax: ShowError("script: getelementofarray (operator\[\]): param1 not n
 <b><u>Cause</u></b>
 The variable name which you provided (the first argument of getelementofarray) is not a valid variable name.
 <b><u>Solution</u></b>
-Make sure that the variable name is using the correct syntax. For a full set of rules on variable naming, check the [appropriate article](/Variables "wikilink").
+Make sure that the variable name is using the correct syntax. For a full set of rules on variable naming, check the [appropriate article](Variables).
 <b><u>Example</u></b>
 Wrong code:
 
@@ -2692,4 +2692,4 @@ Correct code:
 
 ------------------------------------------------------------------------
 
-[Category:Debugging](/Category:Debugging "wikilink") [Category:Scripting](/Category:Scripting "wikilink")
+[Category:Debugging](Category:Debugging) [Category:Scripting](/Category:Scripting "wikilink")

@@ -6,7 +6,7 @@ permalink: /Eaclass/
 Syntax
 ------
 
--   [eaclass](/eaclass "wikilink") ({<job_id>});
+-   [eaclass](eaclass) ({<job_id>});
 
 Description
 -----------
@@ -27,6 +27,6 @@ would check if you are part of the mage-class, means: mage, wizard, sage, high-m
 Useful command connected to this
 --------------------------------
 
-If you want to use this system in his best you also need this command: [roclass()](/Roclass "wikilink")
+If you want to use this system in his best you also need this command: [roclass()](Roclass)
 
-[Category:Script_Command](/Category:Script_Command "wikilink")
+[Category:Script_Command](Category:Script_Command)

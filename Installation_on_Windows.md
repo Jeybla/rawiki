@@ -79,18 +79,18 @@ Rename the import-tmpl folder to import. Leave the conf folder back to the main 
 After Installation
 ==================
 
-After you have finished configuring at this point, you will need to setup the [MySQL server](/SQL_Installation "wikilink") that rAthena requires.
-Once you have completed setting up your server, you may want to look at [Configuration](/:Category:Configuration "wikilink") and [Customization](/:Category:Customization "wikilink").
+After you have finished configuring at this point, you will need to setup the [MySQL server](SQL_Installation) that rAthena requires.
+Once you have completed setting up your server, you may want to look at [Configuration](:Category:Configuration) and [Customization](/:Category:Customization "wikilink").
 
 See Also
 ========
 
--   [SQL Installation](/SQL_Installation#For_Windows "wikilink")
--   [:Category:Configuration](/:Category:Configuration "wikilink")
--   [clientinfo.xml](/clientinfo.xml "wikilink")
--   [:Category:Data](/:Category:Data "wikilink")
--   [Custom Items](/Custom_Items "wikilink")
--   [Custom Mobs](/Custom_Mobs "wikilink")
--   [GIT Troubleshooting](/GIT_Troubleshooting "wikilink")
+-   [SQL Installation](SQL_Installation#For_Windows)
+-   [:Category:Configuration](:Category:Configuration)
+-   [clientinfo.xml](clientinfo.xml)
+-   [:Category:Data](:Category:Data)
+-   [Custom Items](Custom_Items)
+-   [Custom Mobs](Custom_Mobs)
+-   [GIT Troubleshooting](GIT_Troubleshooting)
 
-[Windows](/Category:Installation_Guides "wikilink")
+[Windows](Category:Installation_Guides)

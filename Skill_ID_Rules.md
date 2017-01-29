@@ -31,7 +31,7 @@ permalink: /Skill_ID_Rules/
 Before making skill for player, please be aware of these:
 
 -   **Don't use 0!** because in many cases, 0 is identified as *invalid skill*
--   **Reserved ID**, don't use one of ID in these ranges, because these IDs are as Skill Indexes (value maybe changed if the [Skill Ranges](/Skill_ID_Rules#Skill_Ranges "wikilink") are changed )
+-   **Reserved ID**, don't use one of ID in these ranges, because these IDs are as Skill Indexes (value maybe changed if the [Skill Ranges](Skill_ID_Rules#Skill_Ranges) are changed )
     -   **700 ~ 743**, Homunculus Skill Indexes
     -   **744 ~ 784**, Mercenary Skill Indexes
     -   **785 ~ 827**, Elemental Skill Indexes

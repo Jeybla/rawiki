@@ -14,7 +14,7 @@ Now, please bear in mind this was created on trunk 13304. So there may be incomp
 
 So, the diff is online. There are a few notes I should include though:
 
--   This was built on trunk so there may be incompatibilities between [trunk and stable](/Trunk&Stable "wikilink") at the moment
+-   This was built on trunk so there may be incompatibilities between [trunk and stable](Trunk&Stable) at the moment
 -   This was built on rAthena r13304. Again, some incompatibilities could take place.
 -   This is just a test release to obtain some feedback. I do realize there may be bugs, I'll be fixing it up after this
 -   There is currently an issue with the wlv_takeexp: option, where sometimes certain items at a certain level drastically increases the amount of base experience the player earns. Again, trying to figure out what's wrong with this (though I have no clue D:)
@@ -100,4 +100,4 @@ And you should be pretty much set. I do want feedback on this system if possible
 
 Thanks!
 
-[Category:Customization](/Category:Customization "wikilink") [Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Customization](Category:Customization) [Category:Source Snippets](/Category:Source_Snippets "wikilink")

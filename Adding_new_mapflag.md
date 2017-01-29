@@ -94,4 +94,4 @@ Conclusion
 
 Recompile and you can now set "mymapflag" to any value. Remember, you can rename the mapflag to whatever, and later use the flag option anywhere else in your source code.
 
-[Category:Source Snippets](/Category:Source_Snippets "wikilink")
+[Category:Source Snippets](Category:Source_Snippets)

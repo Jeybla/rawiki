@@ -8,13 +8,13 @@ Creating Your Own Frames
 
 You will need
 
--   Image Editing Software (e.g. [Photoshop](/wikipedia:Adobe_Photoshop "wikilink"))
+-   Image Editing Software (e.g. [Photoshop](wikipedia:Adobe_Photoshop))
 -   Concept
 -   Skill
 
 When creating a new image, it is recommended that you use the bitmap format. The size itself depends on what it is you are planing to make. It does not need to be a particular size (only the inventory item sprite and .bmp image must have a size of 24x24 px, it is recommended that the drop sprite be this size too), but remember the bigger it is the more likely it is to look odd inside the game (and if your frames are too big, there is a big chance of getting an error ingame). The background needs to 'Magenta'. The hexadecimal format of this color is \#FF00FF. The RGB for this color is R 255, G 0, B 255.
 
-Now that you have the size and everything figured out, its time to change it from .bmp to indexed color. Download this file: [RO common colors](/RO_Pixeling_Colors "wikilink"), then navigate to Image &gt; Mode &gt; Indexed Color... In the window that pops up, the palette can be anything you want, but if forced you select Custom... Then select load and change file type from .act to .pal, then find the .pal file then select and open it, it will be wherever you saved the file to. Once it has loaded, make sure the colors are 256, then select OK, then you will now have an image compatible with ragnarok, and you can now draw out your image. After this you can save your image as .bmp (bitmap).
+Now that you have the size and everything figured out, its time to change it from .bmp to indexed color. Download this file: [RO common colors](RO_Pixeling_Colors), then navigate to Image &gt; Mode &gt; Indexed Color... In the window that pops up, the palette can be anything you want, but if forced you select Custom... Then select load and change file type from .act to .pal, then find the .pal file then select and open it, it will be wherever you saved the file to. Once it has loaded, make sure the colors are 256, then select OK, then you will now have an image compatible with ragnarok, and you can now draw out your image. After this you can save your image as .bmp (bitmap).
 
 You must get familiarized with this color table (you can access to your color table in Photoshop through Image &gt; Mode &gt; Color Table). First color in the color table is the transparency color. This means that ingame, this color won't appear. This color must be \#FF00FF for inventory items (you can change the colors of the color table by clicking on them. You can also make color gradients by selecting a group of colors if you are working with Photoshop). It can be any other color for Mobs, Jobs, Headgears, etc. However, It is recommended to use this color as background transparency color. Make sure background color is the first color in the color table. It is common that color \#FF00FF (magenta) appears as the third color in the color table, and not first. If you are working with inventory items images, you must change this color to any other color and make first color \#FF00FF. Then, you must change the background color to \#FF00FF manually (replacing the background color for \#FF00FF). We do this because you may have two magenta's in your color table (one in the first cell and another one in the third). If this happens and you make your background color \#FF00FF you may be using the third color, and not first. What will happen then? It will make a part of your inventory skin background disappear. So background color must be always the first color in the color table, and when we are working with inventory items, it also must be color \#FF00FF.
 
@@ -48,10 +48,10 @@ You can also put your username on the collection image. This can be easily remov
 See also
 --------
 
--   [Data](/:Category:Data "wikilink")
--   [Database](/:Category:Database "wikilink")
--   [Palettes](/Palettes "wikilink")
--   [Sprite Recolors](/Sprite_Recolors "wikilink")
--   [Pixeling](/Pixeling "wikilink")
+-   [Data](:Category:Data)
+-   [Database](:Category:Database)
+-   [Palettes](Palettes)
+-   [Sprite Recolors](Sprite_Recolors)
+-   [Pixeling](Pixeling)
 
-[Category:Spriting](/Category:Spriting "wikilink")
+[Category:Spriting](Category:Spriting)

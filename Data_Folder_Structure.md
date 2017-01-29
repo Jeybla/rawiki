@@ -3,7 +3,7 @@ title: Data Folder Structure
 permalink: /Data_Folder_Structure/
 ---
 
-[Category:Client Configuration](/Category:Client_Configuration "wikilink") [Category:Data](/Category:Data "wikilink")
+[Category:Client Configuration](Category:Client_Configuration) [Category:Data](/Category:Data "wikilink")
 
 Description
 -----------

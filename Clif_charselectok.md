@@ -26,4 +26,4 @@ Tells the player if he can connect to the char-server to select a character.
 `clif_charselectok(2000001, 1);`
 
 The client of the player id 2000001 would be able to connect to select a character.
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

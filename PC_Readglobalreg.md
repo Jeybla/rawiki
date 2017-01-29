@@ -10,6 +10,6 @@ Check a variable in the source
 
 `pc_readglobalreg(sd,"VARIABLE_NAME");`
 
-Note: This only works for numeric variables, strings check [pc_readglobalreg_str](/pc_readglobalreg_str "wikilink").
+Note: This only works for numeric variables, strings check [pc_readglobalreg_str](pc_readglobalreg_str).
 
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

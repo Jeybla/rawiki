@@ -3,12 +3,12 @@ title: Getstrlen
 permalink: /Getstrlen/
 ---
 
-[Category:Script_Command](/Category:Script_Command "wikilink")
+[Category:Script_Command](Category:Script_Command)
 
 Syntax
 ------
 
--   [getstrlen](/getstrlen "wikilink")("<string>");
+-   [getstrlen](getstrlen)("<string>");
 
 Description
 -----------

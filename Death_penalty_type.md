@@ -23,7 +23,7 @@ Some losses stated in the .../conf/battles/[exp.conf](https://raw.githubusercont
 `// NOTE: It is a percentage of their zeny, so 100 = 1%`
 `zeny_penalty: 0`
 
-**Note:** *Zeny loss is based within maps with the [PvP Mapflag](/Mapflag#pvp "wikilink").*
+**Note:** *Zeny loss is based within maps with the [PvP Mapflag](Mapflag#pvp).*
 
 Nightmare Mode
 --------------
@@ -52,4 +52,4 @@ The structure for this is as followed:
 See Also..
 ----------
 
--   [Mapflag](/Mapflag "wikilink")
+-   [Mapflag](Mapflag)

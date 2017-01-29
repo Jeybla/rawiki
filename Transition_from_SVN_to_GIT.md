@@ -15,55 +15,55 @@ For this process, we'll be using [msysgit](https://code.google.com/p/msysgit/dow
 
 ### In TortoiseGit, right-click and select "Git Clone..." where you want to create your new repository
 
-[<File:ULa1u8a.jpg>](/File:ULa1u8a.jpg "wikilink")
+[<File:ULa1u8a.jpg>](File:ULa1u8a.jpg)
 
 ### Enter rAthena's GitHub URL and hit "OK"
 
 [`https://github.com/rathena/rathena`](https://github.com/rathena/rathena)
 
-[<File:czNpAgf.jpg>](/File:czNpAgf.jpg "wikilink")
+[<File:czNpAgf.jpg>](File:czNpAgf.jpg)
 
 ### Cloning may take a minute or two. Hit "Close" after it finishes
 
-[<File:dgF5HRl.jpg>](/File:dgF5HRl.jpg "wikilink")
+[<File:dgF5HRl.jpg>](File:dgF5HRl.jpg)
 
 ### Update your SVN repository using TortoiseSVN's "SVN Update"
 
-[<File:9HNDSej.jpg>](/File:9HNDSej.jpg "wikilink")
+[<File:9HNDSej.jpg>](File:9HNDSej.jpg)
 
 ### Hit "OK" after it finishes. Resolve any conflicts now (read more below)
 
-[<File:5ww9HK7.jpg>](/File:5ww9HK7.jpg "wikilink")
+[<File:5ww9HK7.jpg>](File:5ww9HK7.jpg)
 
 ### Copy all files in your SVN directory, excluding the .svn folder itself
 
-[<File:gNTwT7B.jpg>](/File:gNTwT7B.jpg "wikilink")
+[<File:gNTwT7B.jpg>](File:gNTwT7B.jpg)
 
 ### In your new GIT directory, paste the files you just copied
 
-[<File:QDXu3Rq.jpg>](/File:QDXu3Rq.jpg "wikilink")
+[<File:QDXu3Rq.jpg>](File:QDXu3Rq.jpg)
 
 ### When prompted, opt to merge all folders and replace all files
 
-[<File:N9psegA.jpg>](/File:N9psegA.jpg "wikilink") [<File:iOeYCNr.jpg>](/File:iOeYCNr.jpg "wikilink")
+[<File:N9psegA.jpg>](File:N9psegA.jpg) [<File:iOeYCNr.jpg>](/File:iOeYCNr.jpg "wikilink")
 
 ### In TortoiseGit, right-click and select "Stash Save" to store all your changes
 
-[<File:tVyxmsw.jpg>](/File:tVyxmsw.jpg "wikilink")
+[<File:tVyxmsw.jpg>](File:tVyxmsw.jpg)
 
 ### Create a name that you'll recognize later, like "Update to Latest"
 
-[<File:0YPzXbf.jpg>](/File:0YPzXbf.jpg "wikilink")
+[<File:0YPzXbf.jpg>](File:0YPzXbf.jpg)
 
 That's it, you're finished. When you want to update your GIT repository, follow these steps:
 
 ### Right-click and select "Pull..." to merge all new changes
 
-[<File:JSjpp8l.jpg>](/File:JSjpp8l.jpg "wikilink") [<File:Fna1kfs.jpg>](/File:Fna1kfs.jpg "wikilink")
+[<File:JSjpp8l.jpg>](File:JSjpp8l.jpg) [<File:Fna1kfs.jpg>](/File:Fna1kfs.jpg "wikilink")
 
 ### Right-click and select "Stash Pop" to restore your custom changes
 
-[<File:GwvsyxR.jpg>](/File:GwvsyxR.jpg "wikilink") [<File:sg3BF4Z.jpg>](/File:sg3BF4Z.jpg "wikilink")
+[<File:GwvsyxR.jpg>](File:GwvsyxR.jpg) [<File:sg3BF4Z.jpg>](/File:sg3BF4Z.jpg "wikilink")
 
 Linux Instructions
 ------------------

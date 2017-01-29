@@ -10,7 +10,7 @@ permalink: /Using_rAsql/
 History
 -------
 
-TXT save engine offered a way for users to test scripts and other things with basically zero set-up required. After the fork from [eAthena](/eAthena "wikilink"), Users were asked to vote as to what should be done about the TXT support. It has been decided that support for TXT would be dropped <sup>[\[1\]](http://rathena.org/board/topic/53926-removal-of-txt-support/)</sup>. **rAsql** was created by [Yommy](http://rathena.org/board/user/251-yommy/) to serve as a replacement for TXT, which was officially dropped in revision 15503.
+TXT save engine offered a way for users to test scripts and other things with basically zero set-up required. After the fork from [eAthena](eAthena), Users were asked to vote as to what should be done about the TXT support. It has been decided that support for TXT would be dropped <sup>[\[1\]](http://rathena.org/board/topic/53926-removal-of-txt-support/)</sup>. **rAsql** was created by [Yommy](http://rathena.org/board/user/251-yommy/) to serve as a replacement for TXT, which was officially dropped in revision 15503.
 
 Downloading rAsql
 -----------------
@@ -30,19 +30,19 @@ By default rAsql listens on the same port as regular MySQL server, ie. 3306, and
 
 -   Running `mysql_start.bat` will start the MySQL instance and open HeidiSQL.
 
-[center](/File:rasql_run.png "wikilink")
+[center](File:rasql_run.png)
 
 -   Click *Open*. This will connect you to the MySQL server. Select your `ragnarok` database.
 
-[center](/File:rasql_open.jpg "wikilink")
+[center](File:rasql_open.jpg)
 
 -   Select *Import* -&gt; *Load SQL File...* (or press Ctrl+O). Navigate to *sql-files* inside your rAthena folder and open *main.sql*.
 
-[center](/File:Rasql_insert_start.png "wikilink")
+[center](File:Rasql_insert_start.png)
 
 -   Press F9 to run the script.
 
-[center](/File:rasql_insert_finish.png "wikilink")
+[center](File:rasql_insert_finish.png)
 
 Controlling rAsql
 -----------------
@@ -65,4 +65,4 @@ To change the default password for the user `ragnarok` you will need to:
 
 `udrive\bin\mysqladmin.exe --port=3306 --user=ragnarok --password=`**`ragnarok`**` shutdown`
 
-[Category:Installation](/Category:Installation "wikilink")
+[Category:Installation](Category:Installation)

@@ -18,4 +18,4 @@ Notes:
 -   gat = 3 (walkable and shootoverable ground and water)
 -   gat = 5 (not walkable and shootoverable ground and not water)
 
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

@@ -50,7 +50,7 @@ Basics
 
 The MMORPG is loosely based upon the Manhwa, set in the world of Rune-Midgard. For the most part, the game lacks a plotline, but there are small side-quests or events set up by the administrators of the game sporadically to add depth and maintain interest.
 
-The game's tutorial does mention that there is a war between man and monsters, an accurate observation given the fact that experience is given to the player when they kill monsters. However, warring is not limited to man v. monster combat, as ingame guilds can fight against each other in the [War of Emperium](/War_of_Emperium "wikilink"), a battle between several guilds for castles in town, which give them access to dungeons and treasures that are not accessible to people who are not in the residing guild.
+The game's tutorial does mention that there is a war between man and monsters, an accurate observation given the fact that experience is given to the player when they kill monsters. However, warring is not limited to man v. monster combat, as ingame guilds can fight against each other in the [War of Emperium](War_of_Emperium), a battle between several guilds for castles in town, which give them access to dungeons and treasures that are not accessible to people who are not in the residing guild.
 
 The currency of the game is Zeny, which may be obtained by the selling of items recovered from defeating monsters. The economy in Ragnarok Online is driven heavily by rare items that are not sold in stores and there is a very large difference in wealth between players, for the most part. The Merchant class offers vending of items to other playes, overcharging of items, and even discounts.
 
@@ -271,7 +271,7 @@ Players in the game may form parties which in most cases, help by providing the 
 
 Guilds are on the other hand, a way for people who already know each other well to show their uniqueness as a group, or as an expression of power or influence in the game. Each guild has a guild-master who has the initial ability to invite and reject possible members, and guilds also have levels, which members can push higher by contributing some experience to it through taxes on their own experience gain. Guilds with high levels may invite more members, and be officialy recognized. This added attraction of being recognized entitles the guild to participate in massive player vs player / guild vs guild warfare called the War of Emperium.
 
-The [War of Emperium](/War_of_Emperium "wikilink") is fought in castle maps, located near major cities, and each castle having unique layouts. Guilds who manage to control the castle at a war's end gets access to treasure boxes, which may yield extremely rare pieces of equipment.
+The [War of Emperium](War_of_Emperium) is fought in castle maps, located near major cities, and each castle having unique layouts. Guilds who manage to control the castle at a war's end gets access to treasure boxes, which may yield extremely rare pieces of equipment.
 
 Conduct
 -------
@@ -290,11 +290,11 @@ There are many things that are frowned upon in Ragnarok Online, as well as many 
 
 <!-- -->
 
--   Private servers are illegal in most countries. Some use pirated copies of Gravity's server software, [AEGIS](/AEGIS "wikilink"). Most private servers use reverse engineered server emulators such as [rAthena](/rAthena "wikilink") and its many variants. Server software like rAthena is legal by itself, but Gravity's client software and data (maps, sprites, etc.) are also used, which still makes these servers illegal. Regardless of that, many private servers have well over 1000 people playing at the same time - often advertising features such as higher drop rates, level experience, and job experience than pay-to-play servers - and spend a lot of money to maintain them. Private servers are free, but tend to keep a low profile for obvious reasons. Because Athena works best with the Korean version of RO, Gravity, in an attempt to combat the problem, has blocked non Korean IPs from downloading from their website. They have not, however, blocked IPs from downloading patches from the game clients, leaving private server players free to continue playing. Which means kRO and Sakray clients needed to play on private servers can still be downloaded using Korean proxy servers configured into web browser or download manager software. The clients are also readily available via bittorrent.
+-   Private servers are illegal in most countries. Some use pirated copies of Gravity's server software, [AEGIS](AEGIS). Most private servers use reverse engineered server emulators such as [rAthena](/rAthena "wikilink") and its many variants. Server software like rAthena is legal by itself, but Gravity's client software and data (maps, sprites, etc.) are also used, which still makes these servers illegal. Regardless of that, many private servers have well over 1000 people playing at the same time - often advertising features such as higher drop rates, level experience, and job experience than pay-to-play servers - and spend a lot of money to maintain them. Private servers are free, but tend to keep a low profile for obvious reasons. Because Athena works best with the Korean version of RO, Gravity, in an attempt to combat the problem, has blocked non Korean IPs from downloading from their website. They have not, however, blocked IPs from downloading patches from the game clients, leaving private server players free to continue playing. Which means kRO and Sakray clients needed to play on private servers can still be downloaded using Korean proxy servers configured into web browser or download manager software. The clients are also readily available via bittorrent.
 
 <!-- -->
 
--   Offline playing: like private servers, the users can emulate the [Sakray](/Sakray "wikilink") server on your computer and play alone, controling rates for experiences and weapons upgrades. This is used as a way to test final build's and upgraded weapons power in MVPs.
+-   Offline playing: like private servers, the users can emulate the [Sakray](Sakray) server on your computer and play alone, controling rates for experiences and weapons upgrades. This is used as a way to test final build's and upgraded weapons power in MVPs.
 
 <!-- -->
 
@@ -334,6 +334,6 @@ External links
 GNU
 ---
 
-> `This` `article` `is` `licensed` `under` `the` [`Free` `Documentation` `License`](http://www.gnu.org/copyleft/fdl.htmlGNU)`.` `It` `uses` `material` `from` `the` [`Wikipedia` `article` `"Ragnarok` `Online"`](/wikipedia:Ragnarok_Online "wikilink")`.`
+> `This` `article` `is` `licensed` `under` `the` [`Free` `Documentation` `License`](http://www.gnu.org/copyleft/fdl.htmlGNU)`.` `It` `uses` `material` `from` `the` [`Wikipedia` `article` `"Ragnarok` `Online"`](wikipedia:Ragnarok_Online)`.`
 
-[Category:Basics](/Category:Basics "wikilink")
+[Category:Basics](Category:Basics)

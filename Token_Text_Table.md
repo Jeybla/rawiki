@@ -3,12 +3,12 @@ title: Token Text Table
 permalink: /Token_Text_Table/
 ---
 
-A text table format used for the [Ragnarok Online](/Ragnarok_Online "wikilink") client. It is used for organizing text data into columns and rows, mostly for id-description relations. It usually has the file extension **.txt** and can be found inside and outside the [GRF](/GRF "wikilink").
+A text table format used for the [Ragnarok Online](Ragnarok_Online) client. It is used for organizing text data into columns and rows, mostly for id-description relations. It usually has the file extension **.txt** and can be found inside and outside the [GRF](/GRF "wikilink").
 
 File Format
 -----------
 
-The files are plain text files, where rows and columns are separated by the token character [\#](/wikipedia:Hash_symbol "wikilink"). It can be edited with every text editor like Notepad. Make sure, that the file is not stored in [Unicode](/wikipedia:Unicode "wikilink") or [UTF-8](/wikipedia:UTF-8 "wikilink").
+The files are plain text files, where rows and columns are separated by the token character [\#](wikipedia:Hash_symbol). It can be edited with every text editor like Notepad. Make sure, that the file is not stored in [Unicode](/wikipedia:Unicode "wikilink") or [UTF-8](/wikipedia:UTF-8 "wikilink").
 
 The amount of columns is fixed for each file, that uses this file format. Rows are either limited by available memory or by hard-coded limits, as seen below. Note that all of these limits can be lifted by hexing the client. Whether line breaks are allowed within a cell or not depends on each file as well. Multi-line cells support using \# character inside the text, as long it is followed by a **space character**. Contrary to that, all other \# characters must be followed by either a new line or a non-spacing character.
 
@@ -95,4 +95,4 @@ You may insert comments inside the file by putting **//** at the beginning of a 
 | SkillDescTable             | 16384     |
 | SkillDescTable2            | 16384     |
 
-[Category:File Formats](/Category:File_Formats "wikilink")
+[Category:File Formats](Category:File_Formats)

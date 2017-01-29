@@ -35,4 +35,4 @@ Conclusion
 
 Now, when you use a healing item, it should display the amount of SP you recover.
 
-[Category:Source Snippets](/Category:Source_Snippets "wikilink") [Category:Customization](/Category:Customization "wikilink")
+[Category:Source Snippets](Category:Source_Snippets) [Category:Customization](/Category:Customization "wikilink")

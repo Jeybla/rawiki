@@ -215,7 +215,7 @@ This will allow the skill to be level selectable.
 Renewal/Non-Xray Support
 ------------------------
 
-The following implementations are according to Revision 228 from Lua Project(2012-05-23)+. To support Renewal and post 10/13/2009 Clients (or the last Xray) we'd need to make use of .[lua](/lua "wikilink") and .[lub](/lub "wikilink") files.
+The following implementations are according to Revision 228 from Lua Project(2012-05-23)+. To support Renewal and post 10/13/2009 Clients (or the last Xray) we'd need to make use of .[lua](lua) and .[lub](/lub "wikilink") files.
 
 The implementation is different between then many client versions, but there's generally 2 implementations:
 
@@ -355,4 +355,4 @@ To:
 
 You can add the rest of the information in skillnametable.txt, skilldesctable2.txt and you'll need to add the appropriate Sprite and BMP file for the skill. Use the name MG_EARTHBOLT as the name of the file, and for the entries in the two text files.
 
-[Category:Source Snippets](/Category:Source_Snippets "wikilink") [Category:Customization](/Category:Customization "wikilink")
+[Category:Source Snippets](Category:Source_Snippets) [Category:Customization](/Category:Customization "wikilink")

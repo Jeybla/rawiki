@@ -3,7 +3,7 @@ title: General Shop creation
 permalink: /General_Shop_creation/
 ---
 
-Shops are very similar to [Basic Scripting](/Basic_Scripting "wikilink"), although since there is only one line to find errors on, it's recommended to understand basic scripts first.
+Shops are very similar to [Basic Scripting](Basic_Scripting), although since there is only one line to find errors on, it's recommended to understand basic scripts first.
 There are five parts to any shop script, tab separated to handle spaces in the name
 
 `prontera,153,194,4`<TAB>`shop`<TAB>`Card Seller Uno`<TAB>`93,4001:-1,4002:-1,4003:10575,4004:-1`
@@ -26,7 +26,7 @@ D
 NPC Name, same as other NPCs
 
 E
-NPC sprite number, a list for which can be found in [External Links](/#External_Links "wikilink")
+NPC sprite number, a list for which can be found in [External Links](#External_Links)
 
 F
 Items being sold! Notice there are no curly brackets like normal scripts. Don't add them, it will error out and skip your shop
@@ -69,7 +69,7 @@ External Links
 
 -   <http://www.immigration-usa.com/html_colors.html>
 -   <http://www.december.com/html/spec/colorcodes.html>
--   [hex triplet](/wikipedia:Hex_triplet "wikilink")
+-   [hex triplet](wikipedia:Hex_triplet)
 -   <http://www.colorschemer.com/online.html>
 
 **Support, Request and Release**
@@ -78,4 +78,4 @@ External Links
 -   1.  scripting on irc.deltaanime.net : Dedicated channel for scripters. Come here to get or give semi-fast support or just for fun.
 -   1.  rathena on irc.rathena.net : Main rAthena channel.
 
-[Category:Scripting](/Category:Scripting "wikilink")
+[Category:Scripting](Category:Scripting)

@@ -17,7 +17,7 @@ To run RAthena, the following programs must be installed on the machine that wil
 
 ### \*nix based
 
-For \*nix, most of these programs will come as [Packages](/wikipedia:Software_package_%28installation%29 "wikilink") with your OS, for example, the FreeBSD Ports collection, or Debians apt-get or aptitude. Please see your OS's help/support pages to find out how to utilize package installations. As a general rule, the following packages will be required to compile RAthena:
+For \*nix, most of these programs will come as [Packages](wikipedia:Software_package_%28installation%29) with your OS, for example, the FreeBSD Ports collection, or Debians apt-get or aptitude. Please see your OS's help/support pages to find out how to utilize package installations. As a general rule, the following packages will be required to compile RAthena:
 [wget](http://www.gnu.org/software/wget/), [subversion](http://subversion.tigris.org/), [GCC](http://gcc.gnu.org/), [make](http://www.gnu.org/software/make/) (if running \*BSD, gmake is needed instead of make.)
 
 #### libmysqlclient15-dev
@@ -37,7 +37,7 @@ Installing software
 
 ### Linux OS's
 
-A simple make and make install is all that is needed for most of the packages. You can find [instructions](/:Category:Installation "wikilink") and readmes in each of the downloads for your distro telling you how to install and compile each package. Once subversion is installed, you can download RAthena's latest source via the [SVN](/SVN "wikilink").
+A simple make and make install is all that is needed for most of the packages. You can find [instructions](:Category:Installation) and readmes in each of the downloads for your distro telling you how to install and compile each package. Once subversion is installed, you can download RAthena's latest source via the [SVN](/SVN "wikilink").
 <code>
 
     ~$ svn co https://rathena.svn.sourceforge.net/svnroot/rathena/trunk
@@ -52,23 +52,23 @@ A simple make and make install is all that is needed for most of the packages. Y
 ### Windows OS's
 
 When using SVN in Windows, all your commands are in a right click menu integrated into the Windows Shell.
-[Image:svnwindows.jpg](/Image:svnwindows.jpg "wikilink")
+[Image:svnwindows.jpg](Image:svnwindows.jpg)
 Simply create a new folder, right click on it and select 'SVN Checkout...' and a dialog box will appear.
-[Image:checkout.jpg](/Image:checkout.jpg "wikilink")
+[Image:checkout.jpg](Image:checkout.jpg)
 Enter your URL (in the example above, simply add /trunk after the URL to checkout Trunk, or /branches/stable for stable) and TSVN will download a fresh copy of RAthena's SVN to that folder.
 
 Compiling
 ---------
 
-Please see [Compiling](/Compiling "wikilink") for more detailed instructions.
+Please see [Compiling](Compiling) for more detailed instructions.
 
-For your OS, you will need to compile binaries if you had downloaded RAthena via the SVN. you can then move on to [:Category:Configuration](/:Category:Configuration "wikilink") and then running RAthena.
+For your OS, you will need to compile binaries if you had downloaded RAthena via the SVN. you can then move on to [:Category:Configuration](:Category:Configuration) and then running RAthena.
 
 See Also
 --------
 
--   [Installation per OS](/:Category:Installation "wikilink")
--   [SVN](/SVN "wikilink")
--   [Installing SQL for RAthena use](/Installing_SQL "wikilink")
+-   [Installation per OS](:Category:Installation)
+-   [SVN](SVN)
+-   [Installing SQL for RAthena use](Installing_SQL)
 
-[Category:Basics](/Category:Basics "wikilink")
+[Category:Basics](Category:Basics)

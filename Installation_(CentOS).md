@@ -3,23 +3,23 @@ title: Installation (CentOS)
 permalink: /Installation_(CentOS)/
 ---
 
-This guide covers how to install [rAthena](/rAthena "wikilink") on [CentOS](/wikipedia:CentOS "wikilink") and other [versions of Linux](/wikipedia:List_of_Linux_distributions#RPM-based "wikilink") that use [yum](/wikipedia:Yellowdog_Updater,_Modified "wikilink").
+This guide covers how to install [rAthena](rAthena) on [CentOS](/wikipedia:CentOS "wikilink") and other [versions of Linux](/wikipedia:List_of_Linux_distributions#RPM-based "wikilink") that use [yum](/wikipedia:Yellowdog_Updater,_Modified "wikilink").
 
 Requirements
 ------------
 
--   [CentOS](/wikipedia:CentOS "wikilink") or an [RPM-based Linux](/wikipedia:List_of_Linux_distributions#RPM-based "wikilink") that has the **[yum](/wikipedia:Yellowdog_Updater,_Modified "wikilink")** command
--   root access or access to an account that has [sudo privileges](/wikipedia:Sudo "wikilink")
+-   [CentOS](wikipedia:CentOS) or an [RPM-based Linux](/wikipedia:List_of_Linux_distributions#RPM-based "wikilink") that has the **[yum](/wikipedia:Yellowdog_Updater,_Modified "wikilink")** command
+-   root access or access to an account that has [sudo privileges](wikipedia:Sudo)
 -   an Internet connection to download install packages
 
 Prerequisites
 -------------
 
-All of these commands will be typed at the [command-line interface](/wikipedia:Command-line_interface "wikilink").
+All of these commands will be typed at the [command-line interface](wikipedia:Command-line_interface).
 
 ### Install Prerequisites
 
-1.  Login to your server via [SSH](/wikipedia:Secure_Shell "wikilink"), or if you are already logged into a [GUI](/wikipedia:Graphical_user_interface "wikilink") press Ctrl+Alt+T to open a terminal window.
+1.  Login to your server via [SSH](wikipedia:Secure_Shell), or if you are already logged into a [GUI](/wikipedia:Graphical_user_interface "wikilink") press Ctrl+Alt+T to open a terminal window.
 2.  Type the following command (this will install GCC, Make, MySQL, MySQL header files, MySQL Server, PCRE header files, and Zlib header files)
 
         yum install gcc make mysql mysql-devel mysql-server pcre-devel zlib-devel
@@ -40,7 +40,7 @@ To work around Missing Dependency: perl(Git) errors:
 
 ### Create a non-root Linux user
 
-By the [principle of least privilege](/wikipedia:Principle_of_least_privilege "wikilink"), it is recommended you do **NOT** run rAthena as root.
+By the [principle of least privilege](wikipedia:Principle_of_least_privilege), it is recommended you do **NOT** run rAthena as root.
 
 1.  Type the following command to create a non-root Linux account:
 
@@ -116,7 +116,7 @@ The default MySQL Server install creates a MySQL user 'root'@'localhost' with NO
 
     (note the [escaped underscore](http://dev.mysql.com/doc/refman/5.5/en/string-literals.html#character-escape-sequences))
 
-Install [rAthena](/rAthena "wikilink")
+Install [rAthena](rAthena)
 --------------------------------------
 
 ### Login as your non-root Linux user
@@ -162,7 +162,7 @@ NOTE: if you want to use different SQL DBs for login/char/map servers this is th
 
 Note that global_reg_value tables are needed by both login-server and char-server (though it may be different tables)
 
-### [Configure rAthena](/:Category:Configuration "wikilink")
+### [Configure rAthena](:Category:Configuration)
 
 ### Compile Source Code
 
@@ -201,4 +201,4 @@ Start your rAthena Server
 See Also
 --------
 
-[CentOS](/Category:Installation_Guides "wikilink")
+[CentOS](Category:Installation_Guides)

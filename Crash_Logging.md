@@ -3,7 +3,7 @@ title: Crash Logging
 permalink: /Crash_Logging/
 ---
 
-rAthena can crash in various places and due to various reasons. However, all of them ultimately involve some sort of problem in the source code. There's not much you can do about the crashed server, but what you *can* do is gather information about the crash. The info can then be provided to the [developers](/developers "wikilink") in a bugreport or by private communication.
+rAthena can crash in various places and due to various reasons. However, all of them ultimately involve some sort of problem in the source code. There's not much you can do about the crashed server, but what you *can* do is gather information about the crash. The info can then be provided to the [developers](developers) in a bugreport or by private communication.
 
 Information types
 -----------------
@@ -24,11 +24,11 @@ There's lots of software that will let you do automatic, semi-automatic or manua
 
 ### Manual
 
-//TODO: [GDB](/GDB "wikilink"), visual studio, windbg hooking, task manager right-click make dump
+//TODO: [GDB](GDB), visual studio, windbg hooking, task manager right-click make dump
 
 ### Automatic
 
 //TODO: automatic system response, rA plugins and scripts, gdb analysis, UserDump, DebugDiag, ProcDump
 Some info at [How to use Coredump/Stackdump](http://www.eathena.ws/board/index.php?showtopic=91817).
 
-[Category:Debugging](/Category:Debugging "wikilink")
+[Category:Debugging](Category:Debugging)

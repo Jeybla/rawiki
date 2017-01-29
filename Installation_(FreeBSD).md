@@ -3,7 +3,7 @@ title: Installation (FreeBSD)
 permalink: /Installation_(FreeBSD)/
 ---
 
-This article is aimed at installing and getting [rAthena](/rAthena "wikilink") to run successfully on a machine running [FreeBSD](/wikipedia:FreeBSD "wikilink") 7.1-RELEASE. It is assumed that FreeBSD was installed with the ports collection and enabled Linux Threading on install. This guide will NOT teach you how to network FreeBSD, install FreeBSD or configure any additional system settings (besides the ones needed to run rAthena and its dependancies).
+This article is aimed at installing and getting [rAthena](rAthena) to run successfully on a machine running [FreeBSD](/wikipedia:FreeBSD "wikilink") 7.1-RELEASE. It is assumed that FreeBSD was installed with the ports collection and enabled Linux Threading on install. This guide will NOT teach you how to network FreeBSD, install FreeBSD or configure any additional system settings (besides the ones needed to run rAthena and its dependancies).
 
 Before we Start
 ===============
@@ -112,7 +112,7 @@ Now, we can populate the tables with the .sql files in rAthena. Navigate to your
     $ mysql -uuser -ppassword ragnarok < main.sql
     $ mysql -uuser -ppassword ragnarok < logs.sql
 
-Now, you'll want to follow the steps in the [:Category:Configuration](/:Category:Configuration "wikilink") and [Connecting](/Connecting "wikilink") pages to get your rAthena configured. Once you've made all your source changes, you can compile rAthena. While you're in the root of your rAthena folder, issue the following commands to compile your server:
+Now, you'll want to follow the steps in the [:Category:Configuration](:Category:Configuration) and [Connecting](/Connecting "wikilink") pages to get your rAthena configured. Once you've made all your source changes, you can compile rAthena. While you're in the root of your rAthena folder, issue the following commands to compile your server:
 
     $ ./configure
     $ gmake clean
@@ -133,4 +133,4 @@ And to start your servers, you can simply use the following command:
 
 And that should be it! You should now have a running rAthena on your FreeBSD machine!
 
-[Category:Installation Guides](/Category:Installation_Guides "wikilink")
+[Category:Installation Guides](Category:Installation_Guides)

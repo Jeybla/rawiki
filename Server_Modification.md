@@ -25,13 +25,13 @@ The last one is the **map-server**, which controls char and NPC position, chats,
 Source Modifications
 --------------------
 
-Before you start modifying rA, you should better take a look first on [:Category:Source_Functions](/:Category:Source_Functions "wikilink"). Remember, it's necessary to [re-compile](/Compiling "wikilink") [rAthena](/rAthena "wikilink") after a source modification. You can also find information about [packets](/packets "wikilink").
+Before you start modifying rA, you should better take a look first on [:Category:Source_Functions](:Category:Source_Functions). Remember, it's necessary to [re-compile](/Compiling "wikilink") [rAthena](/rAthena "wikilink") after a source modification. You can also find information about [packets](/packets "wikilink").
 
 ### Pre-Made Modifications
 
 Also can take a look at modifications made by other users.
 
--   [Source Snippets](/:Category:Source_Snippets "wikilink")
--   [Customizing Sheet](/Customizing_Sheet "wikilink")
+-   [Source Snippets](:Category:Source_Snippets)
+-   [Customizing Sheet](Customizing_Sheet)
 
-[Category:Customization](/Category:Customization "wikilink")
+[Category:Customization](Category:Customization)

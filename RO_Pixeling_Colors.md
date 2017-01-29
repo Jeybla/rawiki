@@ -10,7 +10,7 @@ There are several color gradients that appears in almost all RO color tables. Th
 
 Those colors are shown in the next image.
 
-[center](/Image:GravityCommonColors.png "wikilink")
+[center](Image:GravityCommonColors.png)
 
 Solid And Neon Colors
 ---------------------
@@ -27,8 +27,8 @@ On the other hand, there are several colors such black that appear only applied 
 See Also
 --------
 
--   [Spriting](/Spriting "wikilink")
--   [Palettes](/Palettes "wikilink")
--   [Pixeling](/Pixeling "wikilink")
+-   [Spriting](Spriting)
+-   [Palettes](Palettes)
+-   [Pixeling](Pixeling)
 
-[Category:Spriting](/Category:Spriting "wikilink")
+[Category:Spriting](Category:Spriting)

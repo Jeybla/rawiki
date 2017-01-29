@@ -21,4 +21,4 @@ Get a random mob ID
     -   &8 = Mob must earn EXP
 -   lv = Mob Level to be checked
 
-[Category:Source_Functions](/Category:Source_Functions "wikilink")
+[Category:Source_Functions](Category:Source_Functions)

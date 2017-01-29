@@ -55,4 +55,4 @@ Parse function in Source
 
 npc_parse_mob() in [map/npc.c](https://github.com/rathena/rathena/blob/master/src/map/npc.c)
 
-[Category:Scripting](/Category:Scripting "wikilink")
+[Category:Scripting](Category:Scripting)

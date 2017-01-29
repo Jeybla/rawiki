@@ -274,7 +274,7 @@ In this tutorial, we will be covering Two (2) of the most basic commands of NPC 
 ### 'mes' Command
 
 
-The [mes](/Mes "wikilink") statement simply allows us to tell the NPC what to display in the dialog box.
+The [mes](Mes) statement simply allows us to tell the NPC what to display in the dialog box.
 
 <!-- -->
 
@@ -320,11 +320,11 @@ The close command, simply allows the users to close the dialog box at specific t
 
 In order for us to use this command, we would have to have first shown something in the dialog box.
 
-:; Have we already done this? Yes! We called the [mes](/Mes "wikilink") command which opened a dialog box!
+:; Have we already done this? Yes! We called the [mes](Mes) command which opened a dialog box!
 
 
 
-Now let's simply add the following line after the [mes](/Mes "wikilink") command.
+Now let's simply add the following line after the [mes](Mes) command.
 
 <!-- -->
 
@@ -384,7 +384,7 @@ This configuration file is currently blank. We are going to add two lines to thi
 A few things to note:
 
 -   // FM_HelloWorld Tutorial NPC
-    -   Previously found under [Comments](/Scripting_Tutorials:FM_HelloWorld#Comments "wikilink") we know that the server will ignore this text, allowing us to place it here and keep notes to ourselves.
+    -   Previously found under [Comments](Scripting_Tutorials:FM_HelloWorld#Comments) we know that the server will ignore this text, allowing us to place it here and keep notes to ourselves.
 -   npc:
     -   This tells the configuration file that we want to load this NPC
 -   npc/FM_Tutorials/FM_HelloWorld.txt
@@ -406,4 +406,4 @@ How To?
 
 In order to test to see if your NPC now loads, simply run your server and login. Move your character to the location where you wanted to place the npc and you should now see him in your server and he will speak to you if you click it!
 
-[Category:Scripting_Tutorials](/Category:Scripting_Tutorials "wikilink") [Category:FM_Tutorials](/Category:FM_Tutorials "wikilink")
+[Category:Scripting_Tutorials](Category:Scripting_Tutorials) [Category:FM_Tutorials](/Category:FM_Tutorials "wikilink")

@@ -6,7 +6,7 @@ permalink: /Item_Group/
 Description
 -----------
 
-An Item Group is a set of items that can be retrieved through the [getrandgroupitem](/getrandgroupitem "wikilink") and [getgroupitem](/getgroupitem "wikilink") script commands. An item's ID belonging to a group can also be retrieved using the [groupranditem](/groupranditem "wikilink") command. Examples of Item Groups include Old Blue Box, Old Purple Box, Old Card Album and Gift Box items.
+An Item Group is a set of items that can be retrieved through the [getrandgroupitem](getrandgroupitem) and [getgroupitem](/getgroupitem "wikilink") script commands. An item's ID belonging to a group can also be retrieved using the [groupranditem](/groupranditem "wikilink") command. Examples of Item Groups include Old Blue Box, Old Purple Box, Old Card Album and Gift Box items.
 
 All Item Groups are being read from or and . Available Item Group IDs can be found at under the *//Item Group ID* section.
 
@@ -23,7 +23,7 @@ Structure
 -   **isAnnounced**: If set to 1, it will be broadcasted to the server that the item has been obtained by the player.
 -   **Duration**: Makes the item a rental item, and the given value determines the expiration time in minutes. Only use for non-stackable items (e.g., weapons, armors).
 -   **isNamed**: Inscribes the item with the obtainer's name.
--   **isBound**: Binds the obtained item. See [getitembound](/getitembound "wikilink") for valid bound types.
+-   **isBound**: Binds the obtained item. See [getitembound](getitembound) for valid bound types.
 
 Custom Item Group
 -----------------
@@ -51,4 +51,4 @@ See also
 
 -   Item Group Documentation:
 
-[Category:Database](/Category:Database "wikilink")
+[Category:Database](Category:Database)

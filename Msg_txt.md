@@ -21,8 +21,8 @@ This function retrieves a pointer to a message string, which was loaded from **m
 Example
 -------
 
-[`clif_displaymessage`](/clif_displaymessage "wikilink")`(sd->fd, msg_txt(3));`
+[`clif_displaymessage`](clif_displaymessage)`(sd->fd, msg_txt(3));`
 
 This would pass pointer to the message "Character not found." to the function clif_displaymessage.
 
-[Category:Source Functions](/Category:Source_Functions "wikilink")
+[Category:Source Functions](Category:Source_Functions)

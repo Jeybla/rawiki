@@ -60,7 +60,7 @@ rAthena Supporting Developers scour our code and put it to the test! They're our
 
 ### [Documentation Developers](http://rathena.org/board/index.php?app=members&filter=22)
 
-The Documentation Developers are responsible for making sure the [Wiki](/Main_Page "wikilink"), \] and ReadMe files are kept up-to-date. They check recent commits from the other development teams and update documentation accordingly.
+The Documentation Developers are responsible for making sure the [Wiki](Main_Page), \] and ReadMe files are kept up-to-date. They check recent commits from the other development teams and update documentation accordingly.
 
 -   --
 
@@ -229,4 +229,4 @@ Our Ex-Developers and others who contributed a great amount to the development o
 | [Z3R0](http://rathena.org/board/user/263-z3r0/)                     | Script/DB Developer                     |
 | [Zephyr](http://rathena.org/board/user/8756-zephyr/)                | Core Developer                          |
 
-[Category:RAthena](/Category:RAthena "wikilink")
+[Category:RAthena](Category:RAthena)

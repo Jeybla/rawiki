@@ -31,7 +31,7 @@ First, let's take a look at the item_db in the db folder, and its structure:
 `12 = Shadow Equipment`
 `18 = Another delayed consume that requires user confirmation before using item.`
 
--   **Price**: Default [NPC](/NPC "wikilink") buying price in Zeny.
+-   **Price**: Default [NPC](NPC) buying price in Zeny.
 -   **Sell**: NPC selling price in Zeny.
 -   **Weight**: Weight of the item \* 10. Means, an item of 0.1 weight each, must be entered as 1.
 -   **ATK**: Base weapon attack, in case of a weapon.
@@ -226,7 +226,7 @@ First, let's take a look at item_db table of your Ragnarok database:
     12 = Shadow Equipment
     18 = Another delayed consume that requires user confirmation before using item.
 
--   **price_buy**: Default [NPC](/NPC "wikilink") buying price in Zeny.
+-   **price_buy**: Default [NPC](NPC) buying price in Zeny.
 -   **pricesell**: NPC selling price in Zeny.
 -   **weight**: Weight of the item divided by 10. An item of 0.1 weight in-game, must be entered as 1 in Database. *(1 / 10 = 0.1)*.
 -   **attack**: Base weapon attack. Use **NULL** if non-weapon item.
@@ -501,7 +501,7 @@ Step 2 (only for Headgears):
 
 For displaying headgear on the character there will be two additional files (sprite & act) or 4 if the sprite author intended for a separate set of files for male & female. In my example i have considered the first scenario.
 
-The filename for headgear sprite are now specified in accname.lua file <b>(details of which is available in the [View IDs Section](/Custom_Items#View_IDs.2C_Having_A_Custom_Headgear_Without_Xray "wikilink"))</b>
+The filename for headgear sprite are now specified in accname.lua file <b>(details of which is available in the [View IDs Section](Custom_Items#View_IDs.2C_Having_A_Custom_Headgear_Without_Xray))</b>
 
 lets say i used
 
@@ -806,8 +806,8 @@ Since mine is a 1-Handed Sword I specify it like below.
 
 `[Weapon_IDs.WEAPONTYPE_Oriental_Sword] = Weapon_IDs.WPCLASS_WEAPONTYPE_SWORD `
 
-<b>Now for the most important part. For our client to actually pick up all these details we need to provide the view id which we used in Weapon_IDs table as the ClassNum value in ItemInfo.lua. Check the [ItemInfo.lub format](/Custom_Items#System.2FItemInfo.lub "wikilink") shown above for details.</b>
+<b>Now for the most important part. For our client to actually pick up all these details we need to provide the view id which we used in Weapon_IDs table as the ClassNum value in ItemInfo.lua. Check the [ItemInfo.lub format](Custom_Items#System.2FItemInfo.lub) shown above for details.</b>
 
 With this your weapon sprite will become visible while attacking.
 
-[Category:Database](/Category:Database "wikilink") [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")
+[Category:Database](Category:Database) [Category:Data](/Category:Data "wikilink") [Category:Customization](/Category:Customization "wikilink")

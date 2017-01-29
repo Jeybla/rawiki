@@ -50,13 +50,13 @@ If you're using Lua files from Gravity, chances are your files are encoded. When
 
 Lots and lots of ASCII characters depending on what kind of editor you use:
 Notepad
-[<File:Accname.lub-notepad.png>](/File:Accname.lub-notepad.png "wikilink")
+[<File:Accname.lub-notepad.png>](File:Accname.lub-notepad.png)
 [Notepad++](http://notepad-plus-plus.org/)
-[<File:Accname.lub-notepadpp.png>](/File:Accname.lub-notepadpp.png "wikilink")
+[<File:Accname.lub-notepadpp.png>](File:Accname.lub-notepadpp.png)
 
 #### English
 
-You'll notice some English words that you may find familiar, be it headgear names, job classes, NPC sprites etc. You can manipulate this data to directly affect the client. The most popular reasons for editing the Lua files is to create [Custom Items](/Custom_Items#View_IDs.2C_Having_A_Custom_Item_Without_Xray "wikilink")
+You'll notice some English words that you may find familiar, be it headgear names, job classes, NPC sprites etc. You can manipulate this data to directly affect the client. The most popular reasons for editing the Lua files is to create [Custom Items](Custom_Items#View_IDs.2C_Having_A_Custom_Item_Without_Xray)
 
 ### Client-side un-gibberish
 
@@ -75,4 +75,4 @@ External Links
 -   [Official Lua Scripting Language Homepage](http://www.lua.org/)
 -   [Lua_Project](http://subversion.assembla.com/svn/ClientSide/Lua_Project/)
 
-[:Category:Customization](/:Category:Customization "wikilink")
+[:Category:Customization](:Category:Customization)
